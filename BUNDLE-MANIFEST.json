@@ -336,12 +336,12 @@
     "sha256": "96f3f28e27a5e4156b2da0590fa41798d7364b09d34dab3272249a1ea2af520b"
   },
   "paper/interlace.pdf": {
-    "bytes": 80536,
-    "sha256": "98c8318a69e338be6613234e7c40f7eb73f7fe3e6bb1ac495266ba3904d2d3e1"
+    "bytes": 82112,
+    "sha256": "0ced6d5f39c07af0f936ea87904554421f902ae6500d4b334a4685e40b218d94"
   },
   "paper/interlace.tex": {
-    "bytes": 20480,
-    "sha256": "faa22c06f6fdc7ec309c102d82d2882abd7a49e3dbe79a724555762797302974"
+    "bytes": 22039,
+    "sha256": "38c27e30cfd50bec3da5572d35c71ae7394b0752c9d40ed897b2ebafa59dbb80"
   },
   "paper/misul_results_macros.tex": {
     "bytes": 1679,

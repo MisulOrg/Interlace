@@ -55,21 +55,20 @@ pdftitle={Interlace: A Shared Architecture for Language and Iterative Computatio
 \vspace{0.65em}
 
 \noindent\textbf{Abstract.}
-Efficient language architectures must use their parameters for both stored
-representations and useful computation. \ModelName{} combines bounded rational
-features, content-selected attention, gated delta memory and shared depth in a
-single backbone. The same parameters support autoregressive language,
-synchronous input/thought/output streams and iterative candidate refinement
-through an adaptation of Flow Reasoning Models. We train a
-\num{29814640}-parameter instance from random initialization and compare it
-with a \num{29921280}-parameter dense Transformer under a common BF16 joint
-training recipe. \MisulArchitectureAbstract{} The packaged FP8 checkpoint answers
-\MisulFPStreamHeld\% of held-out short programs and
-\MisulFPStreamLong\% of longer programs through free-running streams.
-The integrated refinement interface remains experimental, with
-\MisulFPFlowEight\% exact held-out sequences after eight passes.
-The results establish a runnable shared architecture and define the measured
-capability and efficiency questions for its next stage of development.
+\ModelName{} is a shared language architecture designed to improve learned
+capability per stored parameter and training budget. It combines bounded
+rational features, content-selected attention, gated delta memory and repeated
+shared depth. A \num{29814640}-parameter model trained from random initialization
+is compared with a \num{29921280}-parameter dense Transformer under the same
+BF16 joint training recipe. \MisulArchitectureAbstract{}
+These measurements motivate testing whether the architecture can reduce the
+cost of reaching useful model quality. Both models use the same synchronous
+stream interface; the comparison measures the combined backbone rather than
+any isolated component. Results cover one seed, WikiText-2 and bounded
+prefix-addition programs. The released FP8 checkpoint provides a compact
+reference implementation; Flow-style refinement is an experimental extension.
+We specify a staged validation program to test repeatability, component
+contributions and transfer to larger data and task budgets.
 
 \section{Introduction}
 A model can increase its effective computation without storing a separate
@@ -86,6 +85,11 @@ different ways: synchronous streams produce intermediate states alongside
 external inputs, while Flow refinement revises a complete candidate solution.
 These interfaces share the language backbone; no external fact store or
 teacher supplies their answers.
+
+The central measurement is time to a fixed language-quality target. We report
+that quantity alongside final held-out loss, stored parameters and inference
+latency. Repeated seeds and controlled architectural changes are needed to
+understand how these quantities depend on the combined mechanisms.
 
 The contribution is the implemented combination, its explicit mathematical
 contracts and a controlled evaluation at approximately 30 million parameters.
@@ -163,13 +167,14 @@ The memory input is the mean of the current row's role representations. Its
 output is gated separately for each role. This state is transient computation;
 it is not a persistent retrieval database.
 
-\subsection{Synchronous streams and Flow reasoning}
+\subsection{Synchronous streams}
 The stream interface receives external input digits and predicts thought and
 output tokens over successive ticks. The initial task is prefix addition
 modulo ten, which provides exact intermediate-state and final-answer labels.
 During evaluation, thought and output tokens are generated freely over the
 full vocabulary. No reference intermediate state is supplied to inference.
 
+\subsection{Experimental candidate refinement}
 The refinement interface adapts Flow Reasoning Models~\cite{frm}. Given clues
 $c$, categorical endpoint $y$, Gaussian noise $z$ and time $t$, training uses
 $x_t=(1-t)z+ty$. A denoiser predicts category logits
@@ -296,8 +301,9 @@ representation result, separate from the architectural comparison above.
 Free-running streams produce \MisulFPStreamHeld\% correct held-out answers
 and \MisulFPStreamLong\% on longer programs. Clamping the thought stream to
 idle lowers held-out accuracy to \MisulFPIdleThought\%. These results show a
-learned intermediate-state dependency on the evaluated task. They do not
-establish unrestricted reasoning or instruction following.
+learned intermediate-state dependency on the evaluated task. Since the dense
+control uses the same stream interface, its comparison with Interlace cannot
+isolate the stream mechanism as the cause of the accuracy difference.
 
 Eight-pass Flow produces \MisulFPFlowEight\% exact held-out state sequences,
 versus \MisulFPFlowOne\% after one pass. It produces no exact longer-program
@@ -339,24 +345,44 @@ autonomous actions or a persistent external memory. The reproducibility
 package preserves failed examples alongside successful outputs and includes
 model, tokenizer and source digests.
 
-\section{Research milestones}
-The next phase targets architectural value: stronger held-out language and
-structured-task performance per parameter, and less elapsed training time to
-those outcomes. Controlled ablations should first separate rational gating,
-selected access, delta memory and shared depth while keeping total state and
-data budgets explicit. Multi-seed comparisons and broader corpora are needed
-to determine whether the observed differences persist.
+\section{Validation program}
+The next study tests whether the observed learning advantage survives new
+seeds, architectural controls and broader workloads. The following are
+prospective decision criteria, not additional results. Protocols, data splits,
+resource caps and analysis scripts will be frozen before confirmation runs.
 
-Reliable candidate refinement is a second milestone. It requires evidence that
-additional passes improve exact solutions on fresh tasks while preserving
-language and stream performance. A third milestone is scale: reproduce the
-quality and efficiency results at larger model and data budgets with complete
-training and inference accounting. These experiments provide measurable
-criteria for investment in the architecture; scale-up benefits remain
-hypotheses until those criteria are met.
+\paragraph{Repeatability.}
+Run three fresh paired seeds with unchanged recipes. Use paired summaries of
+full validation loss and first observed time to the fixed 5.5-nat monitor target;
+retain every seed, interruption and failed crossing. Advance if all three pairs
+improve full validation loss and median time to target is at least 10\% lower.
+If the target is not reached within the common cap, record a non-crossing rather
+than extrapolating time. Open the final test only after the recipes are fixed.
+
+\paragraph{Mechanism and baseline.}
+Screen rational-gate, attention-selection, delta-memory and shared-depth
+ablations under the same data budget, reporting parameter count and actual
+execution cost. Add a dense shared-depth control to distinguish depth reuse
+from the other changes. Give both architecture families equal validation-only
+optimizer-tuning budgets. Confirm promising contrasts with three new paired
+seeds. Attribute a component only when its removal worsens validation loss in
+all confirmation pairs; interactions remain possible.
+
+\paragraph{Transfer.}
+Evaluate the selected recipe on a separate broader corpus, longer contexts and
+an additional structured task. Select that task and its success threshold before
+training. Require lower validation loss and at least 10\% less median time to a
+predeclared quality target across three fresh pairs before advancing the scale
+claim. Measure inference latency and total stored state alongside training cost.
+A smaller numerical and resource pilot precedes every workload increase.
+
+Training efficiency and inference latency remain separate measurements across
+all stages. Refinement proceeds as a separate research extension, with
+exact-solution gains across passes required before it becomes a primary
+capability claim.
 
 \begin{thebibliography}{9}
-\small\raggedright
+\small\raggedright\setlength{\itemsep}{0pt}
 \bibitem{cofr} A. Dhurandhar et al. \emph{CoFrGeNet: Continued Fraction Architectures for Language Generation}. 2026. \url{https://arxiv.org/abs/2601.21766}.
 \bibitem{ran} J. Zhang et al. \emph{Rational ANOVA Networks}. 2026. \url{https://arxiv.org/abs/2602.04006}.
 \bibitem{kda} Kimi Team. \emph{Kimi Linear: An Expressive, Efficient Attention Architecture}. 2025. \url{https://arxiv.org/abs/2510.26692}.
