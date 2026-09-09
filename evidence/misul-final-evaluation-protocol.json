@@ -1,0 +1,16 @@
+{
+  "status": "fixed before final test evaluation",
+  "checkpoint": "The completed 16384-update Misul joint FP8 run and its matched BF16 control, using each final shared checkpoint without task-specific adaptation.",
+  "precision_gate": "At most 1% relative full official validation language-loss increase, FP8 versus BF16, as registered before training. Other metrics are separately reported and do not substitute for that gate.",
+  "text_test": "All complete 128-target-token official WikiText2 test windows from the same training-fitted 4096-token tokenizer. FP16 loss values accumulated in host float64. Report nats/token, nats/byte and bits/byte; preserve per-window sums.",
+  "program_test": "stream_program.test_programs(1081): 256 held-out sequences of length 2-6 and 128 sequences of unseen length 8-10; SHA256 bucket 9 only. Exclude the prior model tests at seeds 934 and 956, including their sequential exclusions.",
+  "flow": "1, 2, 4 and 8 forward passes, noise seed 1043 plus batch offset; compare 8 passes with feedback disabled using the same noise. Report exact sequence, state and final-answer accuracy and preserve every failure.",
+  "streams": "Free-running full-vocabulary thought/output with only the external input stream supplied. Report thought/state, final-answer and idle-output accuracy. Repeat the held-out set with thought clamped to the idle token to test the measured role of generated thought.",
+  "test_policy": "Open tests only after the recipe and final checkpoint are frozen. No inference access to ground-truth states or an arithmetic checker. Any later recipe selection must use validation and receive fresh final program sequences.",
+  "resources": "One safe_run process at a time, 2 GiB physical process footprint, 20 GiB disk reserve, 40% system memory headroom, 128 MiB new swap stop; 1000 MiB MLX allocation and 32 MiB cache. Preserve partial evaluations on guard interruption.",
+  "qualitative_text": "Three predeclared 64-token samples: prompt The city of, temperature0; prompt In the early, temperature0.7; prompt The history of science, temperature0.7. Sampling seed1047 for each. Show actual completions and retain unsuccessful output; these are illustrations, not factual-QA measurements.",
+  "reload_check": "Before opening tests, compare the final packed FP8 release with the saved trained BF16 working state in text, synchronous-stream, zero-feedback Flow and nonzero-feedback Flow probes. Require bit-exact logits for every probe; this extends the final text-only reload check in the trainer.",
+  "numerical_amendment": "BF16 final checkpoint comes from artifacts/misul-joint-checked-bf16-recovered. Verify and include evidence/misul-fractional-amendment.json. This is the explicitly amended exploratory precision pair; the original floor-1 control remains failed. Seed1081 replaces unopened seed1041 before any final test evaluation.",
+  "test_manifest": "data/misul-test/manifest.json: separately fetched pinned official test, same document assembly, original training manifest unchanged.",
+  "saved_state_check": "Require every saved model and optimizer tensor to be finite and free of FP32 arrays; report counted bytes and dtypes."
+}

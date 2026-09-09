@@ -1,0 +1,29 @@
+{
+  "revision": "f776294184f13b8ff2337b3841cf9269a6216d1e",
+  "dataset": "Salesforce/wikitext",
+  "subset": "wikitext-2-raw-v1",
+  "records": [
+    {
+      "path": "data/wikitext2-v1/raw/README.md",
+      "url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/f776294184f13b8ff2337b3841cf9269a6216d1e/README.md",
+      "sha256": "b7c15c5f44ca6e49d92f1843652287e48f5aaaace3d51af499aed3a3f2fba691",
+      "upstream_lfs_sha256": null,
+      "bytes": 10464
+    },
+    {
+      "path": "data/wikitext2-v1/raw/train-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/f776294184f13b8ff2337b3841cf9269a6216d1e/wikitext-2-raw-v1/train-00000-of-00001.parquet",
+      "sha256": "49280f3dd993cbdfd322186194133d5d1935f81e1c91064c239f2a70ebb02701",
+      "upstream_lfs_sha256": "49280f3dd993cbdfd322186194133d5d1935f81e1c91064c239f2a70ebb02701",
+      "bytes": 6342468
+    },
+    {
+      "path": "data/wikitext2-v1/raw/validation-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/f776294184f13b8ff2337b3841cf9269a6216d1e/wikitext-2-raw-v1/validation-00000-of-00001.parquet",
+      "sha256": "a10eb5a42c4264c45dd38bfef4da6a74ddef5fc22cb419e1a89d54c4cc6d748f",
+      "upstream_lfs_sha256": "a10eb5a42c4264c45dd38bfef4da6a74ddef5fc22cb419e1a89d54c4cc6d748f",
+      "bytes": 656408
+    }
+  ],
+  "test_downloaded": false
+}

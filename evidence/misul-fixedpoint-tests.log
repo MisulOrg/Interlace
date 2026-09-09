@@ -1,0 +1,6 @@
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.046s
+
+OK
+{"command": [".venv/bin/python", "-m", "unittest", "tests.test_misul_fractional_update", "tests.test_misul_fixedpoint"], "returncode": 0, "stop_reason": null, "elapsed_seconds": 0.21224133390933275, "sampled_peak_phys_bytes": 94372656, "samples": 2, "memory_mib": 2048, "disk_reserve_mib": 20480, "maximum_swap_growth_mib": 128, "initial_swap_bytes": 3898406338.56, "last_sampled_swap_bytes": 3898406338.56, "minimum_memory_free_percent": 40, "poll_seconds": 0.1}

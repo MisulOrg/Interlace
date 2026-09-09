@@ -1,0 +1,250 @@
+{
+  "format": "MXFP8 E4M3 values, E8M0 scales per32 padded values",
+  "shapes": {
+    "embedding": [
+      4096,
+      640
+    ],
+    "position": [
+      128,
+      640
+    ],
+    "roles": [
+      3,
+      640
+    ],
+    "mode_embedding": [
+      3,
+      640
+    ],
+    "loop_embedding": [
+      2,
+      640
+    ],
+    "blocks.0.norm1.weight": [
+      640
+    ],
+    "blocks.0.norm2.weight": [
+      640
+    ],
+    "blocks.0.mixer.qkv.weight": [
+      1920,
+      640
+    ],
+    "blocks.0.mixer.output.weight": [
+      640,
+      640
+    ],
+    "blocks.0.ffn.up.weight": [
+      3072,
+      640
+    ],
+    "blocks.0.ffn.down.weight": [
+      640,
+      1536
+    ],
+    "blocks.1.norm1.weight": [
+      640
+    ],
+    "blocks.1.norm2.weight": [
+      640
+    ],
+    "blocks.1.mixer.q.weight": [
+      128,
+      640
+    ],
+    "blocks.1.mixer.k.weight": [
+      128,
+      640
+    ],
+    "blocks.1.mixer.v.weight": [
+      640,
+      640
+    ],
+    "blocks.1.mixer.decay.weight": [
+      128,
+      640
+    ],
+    "blocks.1.mixer.beta.weight": [
+      8,
+      640
+    ],
+    "blocks.1.mixer.gate.weight": [
+      640,
+      640
+    ],
+    "blocks.1.mixer.output.weight": [
+      640,
+      640
+    ],
+    "blocks.1.mixer.norm.weight": [
+      80
+    ],
+    "blocks.1.ffn.up.weight": [
+      3072,
+      640
+    ],
+    "blocks.1.ffn.down.weight": [
+      640,
+      1536
+    ],
+    "blocks.2.norm1.weight": [
+      640
+    ],
+    "blocks.2.norm2.weight": [
+      640
+    ],
+    "blocks.2.mixer.qkv.weight": [
+      1920,
+      640
+    ],
+    "blocks.2.mixer.output.weight": [
+      640,
+      640
+    ],
+    "blocks.2.ffn.up.weight": [
+      3072,
+      640
+    ],
+    "blocks.2.ffn.down.weight": [
+      640,
+      1536
+    ],
+    "blocks.3.norm1.weight": [
+      640
+    ],
+    "blocks.3.norm2.weight": [
+      640
+    ],
+    "blocks.3.mixer.q.weight": [
+      128,
+      640
+    ],
+    "blocks.3.mixer.k.weight": [
+      128,
+      640
+    ],
+    "blocks.3.mixer.v.weight": [
+      640,
+      640
+    ],
+    "blocks.3.mixer.decay.weight": [
+      128,
+      640
+    ],
+    "blocks.3.mixer.beta.weight": [
+      8,
+      640
+    ],
+    "blocks.3.mixer.gate.weight": [
+      640,
+      640
+    ],
+    "blocks.3.mixer.output.weight": [
+      640,
+      640
+    ],
+    "blocks.3.mixer.norm.weight": [
+      80
+    ],
+    "blocks.3.ffn.up.weight": [
+      3072,
+      640
+    ],
+    "blocks.3.ffn.down.weight": [
+      640,
+      1536
+    ],
+    "blocks.4.norm1.weight": [
+      640
+    ],
+    "blocks.4.norm2.weight": [
+      640
+    ],
+    "blocks.4.mixer.qkv.weight": [
+      1920,
+      640
+    ],
+    "blocks.4.mixer.output.weight": [
+      640,
+      640
+    ],
+    "blocks.4.ffn.up.weight": [
+      3072,
+      640
+    ],
+    "blocks.4.ffn.down.weight": [
+      640,
+      1536
+    ],
+    "blocks.5.norm1.weight": [
+      640
+    ],
+    "blocks.5.norm2.weight": [
+      640
+    ],
+    "blocks.5.mixer.q.weight": [
+      128,
+      640
+    ],
+    "blocks.5.mixer.k.weight": [
+      128,
+      640
+    ],
+    "blocks.5.mixer.v.weight": [
+      640,
+      640
+    ],
+    "blocks.5.mixer.decay.weight": [
+      128,
+      640
+    ],
+    "blocks.5.mixer.beta.weight": [
+      8,
+      640
+    ],
+    "blocks.5.mixer.gate.weight": [
+      640,
+      640
+    ],
+    "blocks.5.mixer.output.weight": [
+      640,
+      640
+    ],
+    "blocks.5.mixer.norm.weight": [
+      80
+    ],
+    "blocks.5.ffn.up.weight": [
+      3072,
+      640
+    ],
+    "blocks.5.ffn.down.weight": [
+      640,
+      1536
+    ],
+    "norm.weight": [
+      640
+    ],
+    "flow_state.weight": [
+      640,
+      32
+    ],
+    "flow_feedback.weight": [
+      640,
+      32
+    ],
+    "flow_time": [
+      2,
+      640
+    ],
+    "flow_output.weight": [
+      10,
+      640
+    ]
+  },
+  "parameters": 29814640,
+  "tensor_bytes": 30746397,
+  "weight_file_bytes": 30759015,
+  "runtime": "BF16 decoded working weights; native MXFP8 projection operands; FP16 KDA state",
+  "weight_sha256": "161e51c4165c04a392c57cc236b00800c95e327b814a23737b6a780716835e0c"
+}

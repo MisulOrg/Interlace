@@ -1,0 +1,61 @@
+--- frozen original trainer
+
++++ dense control trainer
+
+@@ -14,14 +14,14 @@
+
+ import mlx.nn as nn
+ from mlx.utils import tree_flatten,tree_unflatten
+ import numpy as np
+-from .misul import MisulModel
+-from .misul_muon import Muon16
+-from .misul_update import CheckedUpdate
+-from .misul_flow import program_batch,flow_loss,evaluate_flow
+-from .stream_program import make_programs,program_rows,evaluate_programs
+-from .text_data import token_windows
+-from .safe_run import require_guard
+-from .train import command_output
++from transformermodel.misul_dense import DenseModel as MisulModel
++from transformermodel.misul_muon import Muon16
++from transformermodel.misul_update import CheckedUpdate
++from transformermodel.misul_flow import program_batch,flow_loss,evaluate_flow
++from transformermodel.stream_program import make_programs,program_rows,evaluate_programs
++from transformermodel.text_data import token_windows
++from transformermodel.safe_run import require_guard
++from transformermodel.train import command_output
+ 
+ 
+ def digest(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+@@ -84,15 +84,16 @@
+
+     vx,vy,_,byte_lengths=token_windows(manifest_path,tokenizer_path,'validation',a.context)
+     if tx.nbytes+ty.nbytes+vx.nbytes+vy.nbytes>256*2**20:raise ValueError('data allocation bound exceeded')
+     config=dict(vocab_size=tokenizer.get_vocab_size(),width=a.width,hidden=a.hidden,layers=a.layers,
+-        heads=a.heads,context=a.context,loops=2,precision=a.precision,memory_backend=a.memory_backend)
++        heads=a.heads,context=a.context,loops=1,precision=a.precision,memory_backend=a.memory_backend)
+     estimate=config['vocab_size']*a.width+3*a.width*a.hidden*a.layers+4*a.layers*a.width*a.width
+     if estimate>36_000_000:raise ValueError('reduce model dimensions before allocation')
+     mx.random.seed(a.seed);model=MisulModel(**config)
+     optimizer=Muon16(model.parameters(),kind=a.optimizer)
+     mx.eval(model.parameters(),optimizer.state)
+     start_step=load_training(out/'training-state.safetensors',model,optimizer) if a.resume else 0
+-    sources={str(Path(__file__).parent/f):digest(Path(__file__).parent/f) for f in
+-        ['misul.py','misul_memory_metal.py','misul_muon.py','misul_update.py','misul_flow.py','train_misul.py','combined.py','budget_muon.py','text_data.py','stream_program.py']}
++    sources={str(Path('src/transformermodel')/f):digest(Path('src/transformermodel')/f) for f in
++        ['misul_dense.py','misul.py','misul_memory_metal.py','misul_muon.py','misul_update.py','misul_flow.py','train_misul.py','combined.py','budget_muon.py','text_data.py','stream_program.py']}
++    sources[__file__]=digest(__file__)
+     old_summary=json.loads((out/'summary.json').read_text()) if a.resume else {}
+     if a.resume:
+         previous=json.loads((out/'manifest.json').read_text())
+@@ -121,8 +122,8 @@
+
+         recipe_notes='NorMuon PE5 momentum.7 RMS.2 hidden matrices; AdamW auxiliary, beta1.9 beta2.95; LR.006/.001; decay.01; clip1; checked loss scale128 halved on overflow through1, retry same batch before optimizer; 64-update warmup, stable to80%, then linear decay to.1',
+         task_cycle=['text','text','streams','text','flow','text','streams','flow'] if a.mode=='joint' else ['text'],
+         program_split='SHA256(sequence) mod10:0-7 training,8 validation,9 final test; train length2-6',
+-        hypothesis='one larger shared model learns language and program modes; FP8 relative held-out language loss increase <=1% versus the paired BF16 model',
+-        null='FP8 exceeds the quality bound, or the shared model fails one of its program modes',
++        hypothesis='parameter-matched dense architecture control; compare quality and elapsed cost to frozen Misul BF16 seed1001',
++        null='Misul does not improve held-out loss or task accuracy, and does not reach fixed quality sooner',
+         scope='exploratory pilot' if a.validation_windows else 'declared full-validation training run',
+         stop_rule='fixed updates or segment/time bound, nonfinite value, or external guard',
+         device=mx.device_info(),mlx=importlib.metadata.version('mlx'),macos=platform.mac_ver(),

@@ -1,0 +1,28 @@
+{
+  "compare": {
+    "text": {
+      "scan_seconds": 0.31577280298806726,
+      "metal_seconds": 0.2094289890024811,
+      "relative_time_change": -0.3367731893921364
+    },
+    "streams": {
+      "scan_seconds": 0.14969918441160449,
+      "metal_seconds": 0.16151096442315196,
+      "relative_time_change": 0.0789034359670957
+    },
+    "flow": {
+      "scan_seconds": 0.1252946249830226,
+      "metal_seconds": 0.1376188890232394,
+      "relative_time_change": 0.09836227245890816
+    },
+    "flow_feedback": {
+      "scan_seconds": 0.1534988333393509,
+      "metal_seconds": 0.15999415264620134,
+      "relative_time_change": 0.042315105369503225
+    }
+  },
+  "weighted_scan_seconds": 0.23016037988723145,
+  "weighted_metal_seconds": 0.18229386581570867,
+  "relative_time_reduction": 0.2079702601072143,
+  "interpretation": "One paired32-update exploratory pilot; same seed,data,architecture and update recipe, changed memory implementation. Host contention and numerical rounding differ. This is a local update-cost observation, not a time-to-quality result."
+}

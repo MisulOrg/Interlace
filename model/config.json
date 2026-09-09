@@ -1,0 +1,11 @@
+{
+  "vocab_size": 4096,
+  "width": 640,
+  "hidden": 1536,
+  "layers": 6,
+  "heads": 8,
+  "context": 128,
+  "loops": 2,
+  "precision": "mxfp8",
+  "memory_backend": "metal"
+}

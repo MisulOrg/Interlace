@@ -1,0 +1,456 @@
+{
+  "records": [
+    {
+      "split": "test",
+      "title": "Robert Boulter",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0000.txt",
+      "bytes": 5634,
+      "sha256": "ae237715d27419310bb03de2c9be2439e92bac7f1d0c1da9c7f3933b0ea14a9d"
+    },
+    {
+      "split": "test",
+      "title": "Du Fu",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0001.txt",
+      "bytes": 24487,
+      "sha256": "642d91acd1132d23f6d58f3be8682359b455d09fc0f845b9cb4673ee7abe5a01"
+    },
+    {
+      "split": "test",
+      "title": "Kiss You ( One Direction song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0002.txt",
+      "bytes": 12255,
+      "sha256": "63a3e54c20dc6afc1f6afcb909db277ea2f45e7efa52215a4611a586632d10be"
+    },
+    {
+      "split": "test",
+      "title": "Ise @-@ class battleship",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0003.txt",
+      "bytes": 35914,
+      "sha256": "a36ddb72fec430c0ab9b29052675fb0c48386a68e6c60af80135320621ee48e3"
+    },
+    {
+      "split": "test",
+      "title": "Dick Rifenburg",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0004.txt",
+      "bytes": 10616,
+      "sha256": "65541c419587de7cc3cca306bcd82b1fd509ed9be3f30a7d18e38eb9f86f1595"
+    },
+    {
+      "split": "test",
+      "title": "1933 Treasure Coast hurricane",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0005.txt",
+      "bytes": 12586,
+      "sha256": "7c15c8c44cd4a8063a5f0cf2d309a4846ce8f41c96640636328c580e6f9648d5"
+    },
+    {
+      "split": "test",
+      "title": "Second Battle of Naktong Bulge",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0006.txt",
+      "bytes": 54510,
+      "sha256": "7f56e8807a3fea56bf14666b4aa56704ce419ce5484f5087efe9ac9dc1a8fb69"
+    },
+    {
+      "split": "test",
+      "title": "Hed PE",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0007.txt",
+      "bytes": 11031,
+      "sha256": "06d4a41946a4e405d6b0b1ea0418c6bbc9497fba7ae6a20873e9528f81d55c0e"
+    },
+    {
+      "split": "test",
+      "title": "Ironclad warship",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0008.txt",
+      "bytes": 58522,
+      "sha256": "93e572d2f1d09aee81e93d8ad3851ab6d2df58935d646580d5f62431a7f4f435"
+    },
+    {
+      "split": "test",
+      "title": "Little Gidding ( poem )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0009.txt",
+      "bytes": 9286,
+      "sha256": "647f1ac57fef1bd4c3757ecbe7d8512dcd44f69633fa63969847d0fcaebfab3e"
+    },
+    {
+      "split": "test",
+      "title": "The Portage to San Cristobal of A.H.",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0010.txt",
+      "bytes": 15612,
+      "sha256": "9b59e08808fea29a3d01300ce71c09fc50170662d78af64560afeb3c5bd6af60"
+    },
+    {
+      "split": "test",
+      "title": "Temnospondyli",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0011.txt",
+      "bytes": 45837,
+      "sha256": "2a673e64049a4052ef5b2d87cb78a6b5371a677fa6a8576bd1f52d97ca7ece8d"
+    },
+    {
+      "split": "test",
+      "title": "Osbert de Bayeux",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0012.txt",
+      "bytes": 4997,
+      "sha256": "5cd2fd8cf13daac09020399755f94c3ec84b49c572bebdc5dcb724ef7a05e9fc"
+    },
+    {
+      "split": "test",
+      "title": "Dvorak technique",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0013.txt",
+      "bytes": 12445,
+      "sha256": "cdc897d9dab71b1fd4ee92b8f5084c3dcb6d70c6e342e2bea48f7046b1ab5f85"
+    },
+    {
+      "split": "test",
+      "title": "New York State Route 31B",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0014.txt",
+      "bytes": 2372,
+      "sha256": "698096be8f6f1f8ad7406a2a1e9e578e1e065de9dc740461c4bcd906123f4a36"
+    },
+    {
+      "split": "test",
+      "title": "Ben Amos",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0015.txt",
+      "bytes": 8588,
+      "sha256": "5193ec1cf9b091f640677c899cbd932937fdc2ea471f896d367be91c8ad06ca3"
+    },
+    {
+      "split": "test",
+      "title": "Clayton Kershaw",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0016.txt",
+      "bytes": 33150,
+      "sha256": "9de3897381391b0eeb3fac51d548a9be518fe72656e17ca02d8f6a855f581332"
+    },
+    {
+      "split": "test",
+      "title": "Josepha Petrick Kemarre",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0017.txt",
+      "bytes": 5855,
+      "sha256": "36ac4b9215369e743a457a1a675f139ed13d684187739557b0ca9c9a14b6a488"
+    },
+    {
+      "split": "test",
+      "title": "Head VI",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0018.txt",
+      "bytes": 20588,
+      "sha256": "d6d2f8bbfa3d6753b31b70680c9e49f662ebbbf8547a699830ed37a349cc5297"
+    },
+    {
+      "split": "test",
+      "title": "Imagism",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0019.txt",
+      "bytes": 19332,
+      "sha256": "93a05da1103e04c902909326cd2946cf4426ab37d6a1e90341b90dbda268979d"
+    },
+    {
+      "split": "test",
+      "title": "Operation Eastern Exit",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0020.txt",
+      "bytes": 24199,
+      "sha256": "281882f7d0c70b02e5896f05b60f7f7c74dd2cd906c36960a13b322ddc1f10e4"
+    },
+    {
+      "split": "test",
+      "title": "2010 Claxton Shield",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0021.txt",
+      "bytes": 7010,
+      "sha256": "3363e95dd10d55f01bcdb3c67f33a6584335589ae5585e9ea37cae108f9ddf9c"
+    },
+    {
+      "split": "test",
+      "title": "Independiente ( Ricardo Arjona album )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0022.txt",
+      "bytes": 19451,
+      "sha256": "0a5bf0257d71fdfa5f13aaf77a14fde5d6154f7b26f5165e43b4fd085ef71f15"
+    },
+    {
+      "split": "test",
+      "title": "2003 Pacific typhoon season",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0023.txt",
+      "bytes": 57555,
+      "sha256": "c2ba898835125cfc00b399a03db7e005fc709f3d05f0c6b6e6d4309fe919b526"
+    },
+    {
+      "split": "test",
+      "title": "Oxaziridine",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0024.txt",
+      "bytes": 11957,
+      "sha256": "0e79216d1581f216edfd5cd9944e1dafd3cd7970f3272fa412425462029f095c"
+    },
+    {
+      "split": "test",
+      "title": "Battle of D\u00fcrenstein",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0025.txt",
+      "bytes": 36949,
+      "sha256": "c57117b1a941f4bf4fbd4b86ecbfbe4be3e939f9ebd4d93c1279e435aa0a2a4c"
+    },
+    {
+      "split": "test",
+      "title": "Brock Lesnar",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0026.txt",
+      "bytes": 54718,
+      "sha256": "daaec44f0d7062b140bde4b9e96242bcbff367ac9143c682bc5f738b9c5ea71d"
+    },
+    {
+      "split": "test",
+      "title": "Constant k filter",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0027.txt",
+      "bytes": 6854,
+      "sha256": "59c6293998a827428e4b950fcc43c4f205a00e98dccada0a6cbaa1221047a8a8"
+    },
+    {
+      "split": "test",
+      "title": "1 rad / s and a nominal impedance k",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0028.txt",
+      "bytes": 115,
+      "sha256": "d4e467d824a14543462732e355a3e7943dfacc43d201b73235920e4b7a481d8b"
+    },
+    {
+      "split": "test",
+      "title": "1 henry and capacitance C",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0029.txt",
+      "bytes": 1346,
+      "sha256": "ddaa0e1b7077b0f531eeb42d960568614c67e53c96cb82bca8aa5f2b1ebdb60f"
+    },
+    {
+      "split": "test",
+      "title": "The Snowmen",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0030.txt",
+      "bytes": 23333,
+      "sha256": "ac2a61d27907ff681714decbf49340a2a26e42578752b8b80acaffcf16b3e8eb"
+    },
+    {
+      "split": "test",
+      "title": "No. 20 Squadron RAAF",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0031.txt",
+      "bytes": 7940,
+      "sha256": "58d1a1ced32ad81c5a4d7cbd0dd4588c9ec7840410449561aedc3c26037fea9a"
+    },
+    {
+      "split": "test",
+      "title": "Light Tank Mk VII Tetrarch",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0032.txt",
+      "bytes": 32938,
+      "sha256": "edb93d7e4ec049e70bd27897a108d7e1ec2e1f5586194e0904268a9c21018884"
+    },
+    {
+      "split": "test",
+      "title": "QuackShot",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0033.txt",
+      "bytes": 8850,
+      "sha256": "bf5a57bea0de050e5e9ff60a328aaf7447c089ead9e32c49a6f587d65834d531"
+    },
+    {
+      "split": "test",
+      "title": "Olmec colossal heads",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0034.txt",
+      "bytes": 46349,
+      "sha256": "87f2828a1958c2b2a198974f57fd36d9114c73db78c69064efb965a53feb3547"
+    },
+    {
+      "split": "test",
+      "title": "Brad Stevens",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0035.txt",
+      "bytes": 36669,
+      "sha256": "3e6214a2c8353948c2ac723a8366a7f1cef0978aaeb3aedfb94f18bb3f82527d"
+    },
+    {
+      "split": "test",
+      "title": "Shackleton ( crater )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0036.txt",
+      "bytes": 8820,
+      "sha256": "f72c4ab83beeef835087bffda07dd5774de5835a5bcc33d28740e2357c6dceea"
+    },
+    {
+      "split": "test",
+      "title": "American Beauty ( 1999 film )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0037.txt",
+      "bytes": 74854,
+      "sha256": "da07ce965a2d5286cc9d8deacb860a8182854167449677d93687dacdc26ddc2f"
+    },
+    {
+      "split": "test",
+      "title": "Christopher Gore",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0038.txt",
+      "bytes": 23368,
+      "sha256": "ac1add4cabf13c9086eadd66454a2a3d129908ea5d669a7f182fdcc71728d626"
+    },
+    {
+      "split": "test",
+      "title": "Nero",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0039.txt",
+      "bytes": 48924,
+      "sha256": "217bf482eba1d4c004c13cccc7e8cf542b321d0f545cd23156441d144fcf16af"
+    },
+    {
+      "split": "test",
+      "title": "Manila",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0040.txt",
+      "bytes": 58265,
+      "sha256": "8ca7ac1f75195fb76c22a0370151597da13ffc64add17b1f3ea8acc804cc25fe"
+    },
+    {
+      "split": "test",
+      "title": "Attalea ( palm )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0041.txt",
+      "bytes": 12682,
+      "sha256": "32a7479ba1ec3be77bd2d5974d8e52173b60c3e7201b2af536281fa24d7206af"
+    },
+    {
+      "split": "test",
+      "title": "The Heart of Ezra Greer",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0042.txt",
+      "bytes": 5847,
+      "sha256": "a503df2543d82c8eb2856609c1c89e00c387d4ecc003bc61af0a6341f87e7a30"
+    },
+    {
+      "split": "test",
+      "title": "Free Derry",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0043.txt",
+      "bytes": 28054,
+      "sha256": "40eeb89daea61c81cbed68f1c228c576957d9c2cab00fc00f3b9e74b6e9e0338"
+    },
+    {
+      "split": "test",
+      "title": "Come What ( ever ) May",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0044.txt",
+      "bytes": 11599,
+      "sha256": "db689c80b752460f8ea1ca49630ed1e2af4ce90206d7d72ebdf0514eb23d2e71"
+    },
+    {
+      "split": "test",
+      "title": "Chad at the 2008 Summer Olympics",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0045.txt",
+      "bytes": 5451,
+      "sha256": "bc588a8c08d159242dbd9015591d0e614bb75648ee147be591b93877a348e470"
+    },
+    {
+      "split": "test",
+      "title": "View of the World from 9th Avenue",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0046.txt",
+      "bytes": 6978,
+      "sha256": "7185d4a7c15ae50371e62fb20cfe9373c342804525f8300cbc5354979641b0ae"
+    },
+    {
+      "split": "test",
+      "title": "Bintulu",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0047.txt",
+      "bytes": 33341,
+      "sha256": "c1591824a31b4d77ee06a7235df218616a5726822c53c19a44b5cb992d65e1cb"
+    },
+    {
+      "split": "test",
+      "title": "Zrinski Battalion",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0048.txt",
+      "bytes": 6903,
+      "sha256": "0805a8ba0e0dac9f9c50f6fd2194c8cebc2a0368e535c663384299a4db451798"
+    },
+    {
+      "split": "test",
+      "title": "Weevils Wobble But They Don 't Go Down",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0049.txt",
+      "bytes": 8026,
+      "sha256": "2b8752739017a97e4fc7e938d431f4a7e05764e1cac14186328c3d3e2ed90f47"
+    },
+    {
+      "split": "test",
+      "title": "Temple Beth Israel ( Eugene , Oregon )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0050.txt",
+      "bytes": 14626,
+      "sha256": "940eb492cab79cd4cf97cad7bb3e4a8db1a1acc2dab2ad026065e7ed02c398e6"
+    },
+    {
+      "split": "test",
+      "title": "New York State Route 93",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0051.txt",
+      "bytes": 13618,
+      "sha256": "ae97b8a63f0d66335697685d2db0aa824aad260e07558dcf36192dbb9c5fccfc"
+    },
+    {
+      "split": "test",
+      "title": "Operation USA",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0052.txt",
+      "bytes": 5503,
+      "sha256": "aa23e035a806aacc7e3c5ee33181079987a4df5be78c63fe304f192e46c8cab3"
+    },
+    {
+      "split": "test",
+      "title": "Typhoon Krosa ( 2013 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0053.txt",
+      "bytes": 5401,
+      "sha256": "637686b204db4babe04518ffe9d4e4052c7dcfec70770bd3b6efcd3e91f8f60d"
+    },
+    {
+      "split": "test",
+      "title": "Kirby 's Block Ball",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0054.txt",
+      "bytes": 5387,
+      "sha256": "f53d99e80c5584904efb7d94041b105ccfb0437d9cd9c7c1af6218f570bc4e42"
+    },
+    {
+      "split": "test",
+      "title": "Hannah Dodd",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0055.txt",
+      "bytes": 4740,
+      "sha256": "c9b263796de81a81b900bb85c0efdcf329b58692fb13bc21b85d74367b0eeaa5"
+    },
+    {
+      "split": "test",
+      "title": "Commonwealth War Graves Commission",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0056.txt",
+      "bytes": 38763,
+      "sha256": "85a1f4c2c912c0ce26d5ca897e6b3eb88311379cb6ffb31ac0d514519bb52408"
+    },
+    {
+      "split": "test",
+      "title": "Tatwine",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0057.txt",
+      "bytes": 2547,
+      "sha256": "e9d032d45927de343cc95e9aa286fd2af9089cd74025ca96658cfd2c98af4afb"
+    },
+    {
+      "split": "test",
+      "title": "German Type UB I submarine",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0058.txt",
+      "bytes": 14985,
+      "sha256": "1cc24ab8194d770dce4960091aa4e51fdbd7c60677a95f37c387285a262690d2"
+    },
+    {
+      "split": "test",
+      "title": "Military history of Gibraltar during World War II",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0059.txt",
+      "bytes": 29470,
+      "sha256": "99a671d934f3871eca0c4464856c4216fe5b247d92e5ab3b6097ce7d85fd9af7"
+    },
+    {
+      "split": "test",
+      "title": "Nerva",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0060.txt",
+      "bytes": 21779,
+      "sha256": "d4a6c3fd4731bed8928e1659b06b57a5dbd55e1096eacdfe6721a745c76b541e"
+    },
+    {
+      "split": "test",
+      "title": "The Hustler ( film )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/misul-test/test-0061.txt",
+      "bytes": 17875,
+      "sha256": "c10b5100b0181cc148fa30970a9acaac0780277653f3288ee4883ed1c85bb78f"
+    }
+  ],
+  "source_url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/f776294184f13b8ff2337b3841cf9269a6216d1e/wikitext-2-raw-v1/test-00000-of-00001.parquet",
+  "source_sha256": "3ee89cd6a2ab912afd5d01e98867b46a67d9ec7a9eca0910e5e4c3cdd4cc1925",
+  "revision": "f776294184f13b8ff2337b3841cf9269a6216d1e",
+  "training_manifest_sha256": "6fc08f0fd8d8a4af12b708c892ff38d0e5b0f8044806370014fa9a2b45ad0e83",
+  "tokenizer": "Existing data/misul-v2/tokenizer.json, fitted on training only; no fitting on test.",
+  "assembly": "Same article-boundary regex and direct row concatenation as the frozen training preparation.",
+  "overlap": {
+    "train": {
+      "titles": [],
+      "documents": [],
+      "normalized_paragraph_hashes": []
+    },
+    "validation": {
+      "titles": [],
+      "documents": [],
+      "normalized_paragraph_hashes": []
+    }
+  }
+}

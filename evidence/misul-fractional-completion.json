@@ -1,0 +1,14 @@
+{
+  "fp8_validation_loss": 4.741908396135678,
+  "bf16_validation_loss": 4.718693306665849,
+  "relative_loss_change": 0.004919813168835052,
+  "recovered_control_steps": 16384,
+  "recovered_control_loss_scales": {
+    "text": 128,
+    "streams": 128,
+    "flow": 2,
+    "flow_feedback": 8
+  },
+  "fractional_scale_used_in_retained_trajectory": false,
+  "note": "The original failed control is preserved. The resumed control used the extended checker but never entered its new below-one branch; all retained updates therefore used the original accepted-scale arithmetic. Exact replay is limited by observed embedding optimizer variation."
+}

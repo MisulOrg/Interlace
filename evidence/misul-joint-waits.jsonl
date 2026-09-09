@@ -1,0 +1,9 @@
+{"run": "misul-joint-checked-fp8", "step": 8192, "seconds": 0.004343000007793307}
+{"run": "misul-joint-checked-fp8", "step": 8192, "seconds": 0.004778707982040942}
+{"run": "misul-joint-checked-fp8", "step": 12288, "seconds": 0.0032690829830244184}
+{"run": "misul-joint-checked-fp8", "step": 15360, "seconds": 0.0037125409580767155}
+{"run": "misul-joint-checked-bf16", "step": 0, "seconds": 0.003521209000609815}
+{"run": "misul-joint-checked-bf16", "step": 512, "seconds": 0.003443458001129329}
+{"run": "misul-joint-checked-bf16", "step": 4096, "seconds": 0.004475082969292998}
+{"run": "misul-joint-checked-bf16", "step": 8192, "seconds": 0.004717624979093671}
+{"run": "misul-joint-checked-bf16", "step": 12288, "seconds": 0.003942333976738155}

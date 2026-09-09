@@ -1,0 +1,99 @@
+{
+  "preupdate_step": 2031,
+  "feedback": true,
+  "parameters_finite": true,
+  "arms": [
+    {
+      "backend": "metal",
+      "loss_scale": 128,
+      "loss": 3.62890625,
+      "all_finite": false,
+      "maximum_finite_gradient": 1.6875,
+      "finite_gradient_norm": 43.201085190927934,
+      "bad": [
+        {
+          "name": "embedding",
+          "nonfinite": 2560,
+          "size": 2621440
+        },
+        {
+          "name": "position",
+          "nonfinite": 3840,
+          "size": 81920
+        },
+        {
+          "name": "roles",
+          "nonfinite": 1920,
+          "size": 1920
+        },
+        {
+          "name": "mode_embedding",
+          "nonfinite": 640,
+          "size": 1920
+        },
+        {
+          "name": "loop_embedding",
+          "nonfinite": 640,
+          "size": 1280
+        },
+        {
+          "name": "blocks.0.norm1.weight",
+          "nonfinite": 640,
+          "size": 640
+        },
+        {
+          "name": "blocks.0.norm2.weight",
+          "nonfinite": 640,
+          "size": 640
+        },
+        {
+          "name": "blocks.1.norm1.weight",
+          "nonfinite": 640,
+          "size": 640
+        },
+        {
+          "name": "blocks.1.mixer.k.weight",
+          "nonfinite": 9600,
+          "size": 81920
+        },
+        {
+          "name": "blocks.1.mixer.beta.weight",
+          "nonfinite": 640,
+          "size": 5120
+        },
+        {
+          "name": "flow_time",
+          "nonfinite": 1280,
+          "size": 1280
+        }
+      ]
+    },
+    {
+      "backend": "metal",
+      "loss_scale": 1,
+      "loss": 3.62890625,
+      "all_finite": true,
+      "maximum_finite_gradient": 3.015625,
+      "finite_gradient_norm": 65.87545102230047,
+      "bad": []
+    },
+    {
+      "backend": "scan",
+      "loss_scale": 128,
+      "loss": 3.740234375,
+      "all_finite": true,
+      "maximum_finite_gradient": 0.62890625,
+      "finite_gradient_norm": 13.759131178488744,
+      "bad": []
+    },
+    {
+      "backend": "scan",
+      "loss_scale": 1,
+      "loss": 3.740234375,
+      "all_finite": true,
+      "maximum_finite_gradient": 0.62890625,
+      "finite_gradient_norm": 13.909907117366405,
+      "bad": []
+    }
+  ]
+}

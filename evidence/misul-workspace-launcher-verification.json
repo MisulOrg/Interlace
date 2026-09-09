@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "runs": {
+    "text": {
+      "command": [
+        "/Users/dttdrv/Projects/TransformerModel/.venv/bin/python",
+        "run_model.py",
+        "text",
+        "--prompt",
+        "The city of",
+        "--tokens",
+        "64",
+        "--temperature",
+        "0",
+        "--seed",
+        "1047"
+      ],
+      "returncode": 0,
+      "guard": "evidence/user-demo-20260909T101100Z-9ed84e97.json",
+      "stdout": "The city of the city . \n = = = Design = = = \n The first of the city was the first of the city 's first @-@ selling of the city , and the city was the first of the city 's first @-@ day duties . The Song was the first of the city 's first\n"
+    },
+    "streams": {
+      "command": [
+        "/Users/dttdrv/Projects/TransformerModel/.venv/bin/python",
+        "run_model.py",
+        "streams",
+        "--digits",
+        "2,5,3,7"
+      ],
+      "returncode": 0,
+      "guard": "evidence/user-demo-20260909T101101Z-58e41505.json",
+      "stdout": "tick    input  thought   output\n   0        -        -        -\n   1        2        -        -\n   2        5        2        -\n   3        3        7        -\n   4        7        0        -\n   5      END        7        -\n   6        -        -        7\n"
+    },
+    "flow": {
+      "command": [
+        "/Users/dttdrv/Projects/TransformerModel/.venv/bin/python",
+        "run_model.py",
+        "flow",
+        "--digits",
+        "2,5,3,7",
+        "--flow-steps",
+        "8",
+        "--seed",
+        "0"
+      ],
+      "returncode": 0,
+      "guard": "evidence/user-demo-20260909T101101Z-b071aff4.json",
+      "stdout": "pass  1  t=0.000  2 3 9 1\npass  2  t=0.125  2 7 5 9\npass  3  t=0.250  2 5 0 4\npass  4  t=0.375  2 5 0 4\npass  5  t=0.500  2 5 0 4\npass  6  t=0.625  2 5 0 4\npass  7  t=0.750  2 5 0 4\npass  8  t=0.875  2 5 0 4\nPredicted prefix states: 2 5 0 4\nRe-noise consistency loss: 0.9609 (consistency alone does not establish correctness)\n"
+    }
+  }
+}

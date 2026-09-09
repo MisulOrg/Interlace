@@ -1,0 +1,21 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/test_misul_dense.py",
+    "-q"
+  ],
+  "returncode": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 0.5276367079932243,
+  "sampled_peak_phys_bytes": 99992416,
+  "samples": 5,
+  "memory_mib": 2048,
+  "disk_reserve_mib": 20480,
+  "maximum_swap_growth_mib": 128,
+  "initial_swap_bytes": 2719356026.88,
+  "last_sampled_swap_bytes": 2719356026.88,
+  "minimum_memory_free_percent": 40,
+  "poll_seconds": 0.1
+}

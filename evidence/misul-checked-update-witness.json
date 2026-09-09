@@ -1,0 +1,17 @@
+{
+  "preupdate_step": 2031,
+  "final_step": 2032,
+  "loss": 3.634765625,
+  "gradient_norm": 60.75,
+  "accepted_loss_scale": 64,
+  "overflow_events": [
+    {
+      "loss_scale": 128,
+      "loss": 3.634765625,
+      "gradient_norm": NaN,
+      "retry": 1
+    }
+  ],
+  "model_and_optimizer_finite": true,
+  "peak_mlx_bytes": 708199984
+}

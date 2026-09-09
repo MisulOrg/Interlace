@@ -1,0 +1,8 @@
+tick    input  thought   output
+   0        -        -        -
+   1        2        -        -
+   2        5        2        -
+   3        3        7        -
+   4        7        0        -
+   5      END        7        -
+   6        -        -        7

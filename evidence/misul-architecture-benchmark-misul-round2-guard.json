@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/Users/dttdrv/Projects/TransformerModel/.venv/bin/python",
+    "experiments/benchmark_misul_architecture.py",
+    "--arm",
+    "misul",
+    "--output",
+    "evidence/misul-architecture-benchmark-misul-round2.json"
+  ],
+  "returncode": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 1.9913499579997733,
+  "sampled_peak_phys_bytes": 466797600,
+  "samples": 19,
+  "memory_mib": 2048,
+  "disk_reserve_mib": 20480,
+  "maximum_swap_growth_mib": 128,
+  "initial_swap_bytes": 2526418042.88,
+  "last_sampled_swap_bytes": 2526418042.88,
+  "minimum_memory_free_percent": 40,
+  "poll_seconds": 0.1
+}

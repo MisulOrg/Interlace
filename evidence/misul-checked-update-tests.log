@@ -1,0 +1,6 @@
+..
+----------------------------------------------------------------------
+Ran 2 tests in 1.512s
+
+OK
+{"command": [".venv/bin/python", "-m", "unittest", "discover", "-s", "tests", "-p", "test_misul_update.py"], "returncode": 0, "stop_reason": null, "elapsed_seconds": 1.6144513750914484, "sampled_peak_phys_bytes": 85066496, "samples": 15, "memory_mib": 2048, "disk_reserve_mib": 20480, "maximum_swap_growth_mib": 128, "initial_swap_bytes": 1501036544.0, "last_sampled_swap_bytes": 1501036544.0, "minimum_memory_free_percent": 40, "poll_seconds": 0.1}

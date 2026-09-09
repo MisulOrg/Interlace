@@ -1,0 +1,29 @@
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{@{}Xrr@{}}
+\toprule
+First observed monitor target, seconds & \ModelName{} BF16 & Dense BF16\\
+\midrule
+6.0 nats/token & 131.29 & 204.37\\
+5.5 nats/token & 276.52 & 806.91\\
+5.0 nats/token & 1115.28 & Not reached\\
+\bottomrule
+\end{tabularx}
+\caption{Time to a fixed monitor quality, sampled every 512 updates. Each time
+includes consumed training execution before the observed crossing.}
+\end{table}
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{@{}Xrr@{}}
+\toprule
+Inference latency, median & \ModelName{} BF16 & Dense BF16\\
+\midrule
+128-token forward, batch 1 (ms) & 6.14 & 2.11\\
+Generate 32 tokens, batch 1 (s) & 0.11 & 0.04\\
+Eight-pass Flow, batch 8 (ms) & 30.60 & 10.63\\
+\bottomrule
+\end{tabularx}
+\caption{Eighteen completed-device repetitions per workload across two
+counterbalanced processes per model, after separately recorded first executions. Both models use BF16 and the same uncached generation
+procedure. These are local implementation measurements.}
+\end{table}

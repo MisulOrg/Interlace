@@ -1,0 +1,37 @@
+{
+  "status": "fixed before local lookahead learning measurements",
+  "motivation": "The user asks to investigate Magic's efficiency and incorporate a testable training-method improvement. Magic confirms objective changes without disclosing the objective. This independent two-token candidate follows published multi-token prediction work, not a claimed recovery of Magic's recipe.",
+  "hypothesis": "Adding a causal second-future-token loss to the same Misul backbone improves ordinary held-out language loss per elapsed training time.",
+  "null": "The extra head adds cost without improving the time to the registered ordinary next-token validation-loss target.",
+  "variable": "Auxiliary loss weight 0 versus 0.25. One zero-initialized residual width-by-width projection predicts token t+2 through the shared vocabulary matrix. Token t+1 retains its original objective and inference path.",
+  "controls": "Both arms instantiate identical base weights and the same counted auxiliary parameter storage. Uniform training windows, tokenizer, next-token validation, seed, sampling order, Muon/auxiliary-AdamW settings and schedule are fixed. The auxiliary projection uses auxiliary AdamW. Unused control-head state is reported explicitly.",
+  "scales": [
+    {
+      "width": 128,
+      "hidden": 256,
+      "layers": 2,
+      "heads": 4,
+      "context": 64
+    },
+    {
+      "width": 320,
+      "hidden": 768,
+      "layers": 4,
+      "heads": 8,
+      "context": 128
+    },
+    {
+      "width": 640,
+      "hidden": 1536,
+      "layers": 6,
+      "heads": 8,
+      "context": 128
+    }
+  ],
+  "training": "384 text-only updates per arm, batch 4, random initialization seed 1053, per-step sampling seed 1053000000+index. FP8 operands and weights; required 16-bit working arrays. Warmup 64, stable to 80%, linear decay to 0.1. No pretrained weights, external teacher, or synthetic text from a teacher.",
+  "validation": "64 fixed official validation windows, seed 1054, every 64 updates; 256 validation windows at completion. No official test or final program test is opened. Report both equal-update loss and first observed crossing of 6.5 nats per next token with all elapsed costs counted. No interpolation or claimed crossing when the target is not reached.",
+  "selection": "Keep for larger qualification only if the 29.8M backbone reaches 6.5 at least 10% earlier and final next-token validation loss is no more than 1% higher than its matched control. Smaller-scale results diagnose transfer; they do not establish a frontier scaling law. A negative screen preserves the experimental code without promoting it into the main recipe.",
+  "resource_cap": "One safe_run process at a time, 2 GiB process footprint, 20 GiB disk reserve, 40% system memory headroom and stop on 128 MiB new swap. 1000 MiB MLX and 32 MiB cache, at most 180 seconds per small/medium arm and 300 seconds per large arm. No automatic resource increase.",
+  "stop_rule": "Fixed 384 updates, time cap, nonfinite loss/gradient, or external guard; preserve every failure. Numerical target-alignment, causal-prefix, shared-gradient and packed-reload checks must pass before learning runs.",
+  "numerical_amendment_before_learning": "Use CheckedUpdate for both arms: start loss scale128, halve and recompute the identical batch on nonfinite gradient, minimum1, and apply the optimizer only after a finite check. This repairs a separately captured joint-Flow overflow; no lookahead learning results were observed before this amendment. All elapsed retry cost counts."
+}

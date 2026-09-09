@@ -1,0 +1,78 @@
+{
+  "status": "registered before recovery qualification, resumption and final evaluation",
+  "observation": "Original BF16 control stopped before update 15896: loss is finite but gradients remain nonfinite at scale 1. Exact preserved batch has finite gradients at .5,.25,.125,.0625.",
+  "diagnosis": "The FP16 backward path overflows; the minimum scale of 1 prevents recovery. Lowering the scale is documented for mixed BF16/FP16 computation and reproduced locally. No claim that scale-independent gradients are bit exact.",
+  "remedy": "Extend only checked retry floor from 1 to 1/128. Inherit the frozen calculate/apply kernels. Halve the scale and recompute identical inputs before applying any update; still fail without mutation at the new floor.",
+  "policy": "This is an explicit numerical amendment to an exploratory comparison, not completion of the unchanged original recipe. Preserve original control and failures. FP8 completed with no scale below 16, so its accepted trajectory is unchanged under this extension. No universal 1% guarantee. Final program test seed becomes 1081 before either test is opened.",
+  "hypothesis": "Fractional scaling recovers the exact failed batch and allows finite completion; final FP8 validation loss remains within 1% of the amended BF16 control.",
+  "null": "Recovery differs from a direct accepted-scale update, state is nonfinite, resource guard stops, or FP8 exceeds the unchanged quality threshold.",
+  "controls": "Same initial seed, update indices, batches, 16384 updates, model, optimizer, data, schedule and all original ten source files. Resume control from the last completed checkpoint at 15872 and count all failed/repeated execution time.",
+  "qualification": "Independent synthetic overflow and singularity tests; exact real failed batch must retry once at .5 with no mutation before acceptance, match direct .5 update bit exactly, and keep all model/optimizer state finite and free of FP32 arrays.",
+  "source": "https://docs.pytorch.org/docs/2.14/amp.html#gradient-scaling",
+  "origin": "artifacts/misul-joint-checked-bf16",
+  "resume_step": 15872,
+  "origin_checkpoint_sha256": "5a4d3313d623530e4bdc3084b2333ebfe6e8f0021dcfc75902da37c0125dfc01",
+  "failed_preupdate_sha256": "6f67cf7ba66ef2793edf986dc865b4e340f410ceb7ddd4f8450d4a98458261e5",
+  "original_protocol_sha256": "a0a8535fd624a0171c6035d8a1605373c48a327fa152c270d44d2eda1f2177b3",
+  "amendment_source_sha256": {
+    "src/transformermodel/misul_fractional_update.py": "9d4739fc4d47b058b1fa36cd3f3523f13eac4de061579bca7b1976c3dd7f7992",
+    "experiments/resume_misul_fractional.py": "11ee70e086337ac5e79748af980cf5376a510542f2ddb7a7714285d5d01b4807",
+    "experiments/qualify_misul_fractional.py": "22f84ce18a956ac3f929a78c642e7fc614f2103784879d9de45d46e6e730df65",
+    "experiments/qualify_misul_fractional_repeat.py": "56a77fdc7a1c52ea0300e2b2917e77dd83b501c78c38f4cb89e227bf102e1ee5"
+  },
+  "resource_cap": "Unchanged safe_run one process,2GiB footprint,20GiB disk reserve,40% memory headroom,128MiB new swap;1000MiB MLX,32MiB cache. Qualification 45s; recovery 600s.",
+  "qualification_result": {
+    "numerical_recovery_supported": true,
+    "strict_full_state_parity_passed": false,
+    "model_update_bit_exact": true,
+    "nonembedding_optimizer_bit_exact": true,
+    "direct_control_also_not_bit_exact": true,
+    "preupdate_step": 15895,
+    "accepted_scale": 0.5,
+    "loss": 1.669921875,
+    "gradient_norm": 1984.0,
+    "state_unchanged_on_overflow": true,
+    "all_state_finite": true,
+    "no_fp32_state": true,
+    "retry_vs_direct": [
+      {
+        "actual_name": "1.leaves.embedding.momentum",
+        "expected_name": "1.leaves.embedding.momentum",
+        "unequal": 120,
+        "maximum_error": 3.814697265625e-06
+      },
+      {
+        "actual_name": "1.leaves.embedding.second",
+        "expected_name": "1.leaves.embedding.second",
+        "unequal": 10,
+        "maximum_error": 2.9802322387695312e-08
+      },
+      {
+        "actual_name": "1.leaves.embedding.compensation",
+        "expected_name": "1.leaves.embedding.compensation",
+        "unequal": 33,
+        "maximum_error": 1.9073486328125e-06
+      }
+    ],
+    "direct_vs_direct": [
+      {
+        "name": "1.leaves.embedding.momentum",
+        "unequal": 137,
+        "maximum_error": 3.814697265625e-06
+      },
+      {
+        "name": "1.leaves.embedding.second",
+        "unequal": 4,
+        "maximum_error": 7.450580596923828e-09
+      },
+      {
+        "name": "1.leaves.embedding.compensation",
+        "unequal": 41,
+        "maximum_error": 1.9073486328125e-06
+      }
+    ],
+    "diagnosis": "Differences are confined to the embedding optimizer state and also arise between two direct updates. Accumulation-order variation in the unchanged embedding backward is plausible; strict full-state replay remains unqualified.",
+    "source_sha256": "6f67cf7ba66ef2793edf986dc865b4e340f410ceb7ddd4f8450d4a98458261e5"
+  },
+  "qualification_limitation": "The strict all-state equality qualification failed and remains failed. A separate direct-versus-direct witness reproduces small differences confined to embedding optimizer state. Accepted model parameters and all other optimizer state are bit exact. This supports bounded numerical recovery, not deterministic full-state replay."
+}

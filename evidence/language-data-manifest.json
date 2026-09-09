@@ -1,0 +1,4838 @@
+{
+  "records": [
+    {
+      "split": "train",
+      "title": "Valkyria Chronicles III",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0000.txt",
+      "sha256": "f31039afa82aeddb7d284b12cdb5e13a6bf87f107c8aa0a12bc81e2793997b21",
+      "bytes": 21083
+    },
+    {
+      "split": "train",
+      "title": "Tower Building of the Little Rock Arsenal",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0001.txt",
+      "sha256": "46ca4c43918f8c80a4a7578182d4ea0939dada30b54e25c327055dabd347bcb9",
+      "bytes": 21501
+    },
+    {
+      "split": "train",
+      "title": "Cicely Mary Barker",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0002.txt",
+      "sha256": "ecf987ec853d9e15f03fab9106e1da64b8cd5fa19b5f7077614e9f29cd21d8d6",
+      "bytes": 16188
+    },
+    {
+      "split": "train",
+      "title": "Gambia women 's national football team",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0003.txt",
+      "sha256": "cfe0a4d90fd5147b59a7a6d85134fbd1eff1605923b760b085ada568b92ce7a3",
+      "bytes": 3669
+    },
+    {
+      "split": "train",
+      "title": "Plain maskray",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0004.txt",
+      "sha256": "ff295727452e1fefb4cfcefebb0b0c9ea97c01dcba0b2a377e140bd663a0e9cc",
+      "bytes": 6985
+    },
+    {
+      "split": "train",
+      "title": "2011 \u2013 12 Columbus Blue Jackets season",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0005.txt",
+      "sha256": "8df9ac2184d94eb653ae562cf498988a48173074dd8534d5d83ee3b6ca395a63",
+      "bytes": 17906
+    },
+    {
+      "split": "train",
+      "title": "Position ; GP",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0006.txt",
+      "sha256": "5f2fec3dc5c449a499c6bcc15222d39f3c056fce6fd51a830989c0aee1a40e6a",
+      "bytes": 42
+    },
+    {
+      "split": "train",
+      "title": "Goals ; A",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0007.txt",
+      "sha256": "9d71075f3cbb38a21bf33f47f7e35b097e09df0a50b2ba0ab378485316c61f38",
+      "bytes": 32
+    },
+    {
+      "split": "train",
+      "title": "Points ; PIM",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0008.txt",
+      "sha256": "81892c38d0bb41b424ee7df5fc48fc594550dd4a6be6eb151a2c25c7e27a599c",
+      "bytes": 98
+    },
+    {
+      "split": "train",
+      "title": "Games Played ; TOI",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0009.txt",
+      "sha256": "87aa11cfcf0d07e85caf8550199247fadf7a57b889a2244d30228c946e31fd74",
+      "bytes": 55
+    },
+    {
+      "split": "train",
+      "title": "Wins ; L",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0010.txt",
+      "sha256": "a4d5dfcacfee4ecca4f39a5c9370841686f91204670f01d7270a25791ba35873",
+      "bytes": 29
+    },
+    {
+      "split": "train",
+      "title": "Overtime Losses ; GA",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0011.txt",
+      "sha256": "730c4e2c9297e3b50333e2c74b6bf8c3dd13245927eb36c0505cc0a2628bbd41",
+      "bytes": 99
+    },
+    {
+      "split": "train",
+      "title": "Saves ; Sv %",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0012.txt",
+      "sha256": "e94f4932aad0c9e5841069a9a155169f2fb2214227907a46719c38ce8791260c",
+      "bytes": 2524
+    },
+    {
+      "split": "train",
+      "title": "Gregorian Tower",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0013.txt",
+      "sha256": "15218738b06eed799ffc9c67ac5709573b7a9013378a9f43a920a5bb0cdc3ed2",
+      "bytes": 8584
+    },
+    {
+      "split": "train",
+      "title": "There 's Got to Be a Way",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0014.txt",
+      "sha256": "c4dc80f50219d5ac4b70d54879d61c66e2b0ab19d83c8ee63f84c5448807f58c",
+      "bytes": 4919
+    },
+    {
+      "split": "train",
+      "title": "Nebraska Highway 88",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0015.txt",
+      "sha256": "cb1c13d961045126ae0f94b458ea76f9069a21e26d4239f17ef117f3a4d85350",
+      "bytes": 2987
+    },
+    {
+      "split": "train",
+      "title": "USS Atlanta ( 1861 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0016.txt",
+      "sha256": "a7606b50fbfc158bd3f1ac6f833f2761b7e62a3744311c0d83ed9638a0947d29",
+      "bytes": 14855
+    },
+    {
+      "split": "train",
+      "title": "Jacqueline Fernandez",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0017.txt",
+      "sha256": "d8e3780311d0b69c76081ef6ea9c05f0f8dc8b391691b3c590234bc2fc9c8568",
+      "bytes": 14247
+    },
+    {
+      "split": "train",
+      "title": "John Cullen",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0018.txt",
+      "sha256": "adf008a684a263697d304cba63a15047fc986cf238e02e3f10e50669636c461e",
+      "bytes": 12227
+    },
+    {
+      "split": "train",
+      "title": "SMS Erzherzog Ferdinand Max",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0019.txt",
+      "sha256": "dca9d8193365d752b74e3d0f68ff128f5057dd8b22ab7f4aa20cefbbe5567cd9",
+      "bytes": 6016
+    },
+    {
+      "split": "train",
+      "title": "Ancient Egyptian deities",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0020.txt",
+      "sha256": "b3b7b13b4522910c6bfca6a73a87d1bd86e00844827c7cc01a90edd6cdd1ee87",
+      "bytes": 56053
+    },
+    {
+      "split": "train",
+      "title": "South of Heaven",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0021.txt",
+      "sha256": "281574d92bb5c38036515b07b0d8de263726d6b98aa78e5b0850554fd1fb3a5f",
+      "bytes": 13226
+    },
+    {
+      "split": "train",
+      "title": "General aviation in the United Kingdom",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0022.txt",
+      "sha256": "343519b66eb71ee3503f797de83b13f310941554a5087dcc938c5f89c16360f9",
+      "bytes": 37190
+    },
+    {
+      "split": "train",
+      "title": "SMS Zr\u00ednyi",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0023.txt",
+      "sha256": "5d779409b671c67ea72ace91510202cfdaa2a81f77e8e19a251cb8605173c42d",
+      "bytes": 11093
+    },
+    {
+      "split": "train",
+      "title": "Geopyxis carbonaria",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0024.txt",
+      "sha256": "38001c3a2cd705995a34d90f7a212541a60f37c8c905575fc0a6d55ee4777f34",
+      "bytes": 7720
+    },
+    {
+      "split": "train",
+      "title": "Gold dollar",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0025.txt",
+      "sha256": "ae5a3755c26027f1edab9178b6d79d73b5503d73eecb1e15972b1786fceb0057",
+      "bytes": 25362
+    },
+    {
+      "split": "train",
+      "title": "Johnson \u2013 Corey \u2013 Chaykovsky reaction",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0026.txt",
+      "sha256": "61dfcc0f46cf66b60c1b237dea749f710cad29d8d43a47c21dba2eb2713aaa9f",
+      "bytes": 11835
+    },
+    {
+      "split": "train",
+      "title": "Treaty of Ciudad Ju\u00e1rez",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0027.txt",
+      "sha256": "7275f31c6097cfa911a08230f7f6bb42942332e4335fc3b38e78dec0f9b74de4",
+      "bytes": 14841
+    },
+    {
+      "split": "train",
+      "title": "The Feast of the Goat",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0028.txt",
+      "sha256": "6cb6df8398cf0402d7dfdccc07d4417475edaa8dcad53d002959f3f30ca18571",
+      "bytes": 30057
+    },
+    {
+      "split": "train",
+      "title": "Charles Eaton ( RAAF officer )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0029.txt",
+      "sha256": "d16cbeb72a50fbd89abb9e16bc52ef0ffd3c4945e9518da3273d5c67f7b8f5f6",
+      "bytes": 20640
+    },
+    {
+      "split": "train",
+      "title": "Tina Fey",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0030.txt",
+      "sha256": "44be958876ce05c75198ff4d5db185e2d0bb414e7be4162c64d1c6f9202b3fbd",
+      "bytes": 29078
+    },
+    {
+      "split": "train",
+      "title": "WASP @-@ 44",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0031.txt",
+      "sha256": "b93156babf34b3a3d2577a65c7bbcc3d2356170868f06136eb8913c08c60050a",
+      "bytes": 4104
+    },
+    {
+      "split": "train",
+      "title": "Elephanta Caves",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0032.txt",
+      "sha256": "7369d739a971d51da691ec7988368be578ac3a3d1fa6509974378d091f79de32",
+      "bytes": 34436
+    },
+    {
+      "split": "train",
+      "title": "Devin Townsend",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0033.txt",
+      "sha256": "f6eaacccaf2bb6dbe096ee2770f85288ca4cb28efbb3e8a5d39d88990bba1810",
+      "bytes": 29030
+    },
+    {
+      "split": "train",
+      "title": "Zagreb Synagogue",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0034.txt",
+      "sha256": "fb8a8f407752847efb86859e5b62119b9aad82a9bc921a33ea7707bc8376df6f",
+      "bytes": 12896
+    },
+    {
+      "split": "train",
+      "title": "1806 Great Coastal hurricane",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0035.txt",
+      "sha256": "d5aa0c52b03cc55d892f194b19df2a5a57b1155192bd41e8e56a17173725eed3",
+      "bytes": 6560
+    },
+    {
+      "split": "train",
+      "title": "Forward Intelligence Team",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0036.txt",
+      "sha256": "4ce9fd38c154ef10cea58454c6fcb6679300da09353bf6d24398b546f46a4c22",
+      "bytes": 12324
+    },
+    {
+      "split": "train",
+      "title": "Trinsey v. Pennsylvania",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0037.txt",
+      "sha256": "517f22fbbc24fe439d3c8f47472e0a4bd35dc4e653a8f4e8e2169e26f11c6cd7",
+      "bytes": 7567
+    },
+    {
+      "split": "train",
+      "title": "Michael Jordan",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0038.txt",
+      "sha256": "45133e237b1a79df0171cfc5be0f04308f2237d005e7c892ae088a482dc6959e",
+      "bytes": 51595
+    },
+    {
+      "split": "train",
+      "title": "Polish culture during World War II",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0039.txt",
+      "sha256": "c4c8477aef755c33330695f599bfbb250b932e2444d611f52c70ddbf349bc987",
+      "bytes": 47997
+    },
+    {
+      "split": "train",
+      "title": "Arihant @-@ class submarine",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0040.txt",
+      "sha256": "de3f50e8a8d7557cf70d6071e436b8f93f0c05a03da43d0591a6779be2562603",
+      "bytes": 5660
+    },
+    {
+      "split": "train",
+      "title": "SMS Markgraf",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0041.txt",
+      "sha256": "be700d0a79f1bb1c6728dc3ca45a9f55f7ed2a829b8e886c4815136a10d66d11",
+      "bytes": 23642
+    },
+    {
+      "split": "train",
+      "title": "Coldrum Long Barrow",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0042.txt",
+      "sha256": "a0f22480e2ca42c8dd8336f2e9b829dbbddc1b92a94055133d19e1ac89aca226",
+      "bytes": 39688
+    },
+    {
+      "split": "train",
+      "title": "Soviet cruiser Krasnyi Kavkaz",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0043.txt",
+      "sha256": "a108a2e3dc21f0e64735835af33a0d1770440664c0c1c03e912aa7f30c4d0f18",
+      "bytes": 7339
+    },
+    {
+      "split": "train",
+      "title": "Rhode Island Route 4",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0044.txt",
+      "sha256": "48f9fe9ee34ec5edd7036b0d3b82730c9c5d02163583d9e23ab785a7f24b60b9",
+      "bytes": 10960
+    },
+    {
+      "split": "train",
+      "title": "West End Girls",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0045.txt",
+      "sha256": "c23e4496ed4a1a373b8ec0e8c6e782cab3011826c57c012261be4f0d648f04cf",
+      "bytes": 11534
+    },
+    {
+      "split": "train",
+      "title": "Wrapped in Red",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0046.txt",
+      "sha256": "80573cf69c3a52e43543e501a7b82478c8757d9008748b09c430790a8b0c2b99",
+      "bytes": 28858
+    },
+    {
+      "split": "train",
+      "title": "Christmas 1994 nor 'easter",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0047.txt",
+      "sha256": "1ea5ce77336dbcfc0904792d81ef5da2e0e8eacb12aef90b1d0d50b736c50bc7",
+      "bytes": 11036
+    },
+    {
+      "split": "train",
+      "title": "Sholay",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0048.txt",
+      "sha256": "fe9a648f2384a029055a0ac2ff1b3b6473743dcf77e3c319739345dc28bf7920",
+      "bytes": 33019
+    },
+    {
+      "split": "train",
+      "title": "Adam Stansfield",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0049.txt",
+      "sha256": "83d87e883ec59fa4fbfe76c41d7de22fde09727613c6f5906d8b3b29f6209db8",
+      "bytes": 10699
+    },
+    {
+      "split": "train",
+      "title": "Saprang Kalayanamitr",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0050.txt",
+      "sha256": "08637681eb0319eed447cfd0872d525ba60e80676de68ad4f40f21c741ad386f",
+      "bytes": 25304
+    },
+    {
+      "split": "train",
+      "title": "Grammy Award for Best Concept Music Video",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0051.txt",
+      "sha256": "8f4128142b45c96b74f03b8192f9a7ccd674cef2b67158d84ce89d8829c80e08",
+      "bytes": 5624
+    },
+    {
+      "split": "train",
+      "title": "Hadji Ali",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0052.txt",
+      "sha256": "1f250171e9baed6afa5b155837efd26fbcb0253c2a7e3cba06bff3b34dc16534",
+      "bytes": 12287
+    },
+    {
+      "split": "train",
+      "title": "Battle of Tellicherry",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0053.txt",
+      "sha256": "14696fc8315eece8d57e4423ac53ff11aef115e9a85e7429520f640240abb92b",
+      "bytes": 7336
+    },
+    {
+      "split": "train",
+      "title": "Loose ( Nelly Furtado album )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0054.txt",
+      "sha256": "c940ae7045c07196411bca2c294827139b74c1055332bfd7b675f76c6c18b04b",
+      "bytes": 27158
+    },
+    {
+      "split": "train",
+      "title": "2013 \u2013 14 York City F.C. season",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0055.txt",
+      "sha256": "2fbd63734738d7f3e73417373a5892ad481a2b073c5eea54ca1a6cd6c13948b1",
+      "bytes": 19118
+    },
+    {
+      "split": "train",
+      "title": "Antimony",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0056.txt",
+      "sha256": "5170c23574677a703a91e2f378d694f3f62ed9e72f0b4c14b5f0c93a01ad91b1",
+      "bytes": 25517
+    },
+    {
+      "split": "train",
+      "title": "Mortimer Wheeler",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0057.txt",
+      "sha256": "13a1afeb7752f6dac4c5bff33dba569b52f0713eea133f30d952a9674fea58e5",
+      "bytes": 71148
+    },
+    {
+      "split": "train",
+      "title": "Species of Allosaurus",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0058.txt",
+      "sha256": "258af5916d40768acb980c63f347f3751285ef31193c816b92ca216b2bf45528",
+      "bytes": 13571
+    },
+    {
+      "split": "train",
+      "title": "Astraeus hygrometricus",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0059.txt",
+      "sha256": "03ab75560a1e43a3f8b49457c4da7be8aba585460ad4f38124fd2793ce9d3ff6",
+      "bytes": 18244
+    },
+    {
+      "split": "train",
+      "title": "Paul Thomas Anderson",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0060.txt",
+      "sha256": "6840677d28768309cd951b4bdd56cf64ac87def7220daff87beb455842cde99e",
+      "bytes": 18036
+    },
+    {
+      "split": "train",
+      "title": "The Fox , the Wolf and the Husbandman",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0061.txt",
+      "sha256": "290c3b6454cb43059b544100d2e49cf04a2020ae119395ebe4ad5da7909631da",
+      "bytes": 7218
+    },
+    {
+      "split": "train",
+      "title": "Joe Nathan",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0062.txt",
+      "sha256": "24852d9736544e060659b838e5be116b24bdbf47680351e7a087f03b174cbeca",
+      "bytes": 20486
+    },
+    {
+      "split": "train",
+      "title": "Art Ross",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0063.txt",
+      "sha256": "687f272d13f9eab33047460b7f6231d44e833995481e42ebd008ff12b664dcd3",
+      "bytes": 22585
+    },
+    {
+      "split": "train",
+      "title": "Saint Leonard Catholic Church ( Madison , Nebraska )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0064.txt",
+      "sha256": "348c2a88462f7a5d0caf02f37a720a64dde6c2e07a6f13ec07bb4cf6bc4de64a",
+      "bytes": 19272
+    },
+    {
+      "split": "train",
+      "title": "Portuguese ironclad Vasco da Gama",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0065.txt",
+      "sha256": "0f5c23e9654b0089c4145fde27a9311d3ae1b458a0af6aa501593a140cfeb48f",
+      "bytes": 3897
+    },
+    {
+      "split": "train",
+      "title": "Nicole Franklin",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0066.txt",
+      "sha256": "46e5d6ba1d361907a8c07d7a1c82b0adda2758a7e7d84d05653d51c6020ebca6",
+      "bytes": 26568
+    },
+    {
+      "split": "train",
+      "title": "Livin ' the Dream",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0067.txt",
+      "sha256": "4cced899475d8c76f4c8c62dea82009877d8424f071a48b502fe64b64ff18c6f",
+      "bytes": 8842
+    },
+    {
+      "split": "train",
+      "title": "Tonin\u00e1",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0068.txt",
+      "sha256": "8787e3acc16187331b601a43430be4e40e6707bb14b00f287e9447415bb5f383",
+      "bytes": 17281
+    },
+    {
+      "split": "train",
+      "title": "Central Area Command ( RAAF )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0069.txt",
+      "sha256": "05d6fdad3bfa9b4c1fb915834ebcfb0f810c504087d76e99117d5a154710b260",
+      "bytes": 3871
+    },
+    {
+      "split": "train",
+      "title": "Corn crake",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0070.txt",
+      "sha256": "f98b5e0fc42a435d04c84e00c6a6b59faaa774a36fa8c2e5a34692d30aa143cc",
+      "bytes": 28571
+    },
+    {
+      "split": "train",
+      "title": "Acute myeloid leukemia",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0071.txt",
+      "sha256": "bf4b8a341ab742a26444b2675eea82d436bde01fb0ea8da8aa67fa7fb1a0dc0c",
+      "bytes": 26749
+    },
+    {
+      "split": "train",
+      "title": "Love Me Like You",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0072.txt",
+      "sha256": "50467b0d7e063a3191497c599a475a2dbdacabf3ba03c6f53ad4d93d2adf32be",
+      "bytes": 11178
+    },
+    {
+      "split": "train",
+      "title": "Shaoguan incident",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0073.txt",
+      "sha256": "e3321878429cf4d0357f7ee728ee278927784ca1f386e2f7a226fae50a89f98d",
+      "bytes": 10047
+    },
+    {
+      "split": "train",
+      "title": "Galveston , Texas",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0074.txt",
+      "sha256": "4f6e39526071a5c7594bea9e80665aa4c15157738f5cc6ed718d5afc919970a3",
+      "bytes": 47647
+    },
+    {
+      "split": "train",
+      "title": "Sarnia",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0075.txt",
+      "sha256": "0497d4bec9efaae17ca653237708cc884ae1c17c8aec508ee7dacc938293cb1c",
+      "bytes": 35442
+    },
+    {
+      "split": "train",
+      "title": "French cruiser Sully",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0076.txt",
+      "sha256": "1342bfdadc7620a177f416a9791bf0c342ca061f6abbe1841031d26d19904892",
+      "bytes": 3145
+    },
+    {
+      "split": "train",
+      "title": "Norman Finkelstein",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0077.txt",
+      "sha256": "014a442f076369eb048eab3b92766f7557422be58070b9a32ca89ea099cb5a4b",
+      "bytes": 51774
+    },
+    {
+      "split": "train",
+      "title": "Mutinus elegans",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0078.txt",
+      "sha256": "2be0a3c1221783efa3b642a4be4afe713638821f8240a699444fdf91de0afe8d",
+      "bytes": 6012
+    },
+    {
+      "split": "train",
+      "title": "The Boat Race 1900",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0079.txt",
+      "sha256": "fcb9070a3fe4341790b75ab11e98c114e4f44314f06d993f1cb93ed24ccc1abe",
+      "bytes": 3560
+    },
+    {
+      "split": "train",
+      "title": "Ten Commandments in Catholic theology",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0080.txt",
+      "sha256": "81bebe610a71db5698f6826758916c3f0befe85c04d30f98856b159b50a822ce",
+      "bytes": 55055
+    },
+    {
+      "split": "train",
+      "title": "Yamaha NS @-@ 10",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0081.txt",
+      "sha256": "169af235600ebce86d7127c831e22decfbb028ad9082c3b56d0330c623776e0a",
+      "bytes": 10519
+    },
+    {
+      "split": "train",
+      "title": "Utah State Route 61",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0082.txt",
+      "sha256": "b23c467f155d836f0888831389412c9b791795e4ba7a1165373a6f4e6dc628aa",
+      "bytes": 2880
+    },
+    {
+      "split": "train",
+      "title": "Hemmema",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0083.txt",
+      "sha256": "9d0d504ac0c51e8a98959decfbf1786b43c1cbd5665a77348ceb489ceeda835d",
+      "bytes": 13171
+    },
+    {
+      "split": "train",
+      "title": "Edward Creutz",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0084.txt",
+      "sha256": "b8b418aae2ff1b494379eada8b4a4f89ec638fd7b2aa8cdbbb1427684110fc27",
+      "bytes": 14293
+    },
+    {
+      "split": "train",
+      "title": "Leanne Del Toso",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0085.txt",
+      "sha256": "5e57c923cc8817cac2d2b663f15e0f1d413123da4a0e6a2de05ac957a20c4f1d",
+      "bytes": 5598
+    },
+    {
+      "split": "train",
+      "title": "No. 79 Wing RAAF",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0086.txt",
+      "sha256": "968b9b3c180838cbdfe0ad2eaef26340f3fc22bab6077ab07aeaa27d379aa2d6",
+      "bytes": 6199
+    },
+    {
+      "split": "train",
+      "title": "Vitamin D ( Glee )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0087.txt",
+      "sha256": "26d55babaf8b9621e904e322c87b028398350234e0f7e3c8b56999d5e05a0683",
+      "bytes": 8380
+    },
+    {
+      "split": "train",
+      "title": "Fern Hobbs",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0088.txt",
+      "sha256": "2dc5a21c237359f3484ba12f4f9f41e66e56f52946da79c8eaba2b749fdae013",
+      "bytes": 8388
+    },
+    {
+      "split": "train",
+      "title": "Jessie Stephen",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0089.txt",
+      "sha256": "d54e9c39319b10d3ea739a8405fb19abfc3edd13430c071f2861d102a401a425",
+      "bytes": 4987
+    },
+    {
+      "split": "train",
+      "title": "Of Human Feelings",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0090.txt",
+      "sha256": "7331560e53fd7d057a795b1296c01f774c3db2f808b88525bc0d8466d3a11c55",
+      "bytes": 16998
+    },
+    {
+      "split": "train",
+      "title": "Dangerously in Love Tour",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0091.txt",
+      "sha256": "283e2fafe8e630b9b50e1aa8d9c27a7cbf3934fea1c5579fc18e5f2cc1229442",
+      "bytes": 5677
+    },
+    {
+      "split": "train",
+      "title": "Zhou Tong ( archer )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0092.txt",
+      "sha256": "33d7f9c7dc7072c07f62d4fa1b55b3069d003554c351becba8f82a63969a8b7e",
+      "bytes": 40984
+    },
+    {
+      "split": "train",
+      "title": "Romanian Land Forces",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0093.txt",
+      "sha256": "0dfc00e9228826f38f010dbd7ed94c04a5cbb9d752541f9cd859e64f075d4c7f",
+      "bytes": 23558
+    },
+    {
+      "split": "train",
+      "title": "Not Quite Hollywood : The Wild , Untold Story of Ozploitation !",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0094.txt",
+      "sha256": "ef2f0f3824c0ed79cccdb58df641ec08f5e14e360d7ce05a8095b362de3cbd21",
+      "bytes": 7184
+    },
+    {
+      "split": "train",
+      "title": "Why Does It Hurt So Bad",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0095.txt",
+      "sha256": "a7321a1e637ab634a3ac8b251f2b0fd6471506c861e47801c8c7fc649f58f145",
+      "bytes": 5997
+    },
+    {
+      "split": "train",
+      "title": "Hurricane Omar ( 2008 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0096.txt",
+      "sha256": "5cf2bc9924e065a89cfe6ede103c7b51adbb2430d7762656dc34a746221bb3ac",
+      "bytes": 15284
+    },
+    {
+      "split": "train",
+      "title": "Papal conclave , 1769",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0097.txt",
+      "sha256": "b17a73e30c4b1152bd5abf01c5acfed36123f93ec0f7cc9c18a5a7c92d1dead8",
+      "bytes": 18884
+    },
+    {
+      "split": "train",
+      "title": "West Hendford Cricket Ground , Yeovil",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0098.txt",
+      "sha256": "a6923c58f7ced433a4f652f2516bfa94e77c6b6666cfa82ff24fd065ec18dbd0",
+      "bytes": 5762
+    },
+    {
+      "split": "train",
+      "title": "New Year 's Eve ( Up All Night )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0099.txt",
+      "sha256": "1e82314dd1648c87ee9c2578b77c69d6a2a24569d1e8d5e7b40a9c2b39b17a95",
+      "bytes": 6584
+    },
+    {
+      "split": "train",
+      "title": "World War Z",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0100.txt",
+      "sha256": "5215ea5da1a0369e3edcb87da53f602f6702ec233029f53097411298ebf762c2",
+      "bytes": 19266
+    },
+    {
+      "split": "train",
+      "title": "Sentence spacing",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0101.txt",
+      "sha256": "7a1b7b254fd521cc17136356f184d2fc9e430c4fe931eb21a39f9dbec20eec2e",
+      "bytes": 21717
+    },
+    {
+      "split": "train",
+      "title": "The Crab with the Golden Claws",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0102.txt",
+      "sha256": "0e1815280fe2f018fa899ed91b9a763b96a363ae1cfc2e271c877b3ddddb0c33",
+      "bytes": 18650
+    },
+    {
+      "split": "train",
+      "title": "L.A.M.B.",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0103.txt",
+      "sha256": "31c3acbaf535f8f086c4745c50d0511348a43180987e2ddf2a61bc2b30d9ff36",
+      "bytes": 8173
+    },
+    {
+      "split": "train",
+      "title": "First @-@ move advantage in chess",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0104.txt",
+      "sha256": "59fc2421d066c879a9b4dba5900c5ae4f1d8304158267dbbf2b37f546bf6338c",
+      "bytes": 42809
+    },
+    {
+      "split": "train",
+      "title": "Frederick Reines",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0105.txt",
+      "sha256": "e65b8b6002de1d80457f380d42e95187665c3914d60f83622caba026131d494c",
+      "bytes": 14992
+    },
+    {
+      "split": "train",
+      "title": "Lock Haven , Pennsylvania",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0106.txt",
+      "sha256": "c4cc942489405b6514e50f563553cb629af8026d6c482699141eb3e801c6a5db",
+      "bytes": 33595
+    },
+    {
+      "split": "train",
+      "title": "Rachel Green",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0107.txt",
+      "sha256": "39cbf4e236dd49511b52f093d021698b9faf82d2306d20f129f3ddd7edd32abc",
+      "bytes": 45160
+    },
+    {
+      "split": "train",
+      "title": "Krak des Chevaliers",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0108.txt",
+      "sha256": "16fefc2e483bec858f3f0ba857d5b30ef794d0d483554966fe72d898daa77899",
+      "bytes": 28419
+    },
+    {
+      "split": "train",
+      "title": "The Importance of Being Earnest",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0109.txt",
+      "sha256": "10475b04389f8822b8bb9bcecc8e38db58770913e4ff156a4ea6471607accb18",
+      "bytes": 40671
+    },
+    {
+      "split": "train",
+      "title": "Lloyd Mathews",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0110.txt",
+      "sha256": "1e02aaf1d7671f5fd293cb56a4a7c45e0ee79edab0385c55f0a2a5e830fd73e3",
+      "bytes": 14101
+    },
+    {
+      "split": "train",
+      "title": "HMS Boreas ( H77 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0111.txt",
+      "sha256": "6c4e1b4250c422680de1ec82d64b1bf4134c7544741cfb2e81406e44bb0c9bbc",
+      "bytes": 7795
+    },
+    {
+      "split": "train",
+      "title": "Kaimanawa horse",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0112.txt",
+      "sha256": "19dfe5013d1607bb95c85caf33601ca8c8de518af889dafce23798bfe976c8ed",
+      "bytes": 10558
+    },
+    {
+      "split": "train",
+      "title": "The Remix ( Lady Gaga album )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0113.txt",
+      "sha256": "eefa2a78ff805bd9ff7689ab8de776d9a7fc1ee6e43fc26fbe8bc315766e8510",
+      "bytes": 9409
+    },
+    {
+      "split": "train",
+      "title": "Architecture of the Song dynasty",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0114.txt",
+      "sha256": "7931d0ed1a14ad08ee1c47d5466827bbb3807b00f1410d5c8aefd5ce2a542229",
+      "bytes": 24302
+    },
+    {
+      "split": "train",
+      "title": "Lost Horizons ( Lemon Jelly album )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0115.txt",
+      "sha256": "3a4c51598c8bf312ae314737b5d37b694675f23a092428926a36394c10bf11c3",
+      "bytes": 7318
+    },
+    {
+      "split": "train",
+      "title": "Fastra II",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0116.txt",
+      "sha256": "9681ec63c8cebfc79f94e86b5e97e9cd63fb08b45a415e35408cea0522666cfb",
+      "bytes": 5696
+    },
+    {
+      "split": "train",
+      "title": "USS Breese ( DD @-@ 122 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0117.txt",
+      "sha256": "b6b7e573dd17649264657bdf7c6df0550217aed4722c4de867c5d06d0da581d3",
+      "bytes": 8471
+    },
+    {
+      "split": "train",
+      "title": "Sandwich Day",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0118.txt",
+      "sha256": "f9f091fd07c000038bd654eaa361eb5457a995228f7d607ddd2e283f7c0622b6",
+      "bytes": 4761
+    },
+    {
+      "split": "train",
+      "title": "Tiber Oil Field",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0119.txt",
+      "sha256": "e472784602402409d28b5636fc34c27c8ff8bd0862dba459c91584f3a207fac2",
+      "bytes": 3459
+    },
+    {
+      "split": "train",
+      "title": "Glorious First of June",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0120.txt",
+      "sha256": "66584850df6037937b8a2a9b6c27efff990a93f76635891cf8d9efa1d32dec00",
+      "bytes": 47193
+    },
+    {
+      "split": "train",
+      "title": "New York State Route 368",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0121.txt",
+      "sha256": "ad98de75aca3b2d6215bdde9b17203d221e6c338f558a6aff6d4ad388cf5fab0",
+      "bytes": 1987
+    },
+    {
+      "split": "train",
+      "title": "M @-@ 122 ( Michigan highway )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0122.txt",
+      "sha256": "5d2ee7c98d109ff625c4a9bcbc7bd11e25ac3e6448fded8defeb87572cd7ed53",
+      "bytes": 1396
+    },
+    {
+      "split": "train",
+      "title": "Tupolev Tu @-@ 12",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0123.txt",
+      "sha256": "ed0f115c1be43a7c896ec6e8acc4847a5d60ab9d6a54475da3a73278154160c1",
+      "bytes": 5111
+    },
+    {
+      "split": "train",
+      "title": "Civilian Public Service",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0124.txt",
+      "sha256": "8101c75a73f9becac7514c4bc019b59c58539b12288eaac9de3c39529d25a31a",
+      "bytes": 25048
+    },
+    {
+      "split": "train",
+      "title": "Ireland",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0125.txt",
+      "sha256": "669ed102dc6dcdfddf5f930d3b2835a9a27343ddb7334ead50735f286b5ea083",
+      "bytes": 85287
+    },
+    {
+      "split": "train",
+      "title": "St Nazaire Raid",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0126.txt",
+      "sha256": "cdfe9d474be0c92349bf6a3597d69908cdd1cbd0fe61cb2fa6b2c51400ba6100",
+      "bytes": 37651
+    },
+    {
+      "split": "train",
+      "title": "Hellblazer",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0127.txt",
+      "sha256": "c322ae92d9b0044ea291450b6d7d4112c470ba801c2baf22ef91b798bb2d2f73",
+      "bytes": 41303
+    },
+    {
+      "split": "train",
+      "title": "Curtis Woodhouse",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0128.txt",
+      "sha256": "63aff24361a91f0a60d36dd3ab93a9a6fc01864e97e5092e6b6d4fd6f3f28f7a",
+      "bytes": 16672
+    },
+    {
+      "split": "train",
+      "title": "2010 Haiti earthquake",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0129.txt",
+      "sha256": "ad1527b4d0611bc8b931f3f8d626a445470d0b0d3a891131609fd80239f92447",
+      "bytes": 64960
+    },
+    {
+      "split": "train",
+      "title": "De dezas a espwa : interviews with persons affected by the 2010 Haiti earthquake",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0130.txt",
+      "sha256": "72e186d78168ee38271402442d0fa037f362e4e4b97a8d2a7c1d2343b82b568c",
+      "bytes": 190
+    },
+    {
+      "split": "train",
+      "title": "Thom Darden",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0131.txt",
+      "sha256": "8886765caf97dcc96556110cd148f45ba1b5078b00746ee733f0266d0a5f0ae1",
+      "bytes": 4712
+    },
+    {
+      "split": "train",
+      "title": "Voyage : Inspired by Jules Verne",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0132.txt",
+      "sha256": "de0ad8ba3d00097d4240238d99d86b92bc3f17e4af36c95df838f80ef808bdb0",
+      "bytes": 11891
+    },
+    {
+      "split": "train",
+      "title": "Old Baltimore Pike",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0133.txt",
+      "sha256": "96bac6bcbc54f163b57ab3793b7202c3776c8e1c09bc065fe76a800e96f18af5",
+      "bytes": 3430
+    },
+    {
+      "split": "train",
+      "title": "Mega Man & Bass",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0134.txt",
+      "sha256": "4f47e04a83b2183a2a4f7e16eb40edf2aa915efb6a5c7f5d0d5e82aefcfb67ee",
+      "bytes": 14223
+    },
+    {
+      "split": "train",
+      "title": "Ohio State Route 319",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0135.txt",
+      "sha256": "92b6413a54ef94ec3fbfd86cd0cf6c1de876da7264a849bc8fc149fde65bed5e",
+      "bytes": 2673
+    },
+    {
+      "split": "train",
+      "title": "Parliament Act 1911",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0136.txt",
+      "sha256": "ebed9fc90d273cf37ae5f4ddb4ec04b0b0d1706a4a0bde250385dfad23b2ad1f",
+      "bytes": 14177
+    },
+    {
+      "split": "train",
+      "title": "Hibiscus ( restaurant )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0137.txt",
+      "sha256": "d239c9279ab0768be55f23ee870a31a823a2a65abcea5c3d0eee81b0b6791d9d",
+      "bytes": 8073
+    },
+    {
+      "split": "train",
+      "title": "Chris Turner ( American football )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0138.txt",
+      "sha256": "cbf1c136772c89355dd652e7b5d44ee4b524f71d5cb9670803c87dfc39be0d24",
+      "bytes": 14039
+    },
+    {
+      "split": "train",
+      "title": "Jack and Jill ( nursery rhyme )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0139.txt",
+      "sha256": "f24183f83fff6fa17d4d7184bdf865ae5121337ed0be829f80bfdd741b4ab902",
+      "bytes": 6585
+    },
+    {
+      "split": "train",
+      "title": "Florida State Road 878",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0140.txt",
+      "sha256": "fbe5b1f46790d65e7610a7a05bad68969501740dbbd1116e4f989cdcfa2a53e5",
+      "bytes": 6158
+    },
+    {
+      "split": "train",
+      "title": "James Nesbitt",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0141.txt",
+      "sha256": "dccf1cb131625c4c42a9c3fe052e979480da9b240bee7dba853048b7cd574c98",
+      "bytes": 39792
+    },
+    {
+      "split": "train",
+      "title": "Crazy in Love",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0142.txt",
+      "sha256": "2d3153b14c8c9de130c2a4e493b07c9d97a03eb7a39301e01c1f89732aa2e0dd",
+      "bytes": 33803
+    },
+    {
+      "split": "train",
+      "title": "Moro River Campaign",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0143.txt",
+      "sha256": "793e76a430ff8d466602d1fd82b1c1be9d355abc5dab9fdd0a5b341b29f2163f",
+      "bytes": 33337
+    },
+    {
+      "split": "train",
+      "title": "Berkley Bedell",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0144.txt",
+      "sha256": "bc96175258c9e8db1230c136840ef394086d89cac0680f9f43aa1194befcdad4",
+      "bytes": 11216
+    },
+    {
+      "split": "train",
+      "title": "Bart vs. Australia",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0145.txt",
+      "sha256": "9a859a5fd389cc035a285570c29d7879f10c3f1d2d183c1857d9dd533ce79bfc",
+      "bytes": 11468
+    },
+    {
+      "split": "train",
+      "title": "Leslie Andrew",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0146.txt",
+      "sha256": "dae90445e4fe2238adae61acb170c2fda520c863a36ed5f3186adf8fe54506f5",
+      "bytes": 9442
+    },
+    {
+      "split": "train",
+      "title": "Rebbie Jackson",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0147.txt",
+      "sha256": "389853679a01d35f01b33987f10d10ae080a05b1c1277893be55f5d0988c8cf3",
+      "bytes": 13212
+    },
+    {
+      "split": "train",
+      "title": "Hugh Foliot",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0148.txt",
+      "sha256": "a269ed942b3a02321ef4b9a8b45856c6be8078fc5fa0f2f345f52f41e9e5087e",
+      "bytes": 3350
+    },
+    {
+      "split": "train",
+      "title": "AIL Storm",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0149.txt",
+      "sha256": "4d86fb9d07abe8160ff9051134e84d4a3f79152b2bc6a4e23297b912e61cb940",
+      "bytes": 10710
+    },
+    {
+      "split": "train",
+      "title": "1940 Atlantic hurricane season",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0150.txt",
+      "sha256": "4f58e15759f0bcf949c96e14a9fd6b337a88043ab885c87e28b8c40e86d5d839",
+      "bytes": 23344
+    },
+    {
+      "split": "train",
+      "title": "Ode to a Nightingale",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0151.txt",
+      "sha256": "09bac7193a24e1f5cb2d8abc680bfb552d688796ca35056fffd414388e2491d7",
+      "bytes": 34337
+    },
+    {
+      "split": "train",
+      "title": "Weather buoy",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0152.txt",
+      "sha256": "13fa2723c35ddc0c2e793f2f43007ddeda8b96a465dd42037b9b13b0f1bb6c76",
+      "bytes": 8318
+    },
+    {
+      "split": "train",
+      "title": "HMS Marlborough ( 1912 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0153.txt",
+      "sha256": "343d34843d49edbeab6df0927ec2b3c1ee9d2a4e89d54dffd303e9fb5c4c4914",
+      "bytes": 24518
+    },
+    {
+      "split": "train",
+      "title": "766th Independent Infantry Regiment ( North Korea )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0154.txt",
+      "sha256": "7b0e0e69b5d64734d0f85ea23b460fe10f900a0e8c22e7071e0e35da29961ece",
+      "bytes": 16184
+    },
+    {
+      "split": "train",
+      "title": "Sister Wives",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0155.txt",
+      "sha256": "e3412fb0c3c88ecf593f63c5dfe94005ed0a41b350df9a4ff181d13bf6b52c97",
+      "bytes": 17764
+    },
+    {
+      "split": "train",
+      "title": "You Only Live Twice ( film )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0156.txt",
+      "sha256": "40db0359bd7f3307c1800ac9604dbeebae96a42a19d208a3ce3248ce18df9f64",
+      "bytes": 21422
+    },
+    {
+      "split": "train",
+      "title": "WASP @-@ 13b",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0157.txt",
+      "sha256": "0d5d698169e3934000b73385c5ec9614aef6c863c990252c30f5608042e604ed",
+      "bytes": 5154
+    },
+    {
+      "split": "train",
+      "title": "U2 concert in Sarajevo",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0158.txt",
+      "sha256": "922ea9fbb607e5c5408b1898c589d9b868df0d68802cfe4bcc6c854cd7179291",
+      "bytes": 25347
+    },
+    {
+      "split": "train",
+      "title": "Frank Slide",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0159.txt",
+      "sha256": "d2f4cc477cef4108b6d7aeeb2264ed8f42037852c742b4a50cfacad6576f5130",
+      "bytes": 17235
+    },
+    {
+      "split": "train",
+      "title": "Protein",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0160.txt",
+      "sha256": "06b54f42164af3a4f975bf0073991bcdfd71a4ff566a925d76658db660b5d90b",
+      "bytes": 39971
+    },
+    {
+      "split": "train",
+      "title": "LiSA ( Japanese musician , born 1987 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0161.txt",
+      "sha256": "ebe51717a70b495d468028de4cb107cdcfce472799594fdcdec6920307743fbb",
+      "bytes": 12822
+    },
+    {
+      "split": "train",
+      "title": "Aston Villa F.C.",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0162.txt",
+      "sha256": "5f0aced7320ee0f57d16c90e102dc6270d0203c68fd5152d0ba1429f46af75d7",
+      "bytes": 28363
+    },
+    {
+      "split": "train",
+      "title": "Pattycake ( gorilla )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0163.txt",
+      "sha256": "a3266238dc5e6f99ec5a906fc15e43b83618d206265dfad606213b7ee00d4a1d",
+      "bytes": 12225
+    },
+    {
+      "split": "train",
+      "title": "Lactarius indigo",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0164.txt",
+      "sha256": "e96d579608f61b078b91b89d2afb98b7f7e0227ca60a8711a011060e1cf659c3",
+      "bytes": 12672
+    },
+    {
+      "split": "train",
+      "title": "You 're Gonna Love Tomorrow",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0165.txt",
+      "sha256": "6fe26646fdf2b6d1079e1eab8a51a8582f0cc5dfea47574beae3f60b0d34712f",
+      "bytes": 14286
+    },
+    {
+      "split": "train",
+      "title": "Fear of Flying ( The Simpsons )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0166.txt",
+      "sha256": "38af1f0d8b6fdbd8e1c3f203e706c493e62a147dfc40589ca0a650bb9d3504f2",
+      "bytes": 9316
+    },
+    {
+      "split": "train",
+      "title": "Harold Innis",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0167.txt",
+      "sha256": "baaad9281a6147900c8fcebe4bd875f4b14bb630e71bb4d7aedb06c291afd3e1",
+      "bytes": 38337
+    },
+    {
+      "split": "train",
+      "title": "Hurricane Lorenzo ( 2007 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0168.txt",
+      "sha256": "f86ac7a4ca39f2edf8034fac63dedd0089e3a97d2f4ce9ccd98733ab150fb8cb",
+      "bytes": 6868
+    },
+    {
+      "split": "train",
+      "title": "Cadmium",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0169.txt",
+      "sha256": "983a02fd69bfff39e1ae902b94a19f3096a3fdd9b7a034b957369e15904ad166",
+      "bytes": 4053
+    },
+    {
+      "split": "train",
+      "title": "14 @.@ 1 years ) , 115mCd ( t1 / 2",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0170.txt",
+      "sha256": "47f125e57855fe8aa4e41d99286bc24453dc8780855bbcb72beb3bcedc2d296c",
+      "bytes": 19100
+    },
+    {
+      "split": "train",
+      "title": "First Battle of Maryang San",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0171.txt",
+      "sha256": "27d3c87a1ef3962dd4c1686156d38600e19b710ba696bdc2456d224b0f8b62d3",
+      "bytes": 40766
+    },
+    {
+      "split": "train",
+      "title": "Ulysses ( poem )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0172.txt",
+      "sha256": "e8e165a5a15c83a3e483137e8a145bb94494f62bf155661e1205cf4937f96e38",
+      "bytes": 21883
+    },
+    {
+      "split": "train",
+      "title": "The Food Album",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0173.txt",
+      "sha256": "22bbeb188205b8b9495cda0407111660f468918435ae3906c9439afa7d33456c",
+      "bytes": 7086
+    },
+    {
+      "split": "train",
+      "title": "Patriarchal Cathedral of the Holy Ascension of God",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0174.txt",
+      "sha256": "d89277996946590b74b62c260f6a907a0735819fbca1bdda96f9e811c6a2b3b9",
+      "bytes": 6969
+    },
+    {
+      "split": "train",
+      "title": "Daydream ( Mariah Carey album )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0175.txt",
+      "sha256": "fef46f07e30de6903ac5fd62a1f719fcf1a6d1b13d58ea94712dd13b13de872f",
+      "bytes": 31746
+    },
+    {
+      "split": "train",
+      "title": "Leg before wicket",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0176.txt",
+      "sha256": "9bbcca8a32e24335b753f780cb3217de4d7ec8047ba590f42ff9b4c270123c11",
+      "bytes": 24746
+    },
+    {
+      "split": "train",
+      "title": "The Family Jewels ( Marina and the Diamonds album )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0177.txt",
+      "sha256": "8dfbd3b4914cc501bd5ee6e1fface64a526083b9ef977a1ca780b16a8315198f",
+      "bytes": 12124
+    },
+    {
+      "split": "train",
+      "title": "1981 Peach Bowl ( January )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0178.txt",
+      "sha256": "c2e047918d5627e2fb9835492320d3adf479701bc0b4ad2e39a8d2293e3ff8c8",
+      "bytes": 25149
+    },
+    {
+      "split": "train",
+      "title": "The Magdalen Reading",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0179.txt",
+      "sha256": "131048bc4464f0fea20feb90ccd6e8feee3142591e67b6080ff2ecb4800ed422",
+      "bytes": 20050
+    },
+    {
+      "split": "train",
+      "title": "Rosemary 's Baby ( 30 Rock )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0180.txt",
+      "sha256": "cf3e8559a5d63086897fe1ba4b88242d899eba1ea1a89be643901a3d65eb2ab7",
+      "bytes": 6781
+    },
+    {
+      "split": "train",
+      "title": "Polka Party !",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0181.txt",
+      "sha256": "18683fafcae5f433220406ddd432a87eef5a95693d34abd3877d2698ebdfc9f2",
+      "bytes": 12703
+    },
+    {
+      "split": "train",
+      "title": "Trees ( poem )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0182.txt",
+      "sha256": "355a9e27a8e8be55fe17da63355a8f86f74f2174e6f5e278ac23f3e3598c8ad8",
+      "bytes": 22256
+    },
+    {
+      "split": "train",
+      "title": "Zygoballus sexpunctatus",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0183.txt",
+      "sha256": "8351ac64c322032013f57669d40b977e71bf465926e52acc8b55c3b4b32b0670",
+      "bytes": 7068
+    },
+    {
+      "split": "train",
+      "title": "1986 Peach Bowl",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0184.txt",
+      "sha256": "1502810c18db31d06a90693bbca13a48959bec50f98e8ae3e2c47d7ad6b0387e",
+      "bytes": 30561
+    },
+    {
+      "split": "train",
+      "title": "Greens Ledge Light",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0185.txt",
+      "sha256": "2c68229abf66d98cdb40402d9e3eb76f761022ff8f6c4eafcc9cc29c1ec4cc26",
+      "bytes": 5525
+    },
+    {
+      "split": "train",
+      "title": "Action of 13 September 1810",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0186.txt",
+      "sha256": "6030fb276752de8b2d65c564f752525125cb9cf3570c5d37e84230540561f85d",
+      "bytes": 17361
+    },
+    {
+      "split": "train",
+      "title": "M @-@ 114 ( Michigan highway )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0187.txt",
+      "sha256": "f6d20a9caa3a8a86ff6ae08e31a2cd255f379ca020e48abbc0cf90571f77cde2",
+      "bytes": 3390
+    },
+    {
+      "split": "train",
+      "title": "Jane Dudley , Duchess of Northumberland",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0188.txt",
+      "sha256": "f8cf8ccb1b7992ff532c9cee0cc8766e8202341f916371b4bb3c6e1a8c1cd3a5",
+      "bytes": 11589
+    },
+    {
+      "split": "train",
+      "title": "Elgin Cathedral",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0189.txt",
+      "sha256": "61e776259f7f6da4f43a21f1399c5d1e4c823db488417ef44211df9b51820692",
+      "bytes": 33225
+    },
+    {
+      "split": "train",
+      "title": "St Mary 's Church , Nether Alderley",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0190.txt",
+      "sha256": "c8bcbb5cc090e9bd05ca1b0488a6e34833cf98e09653c4d431bb24cc6911d7b9",
+      "bytes": 8251
+    },
+    {
+      "split": "train",
+      "title": "Tawny nurse shark",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0191.txt",
+      "sha256": "51da6436af80cdfbbcf2688d8349adf8b51e73dcb9df8ad90952f15f103d1697",
+      "bytes": 13781
+    },
+    {
+      "split": "train",
+      "title": "California State Route 243",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0192.txt",
+      "sha256": "51de4e2ed838e13c1291aa9b7e1b4dbdafb6a4d617dc23a9ff9c4c342927ff69",
+      "bytes": 4935
+    },
+    {
+      "split": "train",
+      "title": "The Amps",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0193.txt",
+      "sha256": "fb35ed8193b9289ca2379113e4281024c4ff6f34cc6a51b8d6a13c790b0c3737",
+      "bytes": 7597
+    },
+    {
+      "split": "train",
+      "title": "Exploration of Jupiter",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0194.txt",
+      "sha256": "e54f1f4254d4520b1ed299f73efb99cb740dda639e6978f5c7fe5f1a4f5a24ce",
+      "bytes": 24469
+    },
+    {
+      "split": "train",
+      "title": "Fort Glanville Conservation Park",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0195.txt",
+      "sha256": "610186876e1c414d45b709093cc47e7f04e384216228a13e564d1358992d956e",
+      "bytes": 42031
+    },
+    {
+      "split": "train",
+      "title": "Royal prerogative in the United Kingdom",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0196.txt",
+      "sha256": "0de090beffc75a81d5979cef48d370d80b47c41dd597e049d5025748c81f1494",
+      "bytes": 21599
+    },
+    {
+      "split": "train",
+      "title": "Mount Jackson ( Antarctica )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0197.txt",
+      "sha256": "88804f5b7a4a704ab5893b455f7b4f31a065882799854efb3f3df9d4182de4d9",
+      "bytes": 5043
+    },
+    {
+      "split": "train",
+      "title": "Italian cruiser Aretusa",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0198.txt",
+      "sha256": "b6801128fe6ba89eb951683cee79f4096c84c4c14132a6577c1d7aa8735bb6c5",
+      "bytes": 5242
+    },
+    {
+      "split": "train",
+      "title": "M @-@ 6 ( Michigan highway )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0199.txt",
+      "sha256": "b2e484057c157eede96e7554cc87ac0ca5238255ed4601d8662b971fae9f49ee",
+      "bytes": 21613
+    },
+    {
+      "split": "train",
+      "title": "Hi , Infidelity",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0200.txt",
+      "sha256": "6cc2b036e01cc025e3b6be2984483ba2aef9027a9287fc8d360e921ca6867565",
+      "bytes": 7790
+    },
+    {
+      "split": "train",
+      "title": "Ceratopsia",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0201.txt",
+      "sha256": "7b36a712dd81ca06b3bbe5215c2899ac5643dcb85959818d33ff369dfd98fc65",
+      "bytes": 20968
+    },
+    {
+      "split": "train",
+      "title": "Truth in Numbers ?",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0202.txt",
+      "sha256": "d6bfad797ade52b9ea75dacf434c1c520364f933c1fdffc4d7f654d6b911057d",
+      "bytes": 11826
+    },
+    {
+      "split": "train",
+      "title": "Hope Highway",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0203.txt",
+      "sha256": "3b60bbe0afcb00d39fc530b128d10463a7f9c10797b768108ca0e0ef3a13710f",
+      "bytes": 3328
+    },
+    {
+      "split": "train",
+      "title": "Super Mario Land",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0204.txt",
+      "sha256": "f59530c922c5bae3d8a8561b536eb7dd0a6b43842fbb6274094d3380e481edcc",
+      "bytes": 11103
+    },
+    {
+      "split": "train",
+      "title": "Stop ! ! Hibari @-@ kun !",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0205.txt",
+      "sha256": "dac70b31be0de6f5c7f4219da289811394ed30a459113467849ac2120a06b618",
+      "bytes": 17714
+    },
+    {
+      "split": "train",
+      "title": "Guitar Hero",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0206.txt",
+      "sha256": "95cdf311b971cd00423f2b3f80b42e5006b7131743b2206694f3eef7c73e3846",
+      "bytes": 61538
+    },
+    {
+      "split": "train",
+      "title": "Fieldfare",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0207.txt",
+      "sha256": "37546bd8293301d24b0b6eb1181f468fd5a4dcd9304f31ad82a1bc7287beb639",
+      "bytes": 11125
+    },
+    {
+      "split": "train",
+      "title": "Type 94 Nambu pistol",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0208.txt",
+      "sha256": "a48a27500e2d8f2fcdc39abd56c6c767ce682655a406492c59260516ce26ab3d",
+      "bytes": 8261
+    },
+    {
+      "split": "train",
+      "title": "Jifna",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0209.txt",
+      "sha256": "675007e3ed208db248615174eea027c57a0323de256785a995fb3bbb1723cfb1",
+      "bytes": 20070
+    },
+    {
+      "split": "train",
+      "title": "Ha ' K 'in Xook",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0210.txt",
+      "sha256": "d6ec2fd9d768b473dbf31d9a4fa07b8fc06ac96a618d15cc8f16a257bebbc0b8",
+      "bytes": 8196
+    },
+    {
+      "split": "train",
+      "title": "Tommy Lawton",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0211.txt",
+      "sha256": "70b966eae49186fe5c418bd4e98771e7f5ae776a89aa1e498b2f586ef8d5f727",
+      "bytes": 27814
+    },
+    {
+      "split": "train",
+      "title": "Trials and Tribble @-@ ations",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0212.txt",
+      "sha256": "14e8f2cb25781d364c4472910b7a587c99f80aa159ad8fb17cc63170e12f95de",
+      "bytes": 20677
+    },
+    {
+      "split": "train",
+      "title": "Tintin in the Congo",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0213.txt",
+      "sha256": "b2beaa34e3bcbf483a62f59c34880e70e26e6ac19c48ef99eb92cd689eb5939c",
+      "bytes": 24825
+    },
+    {
+      "split": "train",
+      "title": "Andrew Johnston ( singer )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0214.txt",
+      "sha256": "6bffd984eadaf8ac16fef6095d211c1e91f4f8193f1de84ca5a2f8847551e7dd",
+      "bytes": 10242
+    },
+    {
+      "split": "train",
+      "title": "Illinois ( Sufjan Stevens album )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0215.txt",
+      "sha256": "2e33e10bff6b1d4aa507799ccf8dc26d12af613005d9178963bac3a820c1f271",
+      "bytes": 23181
+    },
+    {
+      "split": "train",
+      "title": "Mycena galericulata",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0216.txt",
+      "sha256": "853039cb705c817781453159295f7f0addd1c1ee8d83acdf402d99004d8d8375",
+      "bytes": 9125
+    },
+    {
+      "split": "train",
+      "title": "Crash Boom Bang !",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0217.txt",
+      "sha256": "e28c7934c7c014b7d5f14e2e6f057dae13a85aacb568d15c943bd9d8f3a5d095",
+      "bytes": 10124
+    },
+    {
+      "split": "train",
+      "title": "Grade I listed buildings in Somerset",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0218.txt",
+      "sha256": "6d96fe993769765ffaa166e7bcf15bc8ece7276aa38be0826a8cab29382e7efd",
+      "bytes": 19494
+    },
+    {
+      "split": "train",
+      "title": "Gertrude Barrows Bennett",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0219.txt",
+      "sha256": "28c17b4b55187b4f9d1a703937f09e442d5a7e4a6cca01030a68822fa6cc8fae",
+      "bytes": 8036
+    },
+    {
+      "split": "train",
+      "title": "Man Down ( song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0220.txt",
+      "sha256": "5fd732932f37125ab17f928f2826b6eb17eff01d708882e97791d6d5682defdd",
+      "bytes": 25990
+    },
+    {
+      "split": "train",
+      "title": "Marauders ( Star Trek : Enterprise )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0221.txt",
+      "sha256": "3e64719aee0f33a0586341358cfcc549359bdd71a827c98911742dab249f8e78",
+      "bytes": 8027
+    },
+    {
+      "split": "train",
+      "title": "Johnny McNichol",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0222.txt",
+      "sha256": "d34e554e2b0971b4eae73e16b41bcebbfa046533cbd4442ae9edd9087d564826",
+      "bytes": 11492
+    },
+    {
+      "split": "train",
+      "title": "Otra Nota",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0223.txt",
+      "sha256": "0cb173f06de2c1652c8f196d2b01b19011703ec4a896693bbce2900439012940",
+      "bytes": 5291
+    },
+    {
+      "split": "train",
+      "title": "St Peulan 's Church , Llanbeulan",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0224.txt",
+      "sha256": "f3612a7554f17738fe28a337930a3fcbb8c05d8e6663dd73fb84aa6fc734f559",
+      "bytes": 7983
+    },
+    {
+      "split": "train",
+      "title": "The Tramp Dentists",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0225.txt",
+      "sha256": "c83329dbf7b39585734d2f83a660b4b335cd79808aa5df42ccf6dd04e017d351",
+      "bytes": 3403
+    },
+    {
+      "split": "train",
+      "title": "Qedarite",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0226.txt",
+      "sha256": "68631db5256a89a154b8c4ce208f90f4c4bff4efe1e16d0f21071ce05e9b1f1e",
+      "bytes": 21869
+    },
+    {
+      "split": "train",
+      "title": "Super Science Stories",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0227.txt",
+      "sha256": "bb7717f9e43deef7834ffb412ef592939ceeae55c9bef3dd7fa5d63c51a244c0",
+      "bytes": 18913
+    },
+    {
+      "split": "train",
+      "title": "HMS Hostile ( H55 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0228.txt",
+      "sha256": "99f639bd049ffadd09dc5249379c797d18bcf1e4531fcde59e31ea5fc299cea3",
+      "bytes": 4838
+    },
+    {
+      "split": "train",
+      "title": "Rocky Mountain Horse",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0229.txt",
+      "sha256": "c71975ad41a7ef166d7da6e9b1c3cc77a63bf6091572f5ffac1b9ddabfe1971d",
+      "bytes": 7089
+    },
+    {
+      "split": "train",
+      "title": "Somerset County Cricket Club in 2009",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0230.txt",
+      "sha256": "9d3be074ff1ecb30ba530cfdcbf02ded8fbe026d00655a146741707898a8bbbf",
+      "bytes": 9711
+    },
+    {
+      "split": "train",
+      "title": "Played , W",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0231.txt",
+      "sha256": "fbf9014647656d88fdbf9f1f7b6c65d085af70a2a38c5169a88f3037bb747d86",
+      "bytes": 28
+    },
+    {
+      "split": "train",
+      "title": "Losses , D",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0232.txt",
+      "sha256": "7d21e8b22eef3fcf2f064fefa7592ecb1f668bd35844a9579720351561bfa880",
+      "bytes": 29
+    },
+    {
+      "split": "train",
+      "title": "Ties , A",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0233.txt",
+      "sha256": "85db2584be6888d8c92bc3ed23a6b3823c0871b46b7507195bff991058059e43",
+      "bytes": 36
+    },
+    {
+      "split": "train",
+      "title": "Batting points , Bwl",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0234.txt",
+      "sha256": "0fbe21cd9ffb5e16fd65cbab93f4f07cf3307402fcbf08eeede991d315908dfd",
+      "bytes": 50
+    },
+    {
+      "split": "train",
+      "title": "Adjustments / Penalties , Pts",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0235.txt",
+      "sha256": "a37a66d11f8ffa0e37b560cfbd7c858777490afa04b7a0ac00cd30fbb606cebb",
+      "bytes": 3662
+    },
+    {
+      "split": "train",
+      "title": "Played , W",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0236.txt",
+      "sha256": "f7129b3c3c09019bf24856ff4821e069c3ea1615181500112113f4028c58334f",
+      "bytes": 28
+    },
+    {
+      "split": "train",
+      "title": "Ties , L",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0237.txt",
+      "sha256": "7f938bc4865e0fd4cee0ad5ab650e0703821d3656c598544381a1abcd9913ee0",
+      "bytes": 29
+    },
+    {
+      "split": "train",
+      "title": "No result , Pts",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0238.txt",
+      "sha256": "e15188c0fce74751251922b6085675163138e9613e76621610aacc6775a99ba7",
+      "bytes": 4521
+    },
+    {
+      "split": "train",
+      "title": "Played , W",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0239.txt",
+      "sha256": "fbf9014647656d88fdbf9f1f7b6c65d085af70a2a38c5169a88f3037bb747d86",
+      "bytes": 28
+    },
+    {
+      "split": "train",
+      "title": "Losses , T",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0240.txt",
+      "sha256": "2e680864ccd38d097fb7156e5720732a0e8ba3a4339b60694a9883f51b872656",
+      "bytes": 29
+    },
+    {
+      "split": "train",
+      "title": "No result , Pts",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0241.txt",
+      "sha256": "8c6ece85af6cff194ba68e03c6418b2d8fa856756422046e2ea248de96e5ea47",
+      "bytes": 2020
+    },
+    {
+      "split": "train",
+      "title": "Played , W",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0242.txt",
+      "sha256": "f7129b3c3c09019bf24856ff4821e069c3ea1615181500112113f4028c58334f",
+      "bytes": 28
+    },
+    {
+      "split": "train",
+      "title": "Ties , L",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0243.txt",
+      "sha256": "7f938bc4865e0fd4cee0ad5ab650e0703821d3656c598544381a1abcd9913ee0",
+      "bytes": 29
+    },
+    {
+      "split": "train",
+      "title": "No result , Pts",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0244.txt",
+      "sha256": "50e6de6f513c36727ad6eff4f2b0533d12b44b659bc282114f8a46d0ed011b9b",
+      "bytes": 2284
+    },
+    {
+      "split": "train",
+      "title": "Played , W",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0245.txt",
+      "sha256": "fbf9014647656d88fdbf9f1f7b6c65d085af70a2a38c5169a88f3037bb747d86",
+      "bytes": 28
+    },
+    {
+      "split": "train",
+      "title": "Losses , T",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0246.txt",
+      "sha256": "2e680864ccd38d097fb7156e5720732a0e8ba3a4339b60694a9883f51b872656",
+      "bytes": 29
+    },
+    {
+      "split": "train",
+      "title": "No result , Pts",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0247.txt",
+      "sha256": "a294edc84748356fb5e0f93ba85ebdc05d2e28d24c70051b9769dd5e387b2356",
+      "bytes": 1936
+    },
+    {
+      "split": "train",
+      "title": "Texas A & M Singing Cadets",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0248.txt",
+      "sha256": "4d1949935be2a0c25d179dfa772fba3756c28b86fdd23499ded6e70f366743af",
+      "bytes": 7138
+    },
+    {
+      "split": "train",
+      "title": "Ontario Highway 36",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0249.txt",
+      "sha256": "736e12a6f2524652b26af87940920b00e1d2f662b06ed29143193b6724627de0",
+      "bytes": 4246
+    },
+    {
+      "split": "train",
+      "title": "Arizona State Route 67",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0250.txt",
+      "sha256": "aa89260957e05cfc4e31d3d19e5bd117c788997e0debfc168f0eee9821ff91ad",
+      "bytes": 4412
+    },
+    {
+      "split": "train",
+      "title": "Josce de Dinan",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0251.txt",
+      "sha256": "25a3e6393c64c921cccb14b059e09f35f2ca424bf5788b820f96f15ba7d4ef87",
+      "bytes": 6565
+    },
+    {
+      "split": "train",
+      "title": "World War I Memorial ( East Providence , Rhode Island )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0252.txt",
+      "sha256": "2185683ff196f814840e0abd0e4d11ce8d9d9a8b1c537ef01ec8699ca5120645",
+      "bytes": 4436
+    },
+    {
+      "split": "train",
+      "title": "Oldham",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0253.txt",
+      "sha256": "052484692371d61c467dff60c02936ade476f453b62dd7349a50984283f31ab9",
+      "bytes": 51231
+    },
+    {
+      "split": "train",
+      "title": "1981 European Cup Final",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0254.txt",
+      "sha256": "fc8db81dcf877da9dc2d3896179ae1e66c1381ad7e02cf322f896dfcffe26bb7",
+      "bytes": 8988
+    },
+    {
+      "split": "train",
+      "title": "Carre 's Grammar School",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0255.txt",
+      "sha256": "e06e061f6b466f14bdc549893726329cc198c43f89eee0f69e7a5135f602ef7e",
+      "bytes": 29750
+    },
+    {
+      "split": "train",
+      "title": "Don 't You Wanna Stay",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0256.txt",
+      "sha256": "60b934d045b1e6c217bcdeb56ceadab3694d9e04a4e13f460932c30f9a08c92d",
+      "bytes": 14011
+    },
+    {
+      "split": "train",
+      "title": "Tropical Storm Domoina",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0257.txt",
+      "sha256": "a85e8d48dcfd1d0dccd9b77a8075bf9f09d15b08d92f20a6fa1f7311fe228a81",
+      "bytes": 14295
+    },
+    {
+      "split": "train",
+      "title": "Tales of Destiny 2",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0258.txt",
+      "sha256": "990ad50b938449fe49911cdf850d483bec5cb908466a6df1dbfb9ff0e52d6302",
+      "bytes": 23573
+    },
+    {
+      "split": "train",
+      "title": "In Bloom",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0259.txt",
+      "sha256": "ebb7f212aaf0ba18b1658134dab3f8a6ade7e547f55f4c78ee4ec3007b57edcd",
+      "bytes": 9581
+    },
+    {
+      "split": "train",
+      "title": "Lady in the Lake trial",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0260.txt",
+      "sha256": "7ea384d2fe159244d87c30836f76433604ccf5abedf35775e1d49d5bf8ac175d",
+      "bytes": 24760
+    },
+    {
+      "split": "train",
+      "title": "Dover Athletic F.C.",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0261.txt",
+      "sha256": "2c4b8d0122fbd5786db3f84b57206a826a0285cfef6e21795ec2f43992c1cebb",
+      "bytes": 15109
+    },
+    {
+      "split": "train",
+      "title": "Plum cake",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0262.txt",
+      "sha256": "72fdfb3228133b8ebf375d9ae27797bdc572feec2341411adfb76df7ba50b495",
+      "bytes": 7970
+    },
+    {
+      "split": "train",
+      "title": "Kedok Ketawa",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0263.txt",
+      "sha256": "683ffff145a0f13230978a0d751ee93e7514f4329639f9562ef7fe31a8e82833",
+      "bytes": 5834
+    },
+    {
+      "split": "train",
+      "title": "My Boo ( Usher and Alicia Keys song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0264.txt",
+      "sha256": "3042f6c45fa7ba662f53aa71cc6dd5e59312b9fc3f8203a8880ba37d1607e552",
+      "bytes": 7676
+    },
+    {
+      "split": "train",
+      "title": "Rio de Janeiro bid for the 2016 Summer Olympics",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0265.txt",
+      "sha256": "a8a82a663c7a029a8dd8c8fb864f0e25f81dfe6541f571359a61d6da9e9bb74e",
+      "bytes": 32797
+    },
+    {
+      "split": "train",
+      "title": "New Jersey Route 65",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0266.txt",
+      "sha256": "142955489236a31dbabc0558ac6f9744c2b6cbad5e68634a3792ef17e263f37b",
+      "bytes": 3668
+    },
+    {
+      "split": "train",
+      "title": "Giacomo Meyerbeer",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0267.txt",
+      "sha256": "e0b815831faff709e208f346c21b3b007cd872e3e754d1319845692cdfff2c0d",
+      "bytes": 45738
+    },
+    {
+      "split": "train",
+      "title": "Washington State Route 221",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0268.txt",
+      "sha256": "2a90527e383f1657d18bbc174b7f514264002626bdd84f2cb645e18583668a49",
+      "bytes": 2124
+    },
+    {
+      "split": "train",
+      "title": "Superman : Escape from Krypton",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0269.txt",
+      "sha256": "34976a5609634127b3fef212c6b9f750572426587082ab2401587c2769845afe",
+      "bytes": 8022
+    },
+    {
+      "split": "train",
+      "title": "Battle of Hubbardton",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0270.txt",
+      "sha256": "676225bce16252f08883af5d246f00b7775045e9f3112407a21fc9ba254ae16f",
+      "bytes": 10012
+    },
+    {
+      "split": "train",
+      "title": "Odaenathus",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0271.txt",
+      "sha256": "b91de5e5ba1426164118cdb2ffd1c127f099d8229d975895b55a882a25b5d362",
+      "bytes": 34207
+    },
+    {
+      "split": "train",
+      "title": "Banksia violacea",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0272.txt",
+      "sha256": "75fdd47640f3f8355f7bf7b28a6666746dd04858de2172b7fdc5dce40850eb48",
+      "bytes": 11479
+    },
+    {
+      "split": "train",
+      "title": "Rob Howard",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0273.txt",
+      "sha256": "2f5d9871f7f2c3dd6de31193e373c1088f1a91378e795460b593ebd386d99524",
+      "bytes": 10574
+    },
+    {
+      "split": "train",
+      "title": "Oribi",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0274.txt",
+      "sha256": "f498bc7058a3ece66f0e038c65a41c5bb0faf17dd44d8daf1fc07bf7f501c3cb",
+      "bytes": 10469
+    },
+    {
+      "split": "train",
+      "title": "Rockstar 101",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0275.txt",
+      "sha256": "48b46c0a8e3b5156382f3193b05c6750ed32b40c6eea25d758358e8d7f6f0351",
+      "bytes": 10859
+    },
+    {
+      "split": "train",
+      "title": "St Mary 's Church , Rhodogeidio",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0276.txt",
+      "sha256": "6de73e8fb17ea90493dc9229194063c89beed3ecbc660000905d5ff59de03a96",
+      "bytes": 4483
+    },
+    {
+      "split": "train",
+      "title": "First Light ( Rebecca Stead novel )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0277.txt",
+      "sha256": "4330c3797b6a4641cf438cf18ac0c5eb4bf8dad1df0e3041f561259bc6e9cbd5",
+      "bytes": 8910
+    },
+    {
+      "split": "train",
+      "title": "Mexico City Metropolitan Cathedral",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0278.txt",
+      "sha256": "42b57faf2a2751aab7dca9b7a322e45b30acf2e77220652ae8d10ce5d4b5307e",
+      "bytes": 40253
+    },
+    {
+      "split": "train",
+      "title": "USS Illinois ( BB @-@ 7 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0279.txt",
+      "sha256": "434788312729f74153fe58d7bd655767ad7e21d83aeae87cb9e716ec0f2eba7d",
+      "bytes": 9074
+    },
+    {
+      "split": "train",
+      "title": "The Archaeology of Ritual and Magic",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0280.txt",
+      "sha256": "92db8a350c82b26832e817372c81843dca5b561b440bd61d527bda41bf602dc8",
+      "bytes": 12840
+    },
+    {
+      "split": "train",
+      "title": "History of Braathens SAFE ( 1946 \u2013 93 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0281.txt",
+      "sha256": "662fba84ccdc959ced3d1303862849fbae60436b4d65f60301f5e1b1d772ea92",
+      "bytes": 49962
+    },
+    {
+      "split": "train",
+      "title": "Gerard ( archbishop of York )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0282.txt",
+      "sha256": "d2eee55537cb22b8566fa51d541320eff0d21b28d936aabbe5c0b3011ee816c2",
+      "bytes": 11862
+    },
+    {
+      "split": "train",
+      "title": "Something Borrowed ( Torchwood )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0283.txt",
+      "sha256": "f10275861dbafa4e874ca54b999eb8a4682331c7aff2cf0a17575e8eb54dc3e7",
+      "bytes": 19868
+    },
+    {
+      "split": "train",
+      "title": "Perfect Dark ( 2010 video game )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0284.txt",
+      "sha256": "184839644b8e3bee28b686679b8e5b8be4f7d408514c4fb362be0e844bf750d9",
+      "bytes": 13110
+    },
+    {
+      "split": "train",
+      "title": "First Ostend Raid",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0285.txt",
+      "sha256": "a35ecd6c3a5b2fb9ef48c5f5dcde65d7d01122d557841ffbd1f8fa021610a82a",
+      "bytes": 11365
+    },
+    {
+      "split": "train",
+      "title": "Joyful , Joyful",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0286.txt",
+      "sha256": "e38cee215a57ea5da6af525910fbd78e638e2cead660046df127f22ebc7a9e87",
+      "bytes": 4402
+    },
+    {
+      "split": "train",
+      "title": "Hurricane Dot ( 1959 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0287.txt",
+      "sha256": "116dcf0bd4b8d35db0fa04f384679d01b8c47aab6255891c3506a7afd0ef87e0",
+      "bytes": 8739
+    },
+    {
+      "split": "train",
+      "title": "Jacob deGrom",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0288.txt",
+      "sha256": "9d1b2c12d8057e21ba9c4b04be5b639c27a64114f8d97cb6efbd741e664273fd",
+      "bytes": 9159
+    },
+    {
+      "split": "train",
+      "title": "Battle of Merville Gun Battery",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0289.txt",
+      "sha256": "6de1211093c3695fe1e92856352cbea28cf4d915f1598ba643480cf67d323a50",
+      "bytes": 11059
+    },
+    {
+      "split": "train",
+      "title": "St Caffo 's Church , Llangaffo",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0290.txt",
+      "sha256": "3868db97245e3877b64aba6cbacf3307610b81f8ae1884ec4ae300e7ff18d1d1",
+      "bytes": 8113
+    },
+    {
+      "split": "train",
+      "title": "George N. Briggs",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0291.txt",
+      "sha256": "bdc16caee12f13de7205e74456e6fba86dcaf2fb6f0d146eaa2bbc9203a8bc84",
+      "bytes": 13141
+    },
+    {
+      "split": "train",
+      "title": "Simon Bradstreet",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0292.txt",
+      "sha256": "dd1ebefb70efbcaa6ab87abb1247fca7e0c889280320597b52bf716402f3d48e",
+      "bytes": 13728
+    },
+    {
+      "split": "train",
+      "title": "Etymology of Wicca",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0293.txt",
+      "sha256": "03a207f0b11adf4927a42105699952b35d0df52c80cf825cdc93d804841d256c",
+      "bytes": 17160
+    },
+    {
+      "split": "train",
+      "title": "Bob Dylan",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0294.txt",
+      "sha256": "737aab6fe39a69e507b37b249b1efaa2c8c7fe5b0e111f09f19841c08dbc4c0b",
+      "bytes": 91392
+    },
+    {
+      "split": "train",
+      "title": "Stephanolepis cirrhifer",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0295.txt",
+      "sha256": "7a01d37911845e82d620b022fb532755778fe8f67eae048e2ebfe2efbcf88cae",
+      "bytes": 4319
+    },
+    {
+      "split": "train",
+      "title": "Mogadishu",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0296.txt",
+      "sha256": "c97226b4630ae9cd7cc034377992543726019899916c5d481d65bffa76753fae",
+      "bytes": 57961
+    },
+    {
+      "split": "train",
+      "title": "The Moth ( Lost )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0297.txt",
+      "sha256": "5078d037fdd2562f9810b07561a30fccca087af2b64acab9fc7df45405326974",
+      "bytes": 10737
+    },
+    {
+      "split": "train",
+      "title": "Charmbracelet",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0298.txt",
+      "sha256": "647ff538f73216ba4f34e5c3ba687c46091eee719aa993d2394dbac4f06ccbb6",
+      "bytes": 27844
+    },
+    {
+      "split": "train",
+      "title": "Thomas Quiney",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0299.txt",
+      "sha256": "dd546f703fed42de397733b8bdbc441a3d2b60248b07be674157a9c5081153dd",
+      "bytes": 11080
+    },
+    {
+      "split": "train",
+      "title": "Transit of Venus",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0300.txt",
+      "sha256": "0483b674614246b9170ff6c2d965000101c61fface8e6bc84c992e1c85a73f10",
+      "bytes": 22229
+    },
+    {
+      "split": "train",
+      "title": "\u00cdmar mac Arailt",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0301.txt",
+      "sha256": "ec2c97d1727bb70a777ffe99a7aab7f1d8f50fb19ae199ddac69bba6a738ea14",
+      "bytes": 11785
+    },
+    {
+      "split": "train",
+      "title": "Tessa No\u00ebl",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0302.txt",
+      "sha256": "bc35a3ef15ff124c6a50975fbf5b371927cf2f487488f1bdd553050c032787df",
+      "bytes": 30776
+    },
+    {
+      "split": "train",
+      "title": "M @-@ 5 ( Michigan highway )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0303.txt",
+      "sha256": "dc4609bb574ce50a15bc95e43e5593b885688f3271cac26b1776f9524425b425",
+      "bytes": 14789
+    },
+    {
+      "split": "train",
+      "title": "McAllister Tower Apartments",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0304.txt",
+      "sha256": "6dfbcc469bba28077f74279562190d06b79d79044ce53342aa0fbcb079a3831a",
+      "bytes": 8814
+    },
+    {
+      "split": "train",
+      "title": "Karamokho Alfa",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0305.txt",
+      "sha256": "26a01640003fdfff03f411e6d36621529aafb36d2690192b8b5c1f2a697bca51",
+      "bytes": 7993
+    },
+    {
+      "split": "train",
+      "title": "Murder of Tom ap Rhys Pryce",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0306.txt",
+      "sha256": "3310b3210fc11472afa44152dc5b37404ba777a7ded22b030f7e26fec552a219",
+      "bytes": 11097
+    },
+    {
+      "split": "train",
+      "title": "L\u00e1grimas C\u00e1lidas",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0307.txt",
+      "sha256": "d8574346d10a5bf6787a9083485bf6480fc25f29aafa5a7aab83f79bb328594d",
+      "bytes": 6126
+    },
+    {
+      "split": "train",
+      "title": "Roger Federer",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0308.txt",
+      "sha256": "2e487753e35c22d1d0338636b21e0c538884e9ef3b3c92f7bba4ae5d9eb7c023",
+      "bytes": 59159
+    },
+    {
+      "split": "train",
+      "title": "Jane 's Attack Squadron",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0309.txt",
+      "sha256": "015c0d8e12f88742404e3e9bf2e31afb7ff2351fc60a7e72bc3134b1e31e930b",
+      "bytes": 17611
+    },
+    {
+      "split": "train",
+      "title": "1955 Atlantic hurricane season",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0310.txt",
+      "sha256": "2d82c739879b55be5056c928f8205e97a3a3d5b62caeaafe63930d789c7dcb4b",
+      "bytes": 27477
+    },
+    {
+      "split": "train",
+      "title": "NoitulovE",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0311.txt",
+      "sha256": "612c68d9e04ec4aa63196bd6dd1d6d7efa81189dbafdad0065c3f53feb493a7a",
+      "bytes": 16138
+    },
+    {
+      "split": "train",
+      "title": "Stuart McCall",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0312.txt",
+      "sha256": "5c7f731156b2f94cc4b94e76b9cf765b094e162c013245f96de0f3c63905d22a",
+      "bytes": 33238
+    },
+    {
+      "split": "train",
+      "title": "Black @-@ tailed jackrabbit",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0313.txt",
+      "sha256": "cfc5e65e0862114d570533ae278af311a866d905abed28ec3768eb61d1a26376",
+      "bytes": 16362
+    },
+    {
+      "split": "train",
+      "title": "Battle of Romani",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0314.txt",
+      "sha256": "0fabfb8ce73cb292f278d7f812dff77bc2c10f964d6efd924c7be027f0c41690",
+      "bytes": 78548
+    },
+    {
+      "split": "train",
+      "title": "The Litigators",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0315.txt",
+      "sha256": "a11cc2d913d1e217205aa51ebf61982ceab06b4b088ecd44b25c6d57ddb8020b",
+      "bytes": 17665
+    },
+    {
+      "split": "train",
+      "title": "Stanley Green",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0316.txt",
+      "sha256": "22fd54fa3ae3fbf41ea5ca8bdd5c66c39d994502ae646e345ca747df934f5352",
+      "bytes": 6555
+    },
+    {
+      "split": "train",
+      "title": "Sclerodermatineae",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0317.txt",
+      "sha256": "3c1da3d0b9a80090b3646670ab2020df4c93e71c5ca40850c072e19272827616",
+      "bytes": 6723
+    },
+    {
+      "split": "train",
+      "title": "SM U @-@ 3 ( Austria @-@ Hungary )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0318.txt",
+      "sha256": "5acce24a8fd6a0abc1653504cd97e794b7b9d0699403dc3c1248a366bcfbaf92",
+      "bytes": 4870
+    },
+    {
+      "split": "train",
+      "title": "The Son Also Draws",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0319.txt",
+      "sha256": "276e0ee29d2fb123f4d8ec8a070e7114a330247bb7446816d206278a61a95af6",
+      "bytes": 7431
+    },
+    {
+      "split": "train",
+      "title": "Protomycena",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0320.txt",
+      "sha256": "1c9c07eb7ceb2e5f36d646627ad9e0354abe443ced9036e394808a90e07cda61",
+      "bytes": 4630
+    },
+    {
+      "split": "train",
+      "title": "Art in Medieval Scotland",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0321.txt",
+      "sha256": "7ac1eb89e232c65552b1f780fab543f9259d3352a67e97772583f093d105083b",
+      "bytes": 20908
+    },
+    {
+      "split": "train",
+      "title": "Humpty Dumpty",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0322.txt",
+      "sha256": "2e35f95556cf21a8f49050add971dbe126d3cd38002d3d04c013d38621c78764",
+      "bytes": 12215
+    },
+    {
+      "split": "train",
+      "title": "Welsh National Opera",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0323.txt",
+      "sha256": "0b358bbbd49a1b79fe349929cd87ea459aa98d301d9e9d9d3b6ecab318898f3d",
+      "bytes": 24325
+    },
+    {
+      "split": "train",
+      "title": "England national rugby union team",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0324.txt",
+      "sha256": "f32ccc097b2880981a28a2da9553749f854fb907fd3b4bb13ca2435d74a7fcf6",
+      "bytes": 38005
+    },
+    {
+      "split": "train",
+      "title": "Jeremi Wi\u015bniowiecki",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0325.txt",
+      "sha256": "ccd6a2d040b8b7d3577176d4b4ad5396093d7bc99d32f71ccb921b2df2a62774",
+      "bytes": 21912
+    },
+    {
+      "split": "train",
+      "title": "Bassline ( Chris Brown song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0326.txt",
+      "sha256": "9081368f0cf0326f970a45f838df7913deae42d443bca7b37411ee0ecc530fa2",
+      "bytes": 3467
+    },
+    {
+      "split": "train",
+      "title": "HMS Black Prince ( 1904 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0327.txt",
+      "sha256": "0997659bbc5cbf0136b66bf90d6d4a57f03966db325e7efe648eea4bd1320a7a",
+      "bytes": 7521
+    },
+    {
+      "split": "train",
+      "title": "On the Pulse of Morning",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0328.txt",
+      "sha256": "91f928a2e9f3ee4006c8b1585e6f7a2fb691c67d9e7180b21a3ecc5bae8df08d",
+      "bytes": 10069
+    },
+    {
+      "split": "train",
+      "title": "God 's Choice",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0329.txt",
+      "sha256": "263cbfef4798f184e83eaf82e430291838c87a4e5d9794a2743a7728847c6773",
+      "bytes": 12347
+    },
+    {
+      "split": "train",
+      "title": "Baltimore mayoral election , 1999",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0330.txt",
+      "sha256": "d0838ef155e5316f7e8c22f4bf4f74b0a24e49b772e9f7dc23c180ca49de51c0",
+      "bytes": 16861
+    },
+    {
+      "split": "train",
+      "title": "Arikamedu",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0331.txt",
+      "sha256": "06f76d627877df6bf140135a779f56f70367d03900153e5abfb1e5b905a701f5",
+      "bytes": 12459
+    },
+    {
+      "split": "train",
+      "title": "Hurricane Ingrid",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0332.txt",
+      "sha256": "917eaf9dafa4d95144b1e85780ad6efffbb4ba8cf0cd2c5df49e1c78b04932ef",
+      "bytes": 11807
+    },
+    {
+      "split": "train",
+      "title": "Typhoon Imbudo",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0333.txt",
+      "sha256": "2f8fe34eb0777323e37006e26657899f2dfdd6b1020a1da9589d4e339f49a446",
+      "bytes": 14066
+    },
+    {
+      "split": "train",
+      "title": "Hurricane Felicia ( 2009 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0334.txt",
+      "sha256": "50de7f8ce50ef49ecc7bbcbdfa879f9d7d8e87b29d4287c6c64a44f7e862fd82",
+      "bytes": 11688
+    },
+    {
+      "split": "train",
+      "title": "Santa @-@ Fe ( Bob Dylan song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0335.txt",
+      "sha256": "9dd253596a7d915eff04607aa5cb9943bd3b24c9ed55e56117d51b6d41262db5",
+      "bytes": 12345
+    },
+    {
+      "split": "train",
+      "title": "The Secret ( The Office )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0336.txt",
+      "sha256": "a1f9f93fdda759a798e51faaf2e891e7a7846ba64bd0fdc428ed62dd719b7c6b",
+      "bytes": 7820
+    },
+    {
+      "split": "train",
+      "title": "Maggie Simpson",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0337.txt",
+      "sha256": "7621f2b03c4fbe2c5ad675e41efcecf3726d338c7d2888d1249aba6a8045566e",
+      "bytes": 11641
+    },
+    {
+      "split": "train",
+      "title": "Chasing Vermeer",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0338.txt",
+      "sha256": "7354f7b61cc2f68b6bcdeab1f2c802348a1caa67b07cdefcb341c13c6b99f6ca",
+      "bytes": 9894
+    },
+    {
+      "split": "train",
+      "title": "Caught Up ( Usher song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0339.txt",
+      "sha256": "c6295fe35f7d0a668dea6c90c26134a4d5a12024afef8d0a4b884ad267a5d300",
+      "bytes": 4872
+    },
+    {
+      "split": "train",
+      "title": "If I Never See Your Face Again",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0340.txt",
+      "sha256": "9b4ab9652cdbc6d2d28c3a56514e21955c33fea9d0d8f5f4ec1aea24ec852002",
+      "bytes": 9671
+    },
+    {
+      "split": "train",
+      "title": "Yoko Shimomura",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0341.txt",
+      "sha256": "2f50d3f138a0d3a776e528a6a77466cd962fb309974dd6d7dc1c8849b1e6718d",
+      "bytes": 12616
+    },
+    {
+      "split": "train",
+      "title": "Lisa the Simpson",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0342.txt",
+      "sha256": "97829415d4d8be4f307e11d46adf90f1a19ac1b5beec5d616d9fbdd3bf67a94d",
+      "bytes": 4972
+    },
+    {
+      "split": "train",
+      "title": "Stay @-@ at @-@ home dad",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0343.txt",
+      "sha256": "86f11fdf4f38b91c33849349475b693d635a8cd9219d926a0703e959c282679e",
+      "bytes": 23341
+    },
+    {
+      "split": "train",
+      "title": "Tristan ( horse )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0344.txt",
+      "sha256": "76aaf093f880b0c0d7a1ad93d20444adc3e958558b7483b333f35099014bd1e3",
+      "bytes": 12514
+    },
+    {
+      "split": "train",
+      "title": "Plunketts Creek ( Loyalsock Creek )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0345.txt",
+      "sha256": "f612d36a60ad953abc22b98a1736f4d23f69f48e5792eee9984eefd9b76b0931",
+      "bytes": 26532
+    },
+    {
+      "split": "train",
+      "title": "Richard Cresswell",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0346.txt",
+      "sha256": "96342951fd9bd31878a35748223655d12b0b3e5accda9a3ee7a4a5928068c633",
+      "bytes": 15927
+    },
+    {
+      "split": "train",
+      "title": "Berhtwald",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0347.txt",
+      "sha256": "d871d2ab471a16ab6b145228a0f8bc3e3b9488385529ce50f66383ad690d8cb0",
+      "bytes": 7840
+    },
+    {
+      "split": "train",
+      "title": "Xenon",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0348.txt",
+      "sha256": "5770b55c48ef4cdf2ed26000d3865c4f0a8f4ca9193041b0abc00197653069f4",
+      "bytes": 35909
+    },
+    {
+      "split": "train",
+      "title": "Eva Per\u00f3n",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0349.txt",
+      "sha256": "ec372145559e0779207dc5728cdf5216a0e6e8de6a2424a76607a1e4db966387",
+      "bytes": 58378
+    },
+    {
+      "split": "train",
+      "title": "Halo : Uprising",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0350.txt",
+      "sha256": "76a7c4a69acee2d952c67baff0ada2657f77d9c330f32dd0a19a392d3efcfe87",
+      "bytes": 9985
+    },
+    {
+      "split": "train",
+      "title": "Species ( film )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0351.txt",
+      "sha256": "60ba96ce628e2cd31e38c9d872c1914bfc3a0149c3440a1278367754ceee7e40",
+      "bytes": 22202
+    },
+    {
+      "split": "train",
+      "title": "John of Brienne",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0352.txt",
+      "sha256": "bb076f989aeaa280373ad6bfc94e7b11f79d340a375db905f646bf872b4ecf5f",
+      "bytes": 28606
+    },
+    {
+      "split": "train",
+      "title": "Boise National Forest",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0353.txt",
+      "sha256": "e760b5bc734f9cfe89800a87aa46a228773cdfe3370ec46afa069babf0c65e0c",
+      "bytes": 26093
+    },
+    {
+      "split": "train",
+      "title": "Pokiri",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0354.txt",
+      "sha256": "c946ad343f78860cd8b197dbff792c23de27f001ab2c2b3361ec1cf6e1e931b0",
+      "bytes": 20327
+    },
+    {
+      "split": "train",
+      "title": "2008 Bahrain Grand Prix",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0355.txt",
+      "sha256": "432d1f94284bdfe74eb3eabf96a86da63ea942e6cbe63710727f895e765d0b38",
+      "bytes": 14361
+    },
+    {
+      "split": "train",
+      "title": "Kalyanasundara",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0356.txt",
+      "sha256": "5f4d86168c9ad8e5cf56a2f30856355ccd6fe911c4e2db065465cb6a69035aba",
+      "bytes": 8365
+    },
+    {
+      "split": "train",
+      "title": "SS El Sol",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0357.txt",
+      "sha256": "f5f8905b1463762e3c4788c7a8c28496a12414dd6f7a7870625348c758fca37e",
+      "bytes": 6952
+    },
+    {
+      "split": "train",
+      "title": "Hoover Dam",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0358.txt",
+      "sha256": "fb7030d0a5c3c0f0310fd04d9c90d2d78ce7822d2effaa12ded7d06e62022494",
+      "bytes": 45803
+    },
+    {
+      "split": "train",
+      "title": "Tropical Storm Abby ( 1964 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0359.txt",
+      "sha256": "f333660a227dd88094b7d815b561367ca23b53773f644a0622d4810466b90789",
+      "bytes": 6677
+    },
+    {
+      "split": "train",
+      "title": "7 Independent Company ( Rhodesia )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0360.txt",
+      "sha256": "5c6fffa85954d0ac5d46e4cec63c5c2d33e9e6fd76342b3331295c540c0dffd7",
+      "bytes": 19964
+    },
+    {
+      "split": "train",
+      "title": "Jenova Chen",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0361.txt",
+      "sha256": "e84d97fc2cf6ae667f81b06349649d25dcb4c789a616c46e5ba45493540534ba",
+      "bytes": 11460
+    },
+    {
+      "split": "train",
+      "title": "E. W. Hornung",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0362.txt",
+      "sha256": "30227c9cd8f96559c90a5f0373f13f3cf942efc03dfebf2984dbf8f9e2fc4c07",
+      "bytes": 27152
+    },
+    {
+      "split": "train",
+      "title": "Nina Simone",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0363.txt",
+      "sha256": "b8eb8e9044057f94e189a02a29ff3d540c16e0e1f630506504353b35edc500b0",
+      "bytes": 24655
+    },
+    {
+      "split": "train",
+      "title": "Vistara",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0364.txt",
+      "sha256": "f8c5c091336fe666e3b697d1101149e40a0fd72480c39de86b9043b91a70e170",
+      "bytes": 7929
+    },
+    {
+      "split": "train",
+      "title": "Portrait of Monsieur Bertin",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0365.txt",
+      "sha256": "b824850dcbd385e2d1cac440ce48aee1247fbe782199419d1fcf2869ab9b2936",
+      "bytes": 18859
+    },
+    {
+      "split": "train",
+      "title": "Harajuku Lovers Tour",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0366.txt",
+      "sha256": "b00a121aab7e48d7f2e3fe4c0e99810d170107155b1dbb23894b4647660872cb",
+      "bytes": 11140
+    },
+    {
+      "split": "train",
+      "title": "Laborintus II ( 2012 recording )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0367.txt",
+      "sha256": "0a095f01b5620b44011278573e0ac44b923a8550c0b568245c0655f86521f80f",
+      "bytes": 7879
+    },
+    {
+      "split": "train",
+      "title": "Residence of the United States Ambassador to the United Nations",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0368.txt",
+      "sha256": "e9f28d68ec65155080437d7f2c7b2de9204be9b2ff314407ef4b18b3f1e79172",
+      "bytes": 4617
+    },
+    {
+      "split": "train",
+      "title": "K @-@ 22 ( Kansas highway )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0369.txt",
+      "sha256": "1e113337bc6561a697d4458dc6acd49718d46787e25b29c57958acbd00e30d7d",
+      "bytes": 2447
+    },
+    {
+      "split": "train",
+      "title": "Tropical Storm Jose ( 2005 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0370.txt",
+      "sha256": "8338fae38c38cae841ca838c84ae5053d3bc71b16689b6ad96e3a1c932ed9cc2",
+      "bytes": 4587
+    },
+    {
+      "split": "train",
+      "title": "Norsk Spisevognselskap",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0371.txt",
+      "sha256": "692a0edd66f353c1de7635fa7f870a7c14d030138740cc3566933c02c04d89a6",
+      "bytes": 12556
+    },
+    {
+      "split": "train",
+      "title": "The Actor 's Children",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0372.txt",
+      "sha256": "96edb30fa3f7dbb68f2727ed781bc8d57a02a3f36f6bd541dc90159d174d6e8a",
+      "bytes": 7075
+    },
+    {
+      "split": "train",
+      "title": "The Stolen Eagle",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0373.txt",
+      "sha256": "b121a11323b03b9b780e5b609eddfa23df47fc4945cb05e39f615b26315ecfab",
+      "bytes": 20713
+    },
+    {
+      "split": "train",
+      "title": "Roxas ( Kingdom Hearts )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0374.txt",
+      "sha256": "e9bd1d2545d5e4bf5790cf98e58b6867b70f9918dc3223a9c80d75bc9a3fa75d",
+      "bytes": 15790
+    },
+    {
+      "split": "train",
+      "title": "Back to Tennessee ( song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0375.txt",
+      "sha256": "49f86e4c2fd45f978d5f53506dda1488c639459e3dce1899bc6f4d329bf06c3a",
+      "bytes": 9286
+    },
+    {
+      "split": "train",
+      "title": "M @-@ 108 ( Michigan highway )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0376.txt",
+      "sha256": "227c49259c902f346e66f59a1cd4f78e8392393558333f28fefabbba88062b9a",
+      "bytes": 3377
+    },
+    {
+      "split": "train",
+      "title": "Blackwyche",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0377.txt",
+      "sha256": "b6509be6baf4f08c2fdd07607646ca2673b4f76a819369d682c9ed51fd75fc14",
+      "bytes": 6371
+    },
+    {
+      "split": "train",
+      "title": "Hoyt Wilhelm",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0378.txt",
+      "sha256": "4d8f2be4d276ff70b88fd63bbb3c3ecef65b89388286669f4c7743978e8f090d",
+      "bytes": 17828
+    },
+    {
+      "split": "train",
+      "title": "Politics of Croatia",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0379.txt",
+      "sha256": "7bfb6c7efc594a5aa08f4975826afe5b4d309703be2537b0cc36cf35e7a7176a",
+      "bytes": 24819
+    },
+    {
+      "split": "train",
+      "title": "Mumia Abu @-@ Jamal",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0380.txt",
+      "sha256": "225294fd019f9e087299af21073c76ee77c394ac7f2365de82406388c79cbad9",
+      "bytes": 31505
+    },
+    {
+      "split": "train",
+      "title": "Brandon Minor",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0381.txt",
+      "sha256": "cceb3c1664dba99626d320f0c048ac94e70c69eab496d095482db954fccccda5",
+      "bytes": 11349
+    },
+    {
+      "split": "train",
+      "title": "Boy @-@ Scoutz ' n the Hood",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0382.txt",
+      "sha256": "c5c913f6bfeece79c6b448311f9afbe023d498d75dcb09512ddb328fed39bb09",
+      "bytes": 10099
+    },
+    {
+      "split": "train",
+      "title": "Last Exit on Brooklyn",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0383.txt",
+      "sha256": "a8e2e98db5a9351f344d9606bc3dc9e3cdc30682662c53779daf542e37b158ba",
+      "bytes": 3358
+    },
+    {
+      "split": "train",
+      "title": "Laurence Olivier",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0384.txt",
+      "sha256": "bb9569bfd921a023ccac60b9c43b8fe25473ba141bae2ad253ec53111568f650",
+      "bytes": 69506
+    },
+    {
+      "split": "train",
+      "title": "Freakum Dress",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0385.txt",
+      "sha256": "8c7039756c306ee4220710d481b98f7131e9fbbff22ba60a1d3cc6e9f3ccf1de",
+      "bytes": 15468
+    },
+    {
+      "split": "train",
+      "title": "Derfflinger @-@ class battlecruiser",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0386.txt",
+      "sha256": "9e74df1dc6abf62945938b6a6610af5e34f5ddde32d23ca9ac51c18ad58e9a71",
+      "bytes": 24358
+    },
+    {
+      "split": "train",
+      "title": "O 'Brien @-@ class destroyer",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0387.txt",
+      "sha256": "d693d222d5272d1c8b4588d18f286309d4463bfa3f2fa66239c280fc86b56d53",
+      "bytes": 20054
+    },
+    {
+      "split": "train",
+      "title": "Who Am I ( Casting Crowns song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0388.txt",
+      "sha256": "cb81465a823f0254650e7e72c96cbf490775cb806f943682035c825592798ddb",
+      "bytes": 6508
+    },
+    {
+      "split": "train",
+      "title": "We 'll Always Have Paris ( Star Trek : The Next Generation )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0389.txt",
+      "sha256": "91a4548a692ad3462d3e18c02f6c6e660f7dddc3c44bd9d1135b32e4b087bddb",
+      "bytes": 9132
+    },
+    {
+      "split": "train",
+      "title": "Burn",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0390.txt",
+      "sha256": "7d64a886f3f5d7fa087b80d6bf0dc8841e2c8d78808f877ea67073c8d32d2c9e",
+      "bytes": 26735
+    },
+    {
+      "split": "train",
+      "title": "Tropical Storm Brenda ( 1960 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0391.txt",
+      "sha256": "b877a861517cfc69ab702daff1063f95b0032fe01275d16d475b3bc57db4235d",
+      "bytes": 5250
+    },
+    {
+      "split": "train",
+      "title": "Stanley Price Weir",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0392.txt",
+      "sha256": "142bfde9529b170261786a652624a4f5db67691a567d30c1438add5ced77b1a0",
+      "bytes": 11713
+    },
+    {
+      "split": "train",
+      "title": "Chapter 1 ( House of Cards )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0393.txt",
+      "sha256": "37015e4d98b88cd40d1d90fb88c8685149131743cfaf1fa8980338736ce3dc82",
+      "bytes": 16518
+    },
+    {
+      "split": "train",
+      "title": "Alice in Chains",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0394.txt",
+      "sha256": "f39235fe6636c09e79045bf49c1b80250281b57258e60aa16d6228d096b44c52",
+      "bytes": 34200
+    },
+    {
+      "split": "train",
+      "title": "2007 Hawaii Bowl",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0395.txt",
+      "sha256": "ddfe805bd9407a98bad75db2e3fc5931e8bd8b995b193d534956206d6ae67dba",
+      "bytes": 24993
+    },
+    {
+      "split": "train",
+      "title": "The Boat Race 1999",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0396.txt",
+      "sha256": "fa01c48462b54c2ec5f0d34b75304fdc33cc17e670364bde8fbd8899a5483c51",
+      "bytes": 5987
+    },
+    {
+      "split": "train",
+      "title": "Hoysala literature",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0397.txt",
+      "sha256": "6be7eb7e55df38df3e593e07b2b903fa9a28f1964657057f34b95546f1727213",
+      "bytes": 34496
+    },
+    {
+      "split": "train",
+      "title": "1939 Pacific hurricane season",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0398.txt",
+      "sha256": "dfb8a7dc2b18fae7c8c69b9cb0dcf91380b2062268bab47c40ba57edbcde42fa",
+      "bytes": 5024
+    },
+    {
+      "split": "train",
+      "title": "G.I. Joe : Retaliation",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0399.txt",
+      "sha256": "47218441d06a52cf8f9184e9262a0498151454205d69889640cb07b0524eee08",
+      "bytes": 23518
+    },
+    {
+      "split": "train",
+      "title": "Burns ' Heir",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0400.txt",
+      "sha256": "c7c508f41d64b96473146add0cad1f3847f10baea579b138ad2816b4d94d2556",
+      "bytes": 8261
+    },
+    {
+      "split": "train",
+      "title": "Cougar",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0401.txt",
+      "sha256": "50f9288621577ac5cbea7cd37f4ef5961c8f9d81df4f83e38bef438a0645bbb0",
+      "bytes": 42614
+    },
+    {
+      "split": "train",
+      "title": "New York State Route 164",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0402.txt",
+      "sha256": "6eb1310af7025cdb14a95f497e340c2ebeefc12ef658653dc9db77dec468a2ed",
+      "bytes": 2007
+    },
+    {
+      "split": "train",
+      "title": "Sorraia",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0403.txt",
+      "sha256": "853483a779a169084cb6c25b0b3a83badd148fab54066025e6f13a7709b6ea5e",
+      "bytes": 10534
+    },
+    {
+      "split": "train",
+      "title": "Haifa",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0404.txt",
+      "sha256": "398e4934f1a930d73d550ef8e68fb242cfb9aefb637ef34b5aabc1259bad7fb0",
+      "bytes": 50225
+    },
+    {
+      "split": "train",
+      "title": "New York State Route 185",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0405.txt",
+      "sha256": "68f40d0c17b925ebff2103e7db85dfbb6e43c1414443614fabd780fe51e8e383",
+      "bytes": 3272
+    },
+    {
+      "split": "train",
+      "title": "Fernando Torres",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0406.txt",
+      "sha256": "ae2f304ec15c6a3663663e4c0fe8048c46c6a9689a7f0040f414e711b3b3eb50",
+      "bytes": 35761
+    },
+    {
+      "split": "train",
+      "title": "Mark Stockwell",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0407.txt",
+      "sha256": "7d2a4048b1cfae02bf62f95359f3b7ac89b7fb2dd09f420024bde30f1ae56f2a",
+      "bytes": 6376
+    },
+    {
+      "split": "train",
+      "title": "Dota 2",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0408.txt",
+      "sha256": "fa8b02895a2089a5713abf4be0ebe51ab68f244ad455d75c93479582dd154e0e",
+      "bytes": 32283
+    },
+    {
+      "split": "train",
+      "title": "Don 't Take It Personally , Babe , It Just Ain 't Your Story",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0409.txt",
+      "sha256": "b4a7a51bca46e308e80da33bdd14078b9424bb2d2ea305d9ee79d173c513ac50",
+      "bytes": 9650
+    },
+    {
+      "split": "train",
+      "title": "The Dreamscape",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0410.txt",
+      "sha256": "afaccc1eba562a3c6a7478df4b8766c1edfdf71b473907d083656e568dba3fcc",
+      "bytes": 11257
+    },
+    {
+      "split": "train",
+      "title": "True Blue ( Madonna song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0411.txt",
+      "sha256": "ea1cc7575d9a0dd894993439e35aa31b8e2a729b97669336f23c709fe5e9fb01",
+      "bytes": 13052
+    },
+    {
+      "split": "train",
+      "title": "Invisible rail",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0412.txt",
+      "sha256": "0d1bf88e81ace4a126e869050edad063b416e7948bf74512849986177dcc754b",
+      "bytes": 9496
+    },
+    {
+      "split": "train",
+      "title": "Project Chanology",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0413.txt",
+      "sha256": "37f6918df0b3ca55bbc9c53844b5cd0f1f426f9d191d515f57c7743efbe6c590",
+      "bytes": 55823
+    },
+    {
+      "split": "train",
+      "title": "Transportation in Omaha",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0414.txt",
+      "sha256": "6e3f433b312e588b690b450d55f7c105695e0013dcbc2921871b05bfa75531cf",
+      "bytes": 25271
+    },
+    {
+      "split": "train",
+      "title": "Clocks ( song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0415.txt",
+      "sha256": "8927bb05a60b6a7e9eb1e7aba238abba7167ad04c627cb30cf15df6190ea51f2",
+      "bytes": 10943
+    },
+    {
+      "split": "train",
+      "title": "Khoo Kheng @-@ Hor",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0416.txt",
+      "sha256": "621808401186a1f30e4d75d4f7c4c36b3fc060663372e43a69af8c0034c3615d",
+      "bytes": 11614
+    },
+    {
+      "split": "train",
+      "title": "The Wave ( Miike Snow song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0417.txt",
+      "sha256": "c2600c9faaeced79bf5d1153b9566c90c44c99d459245340181ef1c2bc1c9638",
+      "bytes": 9076
+    },
+    {
+      "split": "train",
+      "title": "Washington State Route 516",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0418.txt",
+      "sha256": "6f546b761fd3dc20ff41999cc1a9514e222ad3dc122a690f24c8790845d9cb1d",
+      "bytes": 4193
+    },
+    {
+      "split": "train",
+      "title": "Stefan Wever",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0419.txt",
+      "sha256": "c0edb61cc804a992d30e93438e7528cce323ab4e25753d77f5ec12096cacd1e3",
+      "bytes": 6198
+    },
+    {
+      "split": "train",
+      "title": "Djedkare Isesi",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0420.txt",
+      "sha256": "0bdd83efc93ee612624b933a87192ab5c6da9b6a7a5ffcc03b7838af68a3b73b",
+      "bytes": 30501
+    },
+    {
+      "split": "train",
+      "title": "Route 261 ( Delaware \u2013 Pennsylvania )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0421.txt",
+      "sha256": "f634d2d0b0359ea17dbb833b2fa5182a55ad9e8a7db7fa4d7492f8e60baa52f6",
+      "bytes": 5184
+    },
+    {
+      "split": "train",
+      "title": "Comair Flight 5191",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0422.txt",
+      "sha256": "b58d882f4f8c591cdebf068672ebff3c8f0e00a275e41f06528b7cb9dc466c2a",
+      "bytes": 14513
+    },
+    {
+      "split": "train",
+      "title": "Berg ( station )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0423.txt",
+      "sha256": "58b349c088ecbcafb9b9d985c137e50915500eefc5f654cf27b68962b8f33b07",
+      "bytes": 4811
+    },
+    {
+      "split": "train",
+      "title": "Adams River ( British Columbia )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0424.txt",
+      "sha256": "99620e19e42f37175c0a603bfe712911fc0ea63073e3137fd887c07ccba4a77c",
+      "bytes": 9435
+    },
+    {
+      "split": "train",
+      "title": "Independence Day ( India )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0425.txt",
+      "sha256": "a1c31721dfd22b83b6e3675910b0251f69e89d588ffb126d202025dbe9c92e98",
+      "bytes": 12863
+    },
+    {
+      "split": "train",
+      "title": "The One I Love ( manga )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0426.txt",
+      "sha256": "e128221a9fb28e8f1a81f82d9e534cc26c167e8aabc86737b77c6dbc93cdb862",
+      "bytes": 8783
+    },
+    {
+      "split": "train",
+      "title": "Hurricane Abby ( 1960 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0427.txt",
+      "sha256": "acc8fdb12c81c5c687543c8741ce59ef1122b971133f9d8b09943e80ad6a5536",
+      "bytes": 7186
+    },
+    {
+      "split": "train",
+      "title": "2010 Alabama Crimson Tide football team",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0428.txt",
+      "sha256": "3054eb1ae87f467f2b5d0959aa8ee3d3e32afadda86411bada8cbd0fb4cb99eb",
+      "bytes": 37217
+    },
+    {
+      "split": "train",
+      "title": "James Robert Baker",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0429.txt",
+      "sha256": "91f0711737832364b6e47afcd20dc68e94b1b0375aaaea4eb582d26d34a3e2ce",
+      "bytes": 13837
+    },
+    {
+      "split": "train",
+      "title": "Ernie Cooksey",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0430.txt",
+      "sha256": "6e3f83cf4dc3c93b98ffca0232528dba76934e2a9045ae8d0644e7577a81fe9b",
+      "bytes": 8002
+    },
+    {
+      "split": "train",
+      "title": "Simon de Montfort 's Parliament",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0431.txt",
+      "sha256": "414c279f24f861de6988bb02a8e593f8efc903509640429ee17b679b6e77a178",
+      "bytes": 11089
+    },
+    {
+      "split": "train",
+      "title": "USS O 'Brien ( DD @-@ 51 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0432.txt",
+      "sha256": "e29f96d2d3c947533ee9a1a2e9bd8a9bf904009211d26bb9c3b20929187b057b",
+      "bytes": 8098
+    },
+    {
+      "split": "train",
+      "title": "Christine Hakim",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0433.txt",
+      "sha256": "43ce2ee8fe194b61490450dd8df30782e5963752d76ee8f8f39486d8e7700c59",
+      "bytes": 10102
+    },
+    {
+      "split": "train",
+      "title": "A Month in the Country ( film )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0434.txt",
+      "sha256": "e0ebc1d6d69898a2551d40c87146313a13dce4e9ce3b075e02fe2aa2aff8fdb9",
+      "bytes": 10790
+    },
+    {
+      "split": "train",
+      "title": "Hydnellum peckii",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0435.txt",
+      "sha256": "4bca436623d1cb89cda9e92c36a17fe87810313c00b0c32b057f06473195d730",
+      "bytes": 12737
+    },
+    {
+      "split": "train",
+      "title": "Gregory Helms",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0436.txt",
+      "sha256": "ad596b6a28ae5ad7e33052f1b9e1771894ffe3557a5bc6e848174bdbf083ef64",
+      "bytes": 25337
+    },
+    {
+      "split": "train",
+      "title": "New York State Route 38",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0437.txt",
+      "sha256": "6e8b4397e761122fdc974a639575a5df9c1e2004d6e2b5707c52f30d9ff2b8cb",
+      "bytes": 17366
+    },
+    {
+      "split": "train",
+      "title": "Westminster Assembly",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0438.txt",
+      "sha256": "5f14bccf5d3d989436e9638c839a4c6493d3dda331e52c954627c4ea32a7458c",
+      "bytes": 34778
+    },
+    {
+      "split": "train",
+      "title": "The Goat Puzzle",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0439.txt",
+      "sha256": "1a28561e33035495011d045c2d7b334bd865267dde80791563bd52b1df4362e6",
+      "bytes": 4960
+    },
+    {
+      "split": "train",
+      "title": "Sinclair Sovereign",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0440.txt",
+      "sha256": "2c7b1c87681fe38555ebd39ab45fe56bb86711f22ffff852fea51f4b012e8451",
+      "bytes": 6282
+    },
+    {
+      "split": "train",
+      "title": "Survivor Series ( 1992 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0441.txt",
+      "sha256": "ea2367ca532ae89027dc913724c03cee57c3012c1fcaec16e40a5cd16a876250",
+      "bytes": 18559
+    },
+    {
+      "split": "train",
+      "title": "Ouw Peh Tjoa",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0442.txt",
+      "sha256": "ae0bf68d9887eb916f4ee878f7c156fe75cf7ea4ffbdc91ed29fe35f0c672f80",
+      "bytes": 4883
+    },
+    {
+      "split": "train",
+      "title": "HMS Comet ( H00 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0443.txt",
+      "sha256": "36d7ee37cb187d16afc326d796dbba246e5a11b57a36e825d726b485588ceb34",
+      "bytes": 9944
+    },
+    {
+      "split": "train",
+      "title": "History of artificial intelligence",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0444.txt",
+      "sha256": "4d77919a2652d7308c6a5f4066ca4f4a536434b8854dd6ed8f46600e76a66ddc",
+      "bytes": 48075
+    },
+    {
+      "split": "train",
+      "title": "Cyclone Graham",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0445.txt",
+      "sha256": "d95433d442b74d6f945406a9b5a64ad2f4cb60b3f7ee95be6c27f52f14bde7c9",
+      "bytes": 3716
+    },
+    {
+      "split": "train",
+      "title": "Languedoc @-@ Roussillon wine",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0446.txt",
+      "sha256": "14539ca47f9a999150cfc9a22ed68167a9feb8a827c9aa9bf0ac632feb6693de",
+      "bytes": 12583
+    },
+    {
+      "split": "train",
+      "title": "Silver Bullet ( roller coaster )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0447.txt",
+      "sha256": "ace7bc89a01b687e55ae400d175a8afdc95ce412c6ed46abc99efa1f0855c588",
+      "bytes": 4738
+    },
+    {
+      "split": "train",
+      "title": "Blackburn Firecrest",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0448.txt",
+      "sha256": "5d0afbdd23ecec0d057d7e12a86368a81de192dbba6c8ced3392b067fa1e399d",
+      "bytes": 9414
+    },
+    {
+      "split": "train",
+      "title": "Magadheera",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0449.txt",
+      "sha256": "6369acb0d77da571eb9656cb18b848821249b86e375a687e272b0f561d9d7b1c",
+      "bytes": 47290
+    },
+    {
+      "split": "train",
+      "title": "Hurricane Flossy ( 1956 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0450.txt",
+      "sha256": "8b74c90b0cb984bfba0989a74f5896c10838a79c6366bd903cde4a44afe1349f",
+      "bytes": 5760
+    },
+    {
+      "split": "train",
+      "title": "Battle of Binh Gia",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0451.txt",
+      "sha256": "765ad49e25e3c581703d2f86c6b18676fc734ee5059d31e5c227e1cb278d6a1e",
+      "bytes": 19784
+    },
+    {
+      "split": "train",
+      "title": "June 1941 uprising in eastern Herzegovina",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0452.txt",
+      "sha256": "1c867a060b1d50e43617f4f12461819ef2c76668627cee36568be9fab58897ad",
+      "bytes": 37630
+    },
+    {
+      "split": "train",
+      "title": "Crush ( video game )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0453.txt",
+      "sha256": "3ce7df0e251492c8516cd1d94bb5f754c6023c24405f9696aa857df320cae710",
+      "bytes": 14542
+    },
+    {
+      "split": "train",
+      "title": "Odyssey Number Five",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0454.txt",
+      "sha256": "705c0367c9fd8edfaf65dc6f00e02a8fcaaf70873fc6a2b82b3cfb3341bee721",
+      "bytes": 10582
+    },
+    {
+      "split": "train",
+      "title": "Amanita muscaria",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0455.txt",
+      "sha256": "2cbb847ee93fa7c073412f58e4ffdc00d3cf1b9fde9ea7795f6c8ea5c71fc93e",
+      "bytes": 33041
+    },
+    {
+      "split": "train",
+      "title": "Burning of women in England",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0456.txt",
+      "sha256": "bc413c4f19eaeae26c7a570fd756c6d6c7661d9317c5397e33d27fea2d1f1059",
+      "bytes": 15177
+    },
+    {
+      "split": "train",
+      "title": "Strand , London",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0457.txt",
+      "sha256": "342703fd8d71f37335921194eac84bd2a9dc3d902f881631541c3d1f80a901cc",
+      "bytes": 21135
+    },
+    {
+      "split": "train",
+      "title": "President Evil",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0458.txt",
+      "sha256": "63d7d88dce9dc493999d310c561f876d736274b365ba80067241d2d58826ddb9",
+      "bytes": 6995
+    },
+    {
+      "split": "train",
+      "title": "Dave Sisler",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0459.txt",
+      "sha256": "4869c1e235dca252e37572a6e5411b5532c2bdfa6210d9aa5cef4d2390e23d0b",
+      "bytes": 15605
+    },
+    {
+      "split": "train",
+      "title": "Cole Hamels",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0460.txt",
+      "sha256": "c08fb8b810890d8e566977e6b5168550f5dad69972d10fae4f126f3370e78e18",
+      "bytes": 30863
+    },
+    {
+      "split": "train",
+      "title": "Kyra ( Charmed )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0461.txt",
+      "sha256": "36934553281ace0d2b6fc2eb900624c126e59aeeb3c8b0da22f73b2749be2b8b",
+      "bytes": 11334
+    },
+    {
+      "split": "train",
+      "title": "R\u00e9union ibis",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0462.txt",
+      "sha256": "8c3e074c13de04f25d802ea94ed9593058c0a235cd2086c53fa08fe2885b0c1a",
+      "bytes": 23250
+    },
+    {
+      "split": "train",
+      "title": "December 1964 South Vietnamese coup",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0463.txt",
+      "sha256": "c3fd4f0dc466db680fb38cb341834b0323e0d301cee24803dd7990d2deb3f0e4",
+      "bytes": 37570
+    },
+    {
+      "split": "train",
+      "title": "1998 National League Wild Card tie @-@ breaker game",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0464.txt",
+      "sha256": "b44fe199a32b09681951620a671801b6d4a659d50dc447d26d13b7a20c0d2e3c",
+      "bytes": 9182
+    },
+    {
+      "split": "train",
+      "title": "Corpus Christi Bay",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0465.txt",
+      "sha256": "40db83d16ba3999252cff8492e2c83e45cdddd21bed7a3d8bf2a233934c4ae02",
+      "bytes": 11446
+    },
+    {
+      "split": "train",
+      "title": "1990 Pacific hurricane season",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0466.txt",
+      "sha256": "c9dd5f88c6ef2287783cbe0082ab9b2193f601eaf28d86578b20b84535c8910a",
+      "bytes": 37668
+    },
+    {
+      "split": "train",
+      "title": "Track and field",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0467.txt",
+      "sha256": "9502d3c0db32f43c08a89730f0e0e03ec2df1f4bd2bf4fb529b663103c763108",
+      "bytes": 67011
+    },
+    {
+      "split": "train",
+      "title": "Isabella Beeton",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0468.txt",
+      "sha256": "e6e069a9af798c47e8db04ac8634a7e0c9e3ac7738f0710c1a0a031cce373bac",
+      "bytes": 24330
+    },
+    {
+      "split": "train",
+      "title": "Martin Keamy",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0469.txt",
+      "sha256": "f3c393548150fc4216fdf397bfec4d10b4f9dd2936771c29da79baab34319480",
+      "bytes": 15245
+    },
+    {
+      "split": "train",
+      "title": "Kaboom ( Parks and Recreation )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0470.txt",
+      "sha256": "373b4b22dad6aae5a59f927e94749fec1e839ac04be7dab54f11b4e82e098d4e",
+      "bytes": 8392
+    },
+    {
+      "split": "train",
+      "title": "Middle Colonies",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0471.txt",
+      "sha256": "b9ec80370fd898cfa361d9891edde5e7aa2b3cac036326f439aaf71cdcb8c4e5",
+      "bytes": 16233
+    },
+    {
+      "split": "train",
+      "title": "Bath Assembly Rooms",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0472.txt",
+      "sha256": "981a4b7aef7f3b13bb74064715fefc42a79ce2a0eaec80efb74e94633eac7654",
+      "bytes": 10772
+    },
+    {
+      "split": "train",
+      "title": "Flash Gordon Strange Adventure Magazine",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0473.txt",
+      "sha256": "2c39be89be4e3b6925874013e9d6b3fdc294f375243efa57b6bfa9f58b67f3fd",
+      "bytes": 4473
+    },
+    {
+      "split": "train",
+      "title": "Tropical Storm Olaf ( 1997 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0474.txt",
+      "sha256": "1b7b4925535b9acbc280447b33f7eb6d26c80dcdf6d0634db7fa6ace3a1093d7",
+      "bytes": 6017
+    },
+    {
+      "split": "train",
+      "title": "Road to the North Pole",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0475.txt",
+      "sha256": "b4034f13345eff8381ddf83e1c9928b143ad6cbdc4ae170cef1b0404a30e84cc",
+      "bytes": 14265
+    },
+    {
+      "split": "train",
+      "title": "Ed Barrow",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0476.txt",
+      "sha256": "8a4080e1d2dd77cbacc9339c6000d09ca642e0d2af258d5ea2ad6bc5dda55105",
+      "bytes": 14202
+    },
+    {
+      "split": "train",
+      "title": "Spanish Hill",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0477.txt",
+      "sha256": "ef63f509e25ffef5d6659fe8785e8a6cfca64a5b699e9a98655777b14ad2080e",
+      "bytes": 6815
+    },
+    {
+      "split": "train",
+      "title": "S.R. 819",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0478.txt",
+      "sha256": "616ede91e09b408fe3469da6f15c1e3e6aa115e262ee24f48c4ad72ad7e36566",
+      "bytes": 10111
+    },
+    {
+      "split": "train",
+      "title": "Paranthodon",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0479.txt",
+      "sha256": "439f0baa4904a5ebf1e1137e753be8f2956f3c79751773b11e0ab2a73259061a",
+      "bytes": 10021
+    },
+    {
+      "split": "train",
+      "title": "History of Bradford City A.F.C.",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0480.txt",
+      "sha256": "5e9b62fbeb81f76b64395937374f5b43a775f6d4ec911d79d4a33329115f4b1e",
+      "bytes": 27043
+    },
+    {
+      "split": "train",
+      "title": "Aerith Gainsborough",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0481.txt",
+      "sha256": "f38c96123f53a1e998237947ee70a819d7b4f5673e4c608a9fb2b13b88abb746",
+      "bytes": 16948
+    },
+    {
+      "split": "train",
+      "title": "Forbidden Fruit ( J. Cole song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0482.txt",
+      "sha256": "2e929b12ae818c7887fe423277de4d7f8c63e8de068587dbb497b0384397fd72",
+      "bytes": 4534
+    },
+    {
+      "split": "train",
+      "title": "Old Pine Church",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0483.txt",
+      "sha256": "2f08a5abc0cea08c376753884a39e5a2c4f2fc1558a5f1ba699bb1f0f2dc256f",
+      "bytes": 17182
+    },
+    {
+      "split": "train",
+      "title": "God of War video game collections",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0484.txt",
+      "sha256": "1effa4988b95518a5fc26edc36e6cf828521674d139a9346fce91e19e643995d",
+      "bytes": 10277
+    },
+    {
+      "split": "train",
+      "title": "Territorial era of Minnesota",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0485.txt",
+      "sha256": "9e9d8f411c5430ba45eea181ba72fa52067a7bc7df4b496aaf1f8c49d1efd1cc",
+      "bytes": 51990
+    },
+    {
+      "split": "train",
+      "title": "Mitsuyo Maeda",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0486.txt",
+      "sha256": "0958679cf22fd24911584f538f5f433a17138846cc89880a1d0b99059304ef9a",
+      "bytes": 19777
+    },
+    {
+      "split": "train",
+      "title": "Kitsune",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0487.txt",
+      "sha256": "81fa9be3fab8e68d0556a3e420113d2939be2a37d81a6dae91a8c8a135c98d53",
+      "bytes": 22979
+    },
+    {
+      "split": "train",
+      "title": "New York State Route 448",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0488.txt",
+      "sha256": "314d62258d7628a14f8e07e7490a6231e1351001c082b39699145128150ebbe4",
+      "bytes": 5411
+    },
+    {
+      "split": "train",
+      "title": "Hurricane Tanya ( 1995 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0489.txt",
+      "sha256": "a6284d57ded7b35fae34eeed2ec30fed1c74fde684f40d3f049b8c9e3707d58c",
+      "bytes": 5618
+    },
+    {
+      "split": "train",
+      "title": "Sweet Love ( Chris Brown song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0490.txt",
+      "sha256": "5d2d86b9a1e2ef172904cbc611a5cbf001d76c21cffa1c032ec56016cc6c2573",
+      "bytes": 8062
+    },
+    {
+      "split": "train",
+      "title": "Kakapo",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0491.txt",
+      "sha256": "da342c72c9695e88a4cca6397f16bda70083e4136f80eaad043ffa14bee1ad1c",
+      "bytes": 39647
+    },
+    {
+      "split": "train",
+      "title": "Live & Kicking",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0492.txt",
+      "sha256": "3b8bbc6062410b5c2fc199c0f0200388a2d8549b7c3fdd88e840dc0c658cb599",
+      "bytes": 10640
+    },
+    {
+      "split": "train",
+      "title": "Henry Ho\u02bbolulu Pitman",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0493.txt",
+      "sha256": "6e3cc359bae91c43d2fc3cd67c8dfd8d6f8eaf081258360f7b79bddb8ab5636f",
+      "bytes": 19249
+    },
+    {
+      "split": "train",
+      "title": "Church of Christ Pantocrator , Nesebar",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0494.txt",
+      "sha256": "5777b92ad2704bc7cc2802f88fbf7c14b1d5b3fe3adb87174a7e71a104dd2574",
+      "bytes": 4985
+    },
+    {
+      "split": "train",
+      "title": "Kir 'Shara",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0495.txt",
+      "sha256": "f18767fc13c57484fff95d8c6874ad07f0a44f68260c96513dc447496ca9562a",
+      "bytes": 11246
+    },
+    {
+      "split": "train",
+      "title": "Meralda Warren",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0496.txt",
+      "sha256": "9d31dcb3f608f302e19a5a823a532e38e93c8ce5ea774ecb92937b1358b152e9",
+      "bytes": 6634
+    },
+    {
+      "split": "train",
+      "title": "2nd Battalion 9th Marines",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0497.txt",
+      "sha256": "41356e2a9803866ab219d7fee911c79bed5590234225d8d22bdb6dd312b75639",
+      "bytes": 18397
+    },
+    {
+      "split": "train",
+      "title": "Directed acyclic graph",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0498.txt",
+      "sha256": "4a09072402ac1b13b5c6f575c80ab0e184e9e119751243187b047221a2538d47",
+      "bytes": 24734
+    },
+    {
+      "split": "train",
+      "title": "August ( Fringe )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0499.txt",
+      "sha256": "111877515594e70c4a3e6a8facfb29f0174cbec14aac2e6bb6a1b3897c7c3ee9",
+      "bytes": 8397
+    },
+    {
+      "split": "train",
+      "title": "Ghost in the Shell ( 1995 film )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0500.txt",
+      "sha256": "a80948212c8051a795775339014402f5878df4dd1b554f593a276f232c1b7976",
+      "bytes": 19168
+    },
+    {
+      "split": "train",
+      "title": "Yo @-@ Yo ( Nicola Roberts song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0501.txt",
+      "sha256": "311363fbd2a12456b6f10e9c7296b73e81e1721f481418e9bb4a69f97442faec",
+      "bytes": 9065
+    },
+    {
+      "split": "train",
+      "title": "Robbie Fowler",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0502.txt",
+      "sha256": "c08e86f259dab8f1d074b91c255cd099b023accb0d82b5e005ae54701d671827",
+      "bytes": 38628
+    },
+    {
+      "split": "train",
+      "title": "Ode on Indolence",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0503.txt",
+      "sha256": "0083a16f6defa1b1df6daa69dc2aaa7e621644d866384bb988272dab74ae0361",
+      "bytes": 15185
+    },
+    {
+      "split": "train",
+      "title": "Erving Goffman",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0504.txt",
+      "sha256": "7e874595a94e5024ef742e46f26c1851a79e4523ab2af2179090cf6a1f5eab19",
+      "bytes": 31480
+    },
+    {
+      "split": "train",
+      "title": "Cater 2 U",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0505.txt",
+      "sha256": "758713f538d01800a02f86357520ffd0ef2a3f0c96db5443d82d0186f3f24271",
+      "bytes": 20129
+    },
+    {
+      "split": "train",
+      "title": "Marshall Applewhite",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0506.txt",
+      "sha256": "7a49d94b90d57babc5c72f2ac482d407e5ac5b3e716d9bae3f471c09bdc087eb",
+      "bytes": 36004
+    },
+    {
+      "split": "train",
+      "title": "Arbeideren ( Hamar )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0507.txt",
+      "sha256": "c7db7d071c406c5cee70e71bab6234da5f877fbe63275bbf11cbec57507f99bb",
+      "bytes": 11731
+    },
+    {
+      "split": "train",
+      "title": "Journey ( 2012 video game )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0508.txt",
+      "sha256": "57002fb48dd201dff757e4e4981fc2c6ea938a557fdccc2def066c37eaa092dc",
+      "bytes": 22220
+    },
+    {
+      "split": "train",
+      "title": "Gold Beach",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0509.txt",
+      "sha256": "ee760da7b2dd8d98d01018b0b9ca37fc76a5dc3827f62e82ab1a68168b5120d7",
+      "bytes": 34836
+    },
+    {
+      "split": "train",
+      "title": "Tauti\u0161ka giesm\u0117",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0510.txt",
+      "sha256": "73c1d1d8161eef527628cce946d11b956a64bfb3c06496c6bfc067cc1f373962",
+      "bytes": 6932
+    },
+    {
+      "split": "train",
+      "title": "Crosby Garrett Helmet",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0511.txt",
+      "sha256": "72df57925d5a77e5c1820d8e7577623a2d9bff3d9c27e162478e407dc48190e8",
+      "bytes": 16106
+    },
+    {
+      "split": "train",
+      "title": "Liu Kang",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0512.txt",
+      "sha256": "77da3753fc382ad1afff02adf64fa9a258c27d29c16f3037fb87f1ef99cb06b5",
+      "bytes": 23186
+    },
+    {
+      "split": "train",
+      "title": "Inocybe praetervisa",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0513.txt",
+      "sha256": "9a62c9e0ee0cb9af6f6e4a640e7845eef5cf8d9f23596b6db87655caefd75195",
+      "bytes": 5623
+    },
+    {
+      "split": "train",
+      "title": "Hannah Primrose , Countess of Rosebery",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0514.txt",
+      "sha256": "ba26ead9f273bfc0ae9b81842f161f83a8cb4e969763701f50d0b3a8b47a1dbd",
+      "bytes": 45080
+    },
+    {
+      "split": "train",
+      "title": "Hurricane Uleki",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0515.txt",
+      "sha256": "fd9c75fa376c83e162f48e94257c93c4ab6bd201f0ce066b90113eeb203cd8a6",
+      "bytes": 7204
+    },
+    {
+      "split": "train",
+      "title": "2016 Spanish Grand Prix",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0516.txt",
+      "sha256": "c653376c5b7f1150b56ed10f95f2fd83a4b20632cb08d00168b1c54f3d40dd44",
+      "bytes": 19310
+    },
+    {
+      "split": "train",
+      "title": "Loverboy ( Mariah Carey song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0517.txt",
+      "sha256": "64c40819303bdefd7e1f413efef0c70c288a02ce79a9d86a0ccc9fca9c85c5e7",
+      "bytes": 19298
+    },
+    {
+      "split": "train",
+      "title": "Allah",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0518.txt",
+      "sha256": "90eed9bfb259166292227f4f65b7ba2c3263f713bdb7a6ef8449ef2db054b57f",
+      "bytes": 16240
+    },
+    {
+      "split": "train",
+      "title": "Moment of Surrender",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0519.txt",
+      "sha256": "26b4f5ae9f20c699b8bd553f777d1acf4904591413d0f27c7784230aaefffc3b",
+      "bytes": 14457
+    },
+    {
+      "split": "train",
+      "title": "Gaboon viper",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0520.txt",
+      "sha256": "31fbdd1df249a716ecc1e0b92b0c1c18b24caa9eed9afcd3dbe7fecfcec82194",
+      "bytes": 14069
+    },
+    {
+      "split": "train",
+      "title": "The Sixth Extinction",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0521.txt",
+      "sha256": "9954d925252a16ad83d54a3a0e1f80557294d02986d53088175adb1ba63e8b9e",
+      "bytes": 11240
+    },
+    {
+      "split": "train",
+      "title": "Snow ( visual novel )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0522.txt",
+      "sha256": "8f2479c9272d6afc0386963aef3ff8a5041709389eff159853aa23710a0ad239",
+      "bytes": 11095
+    },
+    {
+      "split": "train",
+      "title": "Miss Meyers",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0523.txt",
+      "sha256": "59bb80c729687b425917d44a4baba74546495acbe80a17ba06c02c94b05c6c2d",
+      "bytes": 4220
+    },
+    {
+      "split": "train",
+      "title": "Far Away Places ( Mad Men )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0524.txt",
+      "sha256": "afe00d0bcf45f20b984e694cc40e178def8a193a73df842b4e4c234fb36e9f9c",
+      "bytes": 14394
+    },
+    {
+      "split": "train",
+      "title": "Awakening ( Star Trek : Enterprise )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0525.txt",
+      "sha256": "5a8a02cda86bb71443d47dc751be58fe9c4f4d07f763dc4c7e589ff4fcdba20f",
+      "bytes": 8941
+    },
+    {
+      "split": "train",
+      "title": "Mole cricket",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0526.txt",
+      "sha256": "4c3f5f858003db7a9de0ea8d6741faf4668893d7768aacc0aa6d557ba2c50c80",
+      "bytes": 20710
+    },
+    {
+      "split": "train",
+      "title": "Maryland Route 194",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0527.txt",
+      "sha256": "d324d628edab15f8727a4329b26c8c453f90b4f6b3af94107ff7efe3d5dac6aa",
+      "bytes": 10028
+    },
+    {
+      "split": "train",
+      "title": "Le souper de Beaucaire",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0528.txt",
+      "sha256": "f478c85f459f7a0c7e161cb57baa67987c7dca546303a617234bbf04efb6e66c",
+      "bytes": 5646
+    },
+    {
+      "split": "train",
+      "title": "Jin \u2013 Song Wars",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0529.txt",
+      "sha256": "674a7c064976726914bfd04b69c559cc45675c0b2b6c27274526f844af2a4937",
+      "bytes": 58299
+    },
+    {
+      "split": "train",
+      "title": "T30 Howitzer Motor Carriage",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0530.txt",
+      "sha256": "8f78aaf272436ae1244adfac96aeb2d0b0b5e44642640ce8ad391180303d8b22",
+      "bytes": 4932
+    },
+    {
+      "split": "train",
+      "title": "Memory Almost Full",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0531.txt",
+      "sha256": "a18878466533079ec39aec5c7a2c9d180dbc59d4de678fecf6b340dcefc403eb",
+      "bytes": 15736
+    },
+    {
+      "split": "train",
+      "title": "Imagine ( John Lennon song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0532.txt",
+      "sha256": "113474f7b17316fa098d8607b68f47f0370de28f55cb80235a4cb9f22aac0700",
+      "bytes": 22027
+    },
+    {
+      "split": "train",
+      "title": "Big Boy ( song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0533.txt",
+      "sha256": "092238a64bc9daa924af1aad62895ee849213156cd00b2b1c90064c61331739f",
+      "bytes": 3994
+    },
+    {
+      "split": "train",
+      "title": "Chagas disease",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0534.txt",
+      "sha256": "4df1798534574daa4d26eb7eb0dbb340ec53e0b03ec9b143eec735a05fa22b02",
+      "bytes": 23737
+    },
+    {
+      "split": "train",
+      "title": "Diamond stingray",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0535.txt",
+      "sha256": "067624e53a9598bceb0f510659039ea10de301c35fbffb4a4fea0a47ed78957d",
+      "bytes": 12212
+    },
+    {
+      "split": "train",
+      "title": "George Calvert , 1st Baron Baltimore",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0536.txt",
+      "sha256": "d7d87b9ca9ae8dcd79cbafd5403ea4e8c53f69858a97d1a3a0f29e7d1065d89f",
+      "bytes": 31245
+    },
+    {
+      "split": "train",
+      "title": "Draining and development of the Everglades",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0537.txt",
+      "sha256": "202fecaddc7797a11f644b88b65279e64ef1fa717e5cf863b18087be759ade6e",
+      "bytes": 48878
+    },
+    {
+      "split": "train",
+      "title": "DuMont Television Network",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0538.txt",
+      "sha256": "45b00f16901d77290ac8e9d3f306a5232b72f8e9d2605a3b3e829c94f1db2436",
+      "bytes": 33594
+    },
+    {
+      "split": "train",
+      "title": "Bodyline",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0539.txt",
+      "sha256": "bb8378944209dd54948c6049f677c6a8326cb576869185b2e311fdc834866618",
+      "bytes": 32562
+    },
+    {
+      "split": "train",
+      "title": "Waterfall Gully , South Australia",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0540.txt",
+      "sha256": "4eae3b2cdc822652434ed99d313e11a176d05577140ab72b7259eb3d33736465",
+      "bytes": 20927
+    },
+    {
+      "split": "train",
+      "title": "Mariana ( poem )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0541.txt",
+      "sha256": "0d057125262839fce78a49760d4885ec3e4f623e00f32fcda4b5453f0d4d7d13",
+      "bytes": 12068
+    },
+    {
+      "split": "train",
+      "title": "Mothers of the Disappeared",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0542.txt",
+      "sha256": "2b9e07868e9d610f171695ce54f12c1d2fd2fcbd7bc281ac27bc0096dde301b0",
+      "bytes": 19702
+    },
+    {
+      "split": "train",
+      "title": "Katherine Pulaski",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0543.txt",
+      "sha256": "fd7ce39509e2e5a84a61e2248e8deb8c0066e62e942282826f0ec210863f5f88",
+      "bytes": 11523
+    },
+    {
+      "split": "train",
+      "title": "Noisy miner",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0544.txt",
+      "sha256": "ad6d0490c1c3b951da68b787e7fec37e9782e1502ecbe5c43304eb2d234f4663",
+      "bytes": 42122
+    },
+    {
+      "split": "train",
+      "title": "Principe Amedeo @-@ class ironclad",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0545.txt",
+      "sha256": "cb4a6a071fca4aa36ecc7f43bf0f56588f8ac59f03edf02905646fe977b2b6dd",
+      "bytes": 5726
+    },
+    {
+      "split": "train",
+      "title": "Cell nucleus",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0546.txt",
+      "sha256": "1bbae497b7f3884bb47767dc924792d7333ea8e66dee390109b0b4361601a8c0",
+      "bytes": 38777
+    },
+    {
+      "split": "train",
+      "title": "Until the Whole World Hears",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0547.txt",
+      "sha256": "1df4a4069baf341e5eca413766d4fb0ae56dab539f91397a18af1ec23cde8243",
+      "bytes": 10437
+    },
+    {
+      "split": "train",
+      "title": "Ceres ( dwarf planet )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0548.txt",
+      "sha256": "06f70923df49d68ef0227f9c65e60d515251d69b435b6444aa968b29540227a3",
+      "bytes": 11623
+    },
+    {
+      "split": "train",
+      "title": "10 @.@ 6 \u00b0 compared to 7 \u00b0 for Mercury and 17 \u00b0 for Pluto ) and moderately eccentric ( e",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0549.txt",
+      "sha256": "77f2bef2095d780f6c27cff138c4ee7a44c2cab9d89bfd5ba9a1aacd5fd95b11",
+      "bytes": 19386
+    },
+    {
+      "split": "train",
+      "title": "Skye",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0550.txt",
+      "sha256": "b11a5962a613234c682a59c31253dcdec4237e95fb9b3e4d94f39e5bc9ffebff",
+      "bytes": 31584
+    },
+    {
+      "split": "train",
+      "title": "Florida Atlantic University",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0551.txt",
+      "sha256": "d3d774c2b60506317c7f10314cac4078f2b0ae5ace78d0a040245397e7a70d3b",
+      "bytes": 38573
+    },
+    {
+      "split": "train",
+      "title": "The Clean Tech Revolution",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0552.txt",
+      "sha256": "ae6cdd2bb22db4c8195371f017d1175bb32fd9b599f90c29d2cb51fa25bdca6f",
+      "bytes": 10575
+    },
+    {
+      "split": "train",
+      "title": "Missouri River",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0553.txt",
+      "sha256": "0c7bab025dc452c3d03a76bec681f89a8c2a8dc2fd088a1ef9a2a3bfd749c395",
+      "bytes": 69259
+    },
+    {
+      "split": "train",
+      "title": "Monty Can 't Buy Me Love",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0554.txt",
+      "sha256": "1dc9dbc5cc204d22247aa80e6eace16cafb35550828de3c1696a734521da091b",
+      "bytes": 8225
+    },
+    {
+      "split": "train",
+      "title": "Landing at Anzac Cove",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0555.txt",
+      "sha256": "db10bcbc93060710635ba0248752dd0242112ebf0d433d5e971310fdd72c70f7",
+      "bytes": 48955
+    },
+    {
+      "split": "train",
+      "title": "Michelle Rzepecki",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0556.txt",
+      "sha256": "634f895dd897f1459e938477b27de86c652d5974b1edbfd6dd8c5cd05fb05996",
+      "bytes": 2941
+    },
+    {
+      "split": "train",
+      "title": "The Good Terrorist",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0557.txt",
+      "sha256": "0775283ada045e6da7908a4872f196406fa5334231681cd424c1c3ac24ce36ad",
+      "bytes": 22545
+    },
+    {
+      "split": "train",
+      "title": "Henry of Grosmont , 1st Duke of Lancaster",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0558.txt",
+      "sha256": "5ca26e8bed093811b7619561fc65ea5b33f5c75788cffba8de7722508ea22c5b",
+      "bytes": 8415
+    },
+    {
+      "split": "train",
+      "title": "I Am Unicorn",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0559.txt",
+      "sha256": "62973df172be24cf198f95a51dd0bf45150b9dc7291ac63388cab624e34fa94a",
+      "bytes": 19026
+    },
+    {
+      "split": "train",
+      "title": "Galentine 's Day",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0560.txt",
+      "sha256": "a18c924f327fca5cfa8fa2d70bcdd45861f8e8c2e1c2700386450024dc702f99",
+      "bytes": 11472
+    },
+    {
+      "split": "train",
+      "title": "Bossy ( Lindsay Lohan song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0561.txt",
+      "sha256": "aece2663ab80e7177918d9bd2fea36f941f5a5df2b2aa753eeb74b4fb362e468",
+      "bytes": 3985
+    },
+    {
+      "split": "train",
+      "title": "Biddenden Maids",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0562.txt",
+      "sha256": "fc3f3be6359e5848490f09945cdada281aaab829aa64a5a0815da2d235ae25a9",
+      "bytes": 15136
+    },
+    {
+      "split": "train",
+      "title": "\u00c6lfric of Abingdon",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0563.txt",
+      "sha256": "8edb9de4dee528fb902e6bf2331f063e9d1deac3d528caa2c087b030fc9d6547",
+      "bytes": 4735
+    },
+    {
+      "split": "train",
+      "title": "White Dog ( Gary novel )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0564.txt",
+      "sha256": "4ebe5c6cf2fe6ab7cc72b0e4fe98c40a93455f496070eac0c75ae4c9566a0623",
+      "bytes": 7862
+    },
+    {
+      "split": "train",
+      "title": "Condom",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0565.txt",
+      "sha256": "0b08c38628f85a05346836fd887a160e2af909dc9653ab8a2b097b580a88ad97",
+      "bytes": 52307
+    },
+    {
+      "split": "train",
+      "title": "Sovetsky Soyuz @-@ class battleship",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0566.txt",
+      "sha256": "b1c62c7ca3f1f2fa65c472af83685a63d59bb61bdeb409229990afbe36f9c585",
+      "bytes": 26677
+    },
+    {
+      "split": "train",
+      "title": "Sang Pencerah",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0567.txt",
+      "sha256": "0ab94f74da54838e14915656598f82e8b87811db73e0cae8f7b16d433123a1b5",
+      "bytes": 8206
+    },
+    {
+      "split": "train",
+      "title": "Underneath ( The X @-@ Files )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0568.txt",
+      "sha256": "ca63ab994ef9003e6236445d8bc02e3f2c65f4ef1d9ad9bfc18d9fe0aa6157c9",
+      "bytes": 8370
+    },
+    {
+      "split": "train",
+      "title": "Islais Creek",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0569.txt",
+      "sha256": "ecd7369ada1fc1fdce7c605a0c2b26698c2729163b3a2aa8ca2dbcb359ef2374",
+      "bytes": 7146
+    },
+    {
+      "split": "train",
+      "title": "Iguanodon",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0570.txt",
+      "sha256": "75fa094e81ded706838af4f035beb793e79b5cad92f981972a4f4aa278a374d3",
+      "bytes": 41991
+    },
+    {
+      "split": "train",
+      "title": "Subtropical Storm Alpha ( 1972 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0571.txt",
+      "sha256": "9b55e9eb6c973e5abe81135a7cc293f265ccc5438df9d5e152be0a9add66f76d",
+      "bytes": 5616
+    },
+    {
+      "split": "train",
+      "title": "Barbarian II : The Dungeon of Drax",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0572.txt",
+      "sha256": "672f5afc3a09d7d1c52080c6c2163dafa7b839cf88b6c5ce45c5460d7a31c942",
+      "bytes": 12733
+    },
+    {
+      "split": "train",
+      "title": "Van Morrison : Too Late to Stop Now",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0573.txt",
+      "sha256": "ff77d3c962f7de93c6e3a31c2445a4a55dc78b5dfe6e57334a7ae3c840729f23",
+      "bytes": 12306
+    },
+    {
+      "split": "train",
+      "title": "Music of Chrono Cross",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0574.txt",
+      "sha256": "fd66738f56a83fa26ad77defbd89a6c28a36e682ab7fc77e2ca9334ad90d1c6e",
+      "bytes": 10450
+    },
+    {
+      "split": "train",
+      "title": "M @-@ 47 ( Michigan highway )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0575.txt",
+      "sha256": "eeddbf654fdeed90558de87434b26a13eaa1f1bacd4ff3f0f896cc1d99d015c8",
+      "bytes": 6626
+    },
+    {
+      "split": "train",
+      "title": "The Convict ( 1910 film )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0576.txt",
+      "sha256": "f225226ebe605cb3d86e8672d16cb28480d8a7947b033201147c2fa014c4a5b3",
+      "bytes": 7933
+    },
+    {
+      "split": "train",
+      "title": "Max Mosley",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0577.txt",
+      "sha256": "96d92eee55895021a64b8d2fd6619a3bb0b51f8ac505f853b511c98f2087329d",
+      "bytes": 50135
+    },
+    {
+      "split": "train",
+      "title": "130th Engineer Brigade ( United States )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0578.txt",
+      "sha256": "5ce4092983896c8abe65c97fc90d308bf72ebde3998bf5e5a77a4030cb5565d2",
+      "bytes": 25785
+    },
+    {
+      "split": "train",
+      "title": "Corythosaurus",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0579.txt",
+      "sha256": "a07de085eafbc179ddc981e5c6cd4a79d006a45e23912453bf702fcf7f81ed44",
+      "bytes": 24966
+    },
+    {
+      "split": "train",
+      "title": "Ghost in the Shell : Stand Alone Complex - Solid State Society",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0580.txt",
+      "sha256": "845d5520f8d6896a0465f68dc7c09e7ebcfc574e94f59328689a651b8eb7d917",
+      "bytes": 10167
+    },
+    {
+      "split": "train",
+      "title": "Winston Tunnel",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0581.txt",
+      "sha256": "b6ae74bb314ae791c5b466d54039e9667acb2b8a6965dee46fe8f5712616f34a",
+      "bytes": 5657
+    },
+    {
+      "split": "train",
+      "title": "Wales national rugby union team",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0582.txt",
+      "sha256": "b0396b91ced520b016f4666e84cfb9832648831316494c0d8749f0a2409aef86",
+      "bytes": 27694
+    },
+    {
+      "split": "train",
+      "title": "Anekantavada",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0583.txt",
+      "sha256": "ac3867ad30ef66d17f43685427c8892fa4adfabba6d58d6fcde0bcacdf8c4b62",
+      "bytes": 37003
+    },
+    {
+      "split": "train",
+      "title": "Arnhem Oosterbeek War Cemetery",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0584.txt",
+      "sha256": "0f8027dd327e3aceac3bbd1ded02c89e2e3aa8fca59c82398bc89e6665b5d994",
+      "bytes": 6754
+    },
+    {
+      "split": "train",
+      "title": "Ace Attorney",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0585.txt",
+      "sha256": "602cd58062d50e447dcfeb6e3dbf49ffb9cdcf65fc002779f6b9c28fb21725fa",
+      "bytes": 22303
+    },
+    {
+      "split": "train",
+      "title": "Cambodian Campaign",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0586.txt",
+      "sha256": "052c1aea6a9c1deebe84eb6aad1e836fef4b55df384aa60e67bd07a7ad0ffd2e",
+      "bytes": 47434
+    },
+    {
+      "split": "train",
+      "title": "Verpa bohemica",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0587.txt",
+      "sha256": "4a74ae918e18b87c2df814b5fddf2f568499d44d3844f9b8d5bce084d64a4e33",
+      "bytes": 8853
+    },
+    {
+      "split": "train",
+      "title": "Varanasi",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0588.txt",
+      "sha256": "bbb983a228dd9f3f1d2d2a2ee760e50e7a75c4b1f03b7efa0bc62deb5b2c6470",
+      "bytes": 46169
+    },
+    {
+      "split": "train",
+      "title": "Toronto Magnetic and Meteorological Observatory",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0589.txt",
+      "sha256": "6fb1342d6ca1a515a9f85a6301be4b21fa0b4184468bd6818ea9005fa81cf6f8",
+      "bytes": 11927
+    },
+    {
+      "split": "train",
+      "title": "1973 Atlantic hurricane season",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0590.txt",
+      "sha256": "1b7d515b1c53fbbfa0532af34f19a33a559fc342fe155f2cf53a2527c7f3edb1",
+      "bytes": 27864
+    },
+    {
+      "split": "train",
+      "title": "2 / 4th Machine Gun Battalion ( Australia )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0591.txt",
+      "sha256": "dc4f2b67a8a7d4892a56c25a54624a55fbfe8d19b18af3b20dd30e01900a3e5c",
+      "bytes": 30711
+    },
+    {
+      "split": "train",
+      "title": "Richard Nixon presidential campaign , 1968",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0592.txt",
+      "sha256": "6586fe92cf13070f4f7dc4c27eea094f0cb1d6fb69e7a5aa74002002259cab68",
+      "bytes": 30993
+    },
+    {
+      "split": "train",
+      "title": "Cyclone Herbie",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0593.txt",
+      "sha256": "f36deaa3e806a60edc478051631165b4003e1d55a8e81ef2befc6b6562e50f6d",
+      "bytes": 6116
+    },
+    {
+      "split": "train",
+      "title": "Croatian independence referendum , 1991",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0594.txt",
+      "sha256": "9a3c9e12cd32171a3316f1c2c04aa156d029404c217f3b3c23371b1017785892",
+      "bytes": 8889
+    },
+    {
+      "split": "train",
+      "title": "Georgian scripts",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0595.txt",
+      "sha256": "ff6a54411ed07b30c78a6b93fee8eb7882701201aa72e3591a5a09e7ebb23230",
+      "bytes": 21650
+    },
+    {
+      "split": "train",
+      "title": "and",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0596.txt",
+      "sha256": "983de6ba08e7219528dab0fc25182e1a6d3997c88af42fa296be85b674de5f44",
+      "bytes": 4768
+    },
+    {
+      "split": "train",
+      "title": "Banai ( goddess )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0597.txt",
+      "sha256": "bcf320c81c6224264030fd18fced4a42705ac1d4144ce7d8532ac5bbfc2a1e54",
+      "bytes": 13228
+    },
+    {
+      "split": "train",
+      "title": "Europium",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0598.txt",
+      "sha256": "448284de0ec636e095c3d32bbe8cf8436d60f6e910f481eeec25dac54a881687",
+      "bytes": 1443
+    },
+    {
+      "split": "train",
+      "title": "7 / 2 ) suppresses the superconductivity , which is induced by eliminating this local moment ( J",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0599.txt",
+      "sha256": "2bab724866a725116ee8d9ca96d1c3be4270e7f23d0b7a38e240a92e9f74ac52",
+      "bytes": 16000
+    },
+    {
+      "split": "train",
+      "title": "North @-@ Eastern Area Command ( RAAF )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0600.txt",
+      "sha256": "baadde17ee270d3ac5f06865b0b4f6840f1fbdbedb60732130de0aae3e8e0dbb",
+      "bytes": 13827
+    },
+    {
+      "split": "train",
+      "title": "Cape lobster",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0601.txt",
+      "sha256": "5d01c084a6b3d1754f0293516b1932bf5feafea8bb3ef0d19d3a10b86fe579c0",
+      "bytes": 4449
+    },
+    {
+      "split": "train",
+      "title": "A4232 road",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0602.txt",
+      "sha256": "f0bff8945909e54ee43c3aee653090ac3e8a8dda70ba09b33576a6a47b9f72e0",
+      "bytes": 25207
+    },
+    {
+      "split": "train",
+      "title": "Development of Fez",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0603.txt",
+      "sha256": "9f1872eaab7a717a5263cf0b6e713a3db6f0f85a903fa2824222376efbb89467",
+      "bytes": 15018
+    },
+    {
+      "split": "train",
+      "title": "Hugh Walpole",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0604.txt",
+      "sha256": "2dcd6633d9a1f0aaa5a0e5163b64d4d3d224fb4d03458f04e1cc47048ed2f2b7",
+      "bytes": 41989
+    },
+    {
+      "split": "train",
+      "title": "Domnall mac Murchada",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0605.txt",
+      "sha256": "6ddcb412cb6c3728c6c17670c1bfe679e17c8d2d14489337fc8b778b167c419e",
+      "bytes": 7649
+    },
+    {
+      "split": "train",
+      "title": "Irresistible ( The X @-@ Files )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0606.txt",
+      "sha256": "6390aa4634b16c1f2f406fc958719ca30ae1790235afb45696a8dd900a01bfb5",
+      "bytes": 10912
+    },
+    {
+      "split": "train",
+      "title": "Thunderbirds ( TV series )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0607.txt",
+      "sha256": "7da455dd5565975afddc2486781978209ead51ff4ac78ea8b46bac91db0bfe21",
+      "bytes": 57943
+    },
+    {
+      "split": "train",
+      "title": "T. Arthur Cottam",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0608.txt",
+      "sha256": "db665b45bbdf7c2ca3fb11ce4fff572eebc45f1abac04a641a69fd00b5fb2a25",
+      "bytes": 6367
+    },
+    {
+      "split": "train",
+      "title": "Partington",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0609.txt",
+      "sha256": "defb76ee81a78249663bd609fbde8d72dfa8c6bae3080ce9acd66da1cb8578e8",
+      "bytes": 11549
+    },
+    {
+      "split": "train",
+      "title": "Key ( basketball )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0610.txt",
+      "sha256": "c9395959c087feb330466bd9dd1436580251c03ac065634f63726ba3b296e8f1",
+      "bytes": 11131
+    },
+    {
+      "split": "train",
+      "title": "The General in His Labyrinth",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0611.txt",
+      "sha256": "7c6e4c36fb5b7e86695d9da8805f760a997d050f40090f110100b8af99802579",
+      "bytes": 39480
+    },
+    {
+      "split": "train",
+      "title": "Copia ( museum )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0612.txt",
+      "sha256": "ad311905c8d57a8492005cf484632646001c2f45e1fafe5f8f2145ecc07eab48",
+      "bytes": 13359
+    },
+    {
+      "split": "train",
+      "title": "Youth on the Prow , and Pleasure at the Helm",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0613.txt",
+      "sha256": "083e8e25cecb07d1f27054927c389e4d818f726f6bc7f9ca83e3d635d4ae9473",
+      "bytes": 13316
+    },
+    {
+      "split": "train",
+      "title": "Mozambican War of Independence",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0614.txt",
+      "sha256": "5e05f1879a12391d707f2149bf25054d94a6dbfa68bf1d418ac28b48d47fdd16",
+      "bytes": 37533
+    },
+    {
+      "split": "train",
+      "title": "The Secret of Monkey Island",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0615.txt",
+      "sha256": "68c286ce66556f9ae6fe5cf9cdf5d934c75c108e597f3bc761b22d23277d34af",
+      "bytes": 22599
+    },
+    {
+      "split": "train",
+      "title": "Temple of Eshmun",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0616.txt",
+      "sha256": "8a7e440f6405f10dd3b37a3d5074ad0f23cf4376874ebd18024fc69e25b7f986",
+      "bytes": 20409
+    },
+    {
+      "split": "train",
+      "title": "Wilhelm Busch",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0617.txt",
+      "sha256": "65d8ffe2e48ead8fed45eb3103810b6bb61f5cf075529ce5a7ad330c1959beea",
+      "bytes": 44803
+    },
+    {
+      "split": "train",
+      "title": "Crown Fountain",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0618.txt",
+      "sha256": "6f5f893c261b54c7960c13b080c8cbcf0ab26c1f889c647a251484760f4164bf",
+      "bytes": 28998
+    },
+    {
+      "split": "train",
+      "title": "Canning Dam",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0619.txt",
+      "sha256": "9d3eceee1322462d29b2978d7d3d93c604cd733c04ad4e5c76009c6459beb30b",
+      "bytes": 11795
+    },
+    {
+      "split": "train",
+      "title": "Midge ( Barbie )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0620.txt",
+      "sha256": "a7f92f6a95bbc61893eb6f3b3f000003cedc8f13d69fa9c2a633481a9ec2fcd0",
+      "bytes": 8085
+    },
+    {
+      "split": "train",
+      "title": "The Tempest ( album )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0621.txt",
+      "sha256": "b5aeb1f7a8039d52f16c67124642dc12e34f5a733daabb68c2b36dc641418ac0",
+      "bytes": 5644
+    },
+    {
+      "split": "train",
+      "title": "Star",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0622.txt",
+      "sha256": "eac7dacbe6436f031e0f1705309369c818a34045f3bb41febd19183f62e82f78",
+      "bytes": 61039
+    },
+    {
+      "split": "train",
+      "title": "Perry the Platypus",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0623.txt",
+      "sha256": "af1e9e07a29c0d8eb2f8f9ff2b1a72397ae4c83987ad42796f5f782473eb9415",
+      "bytes": 15399
+    },
+    {
+      "split": "train",
+      "title": "Amylostereum",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0624.txt",
+      "sha256": "0c843ee1c6313c15444805917500392cc9fe0bec6af5a529e94cc9613f69cf47",
+      "bytes": 13429
+    },
+    {
+      "split": "train",
+      "title": "Charles @-@ Valentin Alkan",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0625.txt",
+      "sha256": "db84b135ee06c9d718ef620ea8472f2ea3a5eb5c105837cfc9fafa3711bec205",
+      "bytes": 45244
+    },
+    {
+      "split": "train",
+      "title": "Business School ( The Office )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0626.txt",
+      "sha256": "8ce8a70ae229e7eca77012470675492fce834ccf2fcf39a945884718dd326767",
+      "bytes": 5969
+    },
+    {
+      "split": "train",
+      "title": "M @-@ 81 ( Michigan highway )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0627.txt",
+      "sha256": "b9f3ca02eb9143a0b0723802774523b3d1ecd2707742e72f9423b1afbee95c40",
+      "bytes": 6018
+    },
+    {
+      "split": "train",
+      "title": "Common starling",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/train-0628.txt",
+      "sha256": "daeefa03f930c1d4970092fde9493afd408f23a3ad180f715ce5889f5b73c89c",
+      "bytes": 45568
+    },
+    {
+      "split": "validation",
+      "title": "Homarus gammarus",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0000.txt",
+      "sha256": "573e1d244efc95bd7bb4ee3df0735bfdd688d3abf7f70a849ac2061c6de8a4d9",
+      "bytes": 8700
+    },
+    {
+      "split": "validation",
+      "title": "Frank Headlam",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0001.txt",
+      "sha256": "65367c6d9eaf12fe9b770624616e478c45a881dffd111864a76049fcaaf25fee",
+      "bytes": 14377
+    },
+    {
+      "split": "validation",
+      "title": "M @-@ 82 ( Michigan highway )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0002.txt",
+      "sha256": "12d68dfab6f7f4c42e62921fc7a50f489f8493742b362afb6dfa5434fd766f72",
+      "bytes": 4651
+    },
+    {
+      "split": "validation",
+      "title": "Shikamaru Nara",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0003.txt",
+      "sha256": "e202595f483d233598b8fba54567f889bf0c1c23a8808f391238681ae53a6412",
+      "bytes": 9111
+    },
+    {
+      "split": "validation",
+      "title": "Meridian , Mississippi",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0004.txt",
+      "sha256": "48c231dd9620f52787e8f197d7c303ad6fc9f62a6f6496dc750b718022b55343",
+      "bytes": 58940
+    },
+    {
+      "split": "validation",
+      "title": "Papa Stour",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0005.txt",
+      "sha256": "8bab1a54305dd24a80fa682dbae650c3c602945552f28fe526cd1a59525695be",
+      "bytes": 18102
+    },
+    {
+      "split": "validation",
+      "title": "Angel of Death ( Slayer song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0006.txt",
+      "sha256": "42c7bf099d141b31c260e7dae7c4142ae0f8895157daba2b193901f49c93b7b9",
+      "bytes": 9580
+    },
+    {
+      "split": "validation",
+      "title": "Calvin McCarty",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0007.txt",
+      "sha256": "6c088c55eefe4cb3462727235eca6e9269de2778a67bc337b3aec2009bd52c90",
+      "bytes": 14223
+    },
+    {
+      "split": "validation",
+      "title": "Hurricane Beatriz ( 2011 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0008.txt",
+      "sha256": "84adf1a3e38c23c7d13105a53b2bd5d84ae8a0fdb0993a707938fa9045b41297",
+      "bytes": 6948
+    },
+    {
+      "split": "validation",
+      "title": "The Bourgeois Blues",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0009.txt",
+      "sha256": "9c5f6692141e98dde1e57a76d85f234d503e7eb314f2cf7c3223d8b5035a57ae",
+      "bytes": 7936
+    },
+    {
+      "split": "validation",
+      "title": "Sorry ( Madonna song )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0010.txt",
+      "sha256": "30381aac0b915e5f4b6f40c7624109ad14dd716a4ed4b8b1172c364a383e6e9b",
+      "bytes": 13463
+    },
+    {
+      "split": "validation",
+      "title": "High Five Interchange",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0011.txt",
+      "sha256": "b7b8a5f488df420c3456f7d685ebad23c23413d31bfe721dcb4bb206c02b49aa",
+      "bytes": 7591
+    },
+    {
+      "split": "validation",
+      "title": "Tim Richmond",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0012.txt",
+      "sha256": "9f94a2de5b79be03371ba649ec6b46361df4718c6836cb697ba1f689bb41fa12",
+      "bytes": 19005
+    },
+    {
+      "split": "validation",
+      "title": "Trout Creek Mountains",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0013.txt",
+      "sha256": "d6e5e3024492646ad0f98d89f7704cd6a1f81598b19ed269e252aaffc99485e7",
+      "bytes": 18629
+    },
+    {
+      "split": "validation",
+      "title": "Mycena inclinata",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0014.txt",
+      "sha256": "b3f39e5492f845dc188fffbae5acf340e2c88ebfa2e380fa064d6920f24dcce8",
+      "bytes": 7143
+    },
+    {
+      "split": "validation",
+      "title": "Capel Lligwy",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0015.txt",
+      "sha256": "d30727264c1fee336df7d329e08bdf520230713e87047f84f15f8316dc30325b",
+      "bytes": 6589
+    },
+    {
+      "split": "validation",
+      "title": "2011 \u2013 12 Michigan Wolverines men 's basketball team",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0016.txt",
+      "sha256": "a71be26a1a13e684e463f446d83a18e6e5c23d986773c321bdacb073f2b75ac9",
+      "bytes": 11497
+    },
+    {
+      "split": "validation",
+      "title": "Upsilon Andromedae b",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0017.txt",
+      "sha256": "8a981c6525715ff9f54dc993e6287f8984730cac8052433454393d1b1edb3db8",
+      "bytes": 4580
+    },
+    {
+      "split": "validation",
+      "title": "Daniel Radcliffe",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0018.txt",
+      "sha256": "115b0d84ba8d28c177b01bb53af13d42a9c766155347d36b86083caae7b79fbf",
+      "bytes": 19823
+    },
+    {
+      "split": "validation",
+      "title": "... Thirteen Years Later",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0019.txt",
+      "sha256": "4ec6468448879e3aab9441dc1b239ae30a6635660f03b4041e94d008bc84502a",
+      "bytes": 6977
+    },
+    {
+      "split": "validation",
+      "title": "New Jersey Route 29",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0020.txt",
+      "sha256": "b5ac36099c7c4153a0913e8ac5d8dc31c24ea94e930dbfc2d704f4ea9ff913c6",
+      "bytes": 13000
+    },
+    {
+      "split": "validation",
+      "title": "First Mongol invasion of Burma",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0021.txt",
+      "sha256": "b4b073dab9d66400ec36aef4bb82bc796f0298b6ac77a8fbc702c3a57b57171b",
+      "bytes": 27803
+    },
+    {
+      "split": "validation",
+      "title": "Battle of Edson 's Ridge",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0022.txt",
+      "sha256": "05b41ecf40df139648f49844e1fc220bd8e6d00bbf438f0fad9367ad9fbfb9cc",
+      "bytes": 34866
+    },
+    {
+      "split": "validation",
+      "title": "New Jersey Route 50",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0023.txt",
+      "sha256": "aea14627dfafcade32859e6a5b47484b851aef58dc272096e1f0508279c6659a",
+      "bytes": 7009
+    },
+    {
+      "split": "validation",
+      "title": "Air Rhodesia Flight 825",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0024.txt",
+      "sha256": "ead820f5fd355ff74bcf1d27a9c1dc259d2fa0c586fe0b71d8c765b2024d9416",
+      "bytes": 30368
+    },
+    {
+      "split": "validation",
+      "title": "Tikal",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0025.txt",
+      "sha256": "92445b992e7d30f109ae7f16b04433a4ef8a4df719be52911bd54208eb002fbf",
+      "bytes": 54995
+    },
+    {
+      "split": "validation",
+      "title": "Tropical Storm Josephine ( 2008 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0026.txt",
+      "sha256": "02dab9b3661b9fb31764b8b171bcc4aa3135e9b6ca93dbc2d68cd7f298f15439",
+      "bytes": 7031
+    },
+    {
+      "split": "validation",
+      "title": "Mount Elbert",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0027.txt",
+      "sha256": "6a7e6093f1caac71e6b9d9773732795a28bbf3701f6905fb184a1d224c1a9979",
+      "bytes": 8297
+    },
+    {
+      "split": "validation",
+      "title": "Scientology in Germany",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0028.txt",
+      "sha256": "89b066c987c41c842de5c48c4788e35697d52f5c6ae7abb0bd283c40327d689d",
+      "bytes": 44320
+    },
+    {
+      "split": "validation",
+      "title": "Japanese battleship Asahi",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0029.txt",
+      "sha256": "f3736baa0d26407fa826759e011f14a27bb0569637a6ed925c839ebdabe91fa9",
+      "bytes": 17487
+    },
+    {
+      "split": "validation",
+      "title": "Training Day ( The Office )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0030.txt",
+      "sha256": "4b17c343f228699f7eec3a6fb08694afaf6f345a0773197fe7f38408949113e1",
+      "bytes": 8671
+    },
+    {
+      "split": "validation",
+      "title": "J. C. W. Beckham",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0031.txt",
+      "sha256": "2aec1fda80d74493e650c26762238a921b88627022cd46c1193072274943d639",
+      "bytes": 18531
+    },
+    {
+      "split": "validation",
+      "title": "1888 \u2013 89 New Zealand Native football team",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0032.txt",
+      "sha256": "82a91de2fa3bd97e7e923be4180ca53e4db2d2008270787b5f8a03cf02a012b0",
+      "bytes": 35252
+    },
+    {
+      "split": "validation",
+      "title": "\u00c9va Gauthier",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0033.txt",
+      "sha256": "c251e98619a16a15079dac46797023c91a4d791de8693d38d9705466422be40a",
+      "bytes": 11126
+    },
+    {
+      "split": "validation",
+      "title": "Battle of Sullivan 's Island",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0034.txt",
+      "sha256": "e294e4d3f9a9225fd8657fdbe37e1ef040c2527c81d2300e18cc033b68ecd3f2",
+      "bytes": 20730
+    },
+    {
+      "split": "validation",
+      "title": "Hu Zhengyan",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0035.txt",
+      "sha256": "5161ac00205a9bdb4a419d41381b478a4722f75d8b71081f2fe8e94b7c1dd698",
+      "bytes": 14793
+    },
+    {
+      "split": "validation",
+      "title": "Raid on Manila ( 1798 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0036.txt",
+      "sha256": "097d706538153cd17e567698dd6f2912b16183de8d273511448cf469d96f1ad0",
+      "bytes": 17020
+    },
+    {
+      "split": "validation",
+      "title": "B of the Bang",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0037.txt",
+      "sha256": "76b172c8afcce355ba9c3826350a6fcd9d1f8d51406783d14458e92a8709b0a4",
+      "bytes": 7748
+    },
+    {
+      "split": "validation",
+      "title": "Battle of the Hongorai River",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0038.txt",
+      "sha256": "ccf04b04e5ee6ea86e66edf57ab5e525959446bdd7eab6130de947ffb3148069",
+      "bytes": 23431
+    },
+    {
+      "split": "validation",
+      "title": "Sonic the Hedgehog ( 1991 video game )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0039.txt",
+      "sha256": "33029ea50d518060713e4d9a3e893fef1fdbd038765525936a7d21105e65e286",
+      "bytes": 23010
+    },
+    {
+      "split": "validation",
+      "title": "The Same Old Story",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0040.txt",
+      "sha256": "650c530c8f7ed50693a1cd6e46bb89c86568463f7608c655cceaf2fdc31ed0d0",
+      "bytes": 10714
+    },
+    {
+      "split": "validation",
+      "title": "Randy Blythe manslaughter case",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0041.txt",
+      "sha256": "506e968ed72addd7aa65516ff9b1aa5d2de58d3eb3b6ac7ba1362e305cdab248",
+      "bytes": 27311
+    },
+    {
+      "split": "validation",
+      "title": "U.S. Route 2 in Michigan",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0042.txt",
+      "sha256": "a17e4ba7f3733586964231dad46d761e8b1370b8a7dde13e2c01172c0c1510a8",
+      "bytes": 30765
+    },
+    {
+      "split": "validation",
+      "title": "Butterfly World Tour",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0043.txt",
+      "sha256": "b1b610c47f4980335df7300bcd0b58b3e5791004073ebce075fdab8f1f52e0fc",
+      "bytes": 10359
+    },
+    {
+      "split": "validation",
+      "title": "Thelnetham Windmill",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0044.txt",
+      "sha256": "56bd4996587a4baba1d220965dd9550e638797c9298824cb32c7e32e7aa5e447",
+      "bytes": 24264
+    },
+    {
+      "split": "validation",
+      "title": "Sailor Mouth",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0045.txt",
+      "sha256": "9be02fa3c8a51e83c3318ee07e1f6bd041dd7b0a5021b129c61d1399116be618",
+      "bytes": 8520
+    },
+    {
+      "split": "validation",
+      "title": "Military history of Australia",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0046.txt",
+      "sha256": "e60e3ad21b09b24072a38ac84b6b05b4058e1cdbf8ca45f8f432358010e4fbf6",
+      "bytes": 107115
+    },
+    {
+      "split": "validation",
+      "title": "Ward Churchill",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0047.txt",
+      "sha256": "3dafe10403852cfc9b6126674c29fa2afaa70262ebcac37db233da591f2652ff",
+      "bytes": 38408
+    },
+    {
+      "split": "validation",
+      "title": "Exit Through the Kwik @-@ E @-@ Mart",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0048.txt",
+      "sha256": "cb0118dbaa7b51789fef722b95ecb9b6499a320fa72f735adcfbaa384f16e36e",
+      "bytes": 9473
+    },
+    {
+      "split": "validation",
+      "title": "The Boat Race 2008",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0049.txt",
+      "sha256": "e1dffa28b01fc67693e2331858a88cfe7a5e148ab2534d069b91c217851a90bb",
+      "bytes": 3959
+    },
+    {
+      "split": "validation",
+      "title": "Fort Scott National Historic Site",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0050.txt",
+      "sha256": "529b263c4997589f3e4d9f3672951a17ab877ee83372dec139481f2da1e03227",
+      "bytes": 9538
+    },
+    {
+      "split": "validation",
+      "title": "Slammiversary ( 2008 )",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0051.txt",
+      "sha256": "c731d8eb5332440fe838a217e7928d63d072dc5c915d9db413c88600933bde2b",
+      "bytes": 21944
+    },
+    {
+      "split": "validation",
+      "title": "Home Made Mince Pie",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0052.txt",
+      "sha256": "c4db86eaff9eb6543afaea1c8a6f9b197a24ea98cafe20c4f4ff594f1b5ed4ed",
+      "bytes": 6767
+    },
+    {
+      "split": "validation",
+      "title": "Back Off Boogaloo",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0053.txt",
+      "sha256": "0b4345a4fc89b614c4f1446b3e8a030b8fcfcbb9071cf28001259056ed940a2b",
+      "bytes": 15107
+    },
+    {
+      "split": "validation",
+      "title": "Where the Streets Have No Name",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0054.txt",
+      "sha256": "05bafcd868fbab05e9d08ded7a9f5163a4a92b8a5d3189a9af52bac81016a1f2",
+      "bytes": 26416
+    },
+    {
+      "split": "validation",
+      "title": "Nazarov cyclization reaction",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0055.txt",
+      "sha256": "2a852dac56b94232174447b28ed49f858b2e638edc84b53c48b142d2ae8926ca",
+      "bytes": 13802
+    },
+    {
+      "split": "validation",
+      "title": "Horrible Bosses",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0056.txt",
+      "sha256": "2d32cbddec05194bc0c3b2f056bc21344c33a979a12c41aaa7f24c01db0dfcec",
+      "bytes": 29558
+    },
+    {
+      "split": "validation",
+      "title": "1985 Rajneeshee assassination plot",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0057.txt",
+      "sha256": "b7f68f5a8bfebf3cff7078c822ebeb14a1afa1ae66b6d33cdfde9e1141672518",
+      "bytes": 24327
+    },
+    {
+      "split": "validation",
+      "title": "Die Another Day",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0058.txt",
+      "sha256": "5ecb37f0f8f513073b9ef8a80165b483d611f63be4771e490864838e93eaaae6",
+      "bytes": 18591
+    },
+    {
+      "split": "validation",
+      "title": "Rakie Ayola",
+      "path": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/prepared/validation-0059.txt",
+      "sha256": "ed7bf5122f6638597993339067b8d25447c60a0b5cbada9ff2170c31e7fc66f0",
+      "bytes": 13957
+    }
+  ],
+  "source_manifest": "/Users/dttdrv/Projects/TransformerModel/data/wikitext2-v1/download.json",
+  "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+  "fit_on_train_only": true,
+  "test_opened": false,
+  "overlap": {
+    "titles": [],
+    "documents": [],
+    "normalized_paragraphs": []
+  },
+  "seconds": 2.9154746669810265,
+  "source_rows_concatenated_without_added_separators": true
+}

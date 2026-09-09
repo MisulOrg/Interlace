@@ -1,0 +1,51 @@
+{
+  "registered": "2026-09-09T11:02:53.877085+00:00",
+  "hypothesis": "Misul improves language loss or program accuracy at approximately matched parameter count",
+  "null": "No quality advantage at the fixed token/update budget; no faster time to a fixed quality",
+  "changes": [
+    "six dense attention/SwiGLU blocks in one traversal replace hybrid shared stack",
+    "hidden width1504 matches total count within1%",
+    "ordinary dense causal row attention replaces selected-role routing"
+  ],
+  "controls": "BF16, seed1001, same train-only tokenizer, train/data order, joint cycle,16384updates,8192textupdates/4194304tokens,4096streams,4096Flow,optimizer,schedule,validation monitor",
+  "reference": "artifacts/misul-joint-checked-bf16-recovered",
+  "reference_state_sha256": "1d1bde63c4e5cc7e56bada2f9141a845b0443ef528c56f584cbc4bc07a5a8172",
+  "reference_recovery": "Original failed before15896, resumed from15872 without using fractional loss scaling; all cost included.",
+  "thresholds": {
+    "max_parameter_difference": 0.01,
+    "language_improvement_claim": "strictly lower full official test loss; one observed pair only",
+    "time_to_quality_targets": [
+      6.0,
+      5.5,
+      5.0
+    ],
+    "programs": "same frozen seed1081 test; no selection from test results"
+  },
+  "resources": {
+    "physical_bytes": 2147483648,
+    "free_disk_bytes": 21474836480,
+    "headroom": 0.4,
+    "new_swap_bytes": 134217728,
+    "sequential_only": true,
+    "max_training_guard_seconds": 4400
+  },
+  "source_sha256": {
+    "src/transformermodel/misul_dense.py": "23476400d347d176fe8eb3c9201f86572bedd5794fe20e26bfaadb1ae8766c14",
+    "experiments/train_misul_dense.py": "8e847b0155de8f806a4a605a4dfa8c62732a354be473e5c5ab8017749305e89d",
+    "experiments/run_misul_dense.py": "7fa6cddb8d6262911bdccc2c02e2f4b8cb30a4e071c6780239149c90a9427db1",
+    "tests/test_misul_dense.py": "709fba5a9c6bf37740a8c2225c24fbc07a0978b7ea4f4852e122d947db316bd9"
+  },
+  "reference_source_sha256": {
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/misul.py": "1371a3d627897ac2610de94856d86e9829980ee2a54b0437df3cc65e4ec97360",
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/misul_memory_metal.py": "feabaed2cb89b0405fef37f8b32f44d84f951eab9840c0653da1c7fd54459497",
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/misul_muon.py": "d4da99eec470a1b94976653e0ae9f72307bd463446b40dc5599137b5585d167c",
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/misul_update.py": "0dec76033b03456b73e68a01d108ba59f2d25731a03bb22826cef60e5361fd30",
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/misul_flow.py": "49eff4d28fc3626c930af8232f2bfaf16b987f9260900e9eb8a7b13e20341801",
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/train_misul.py": "f590962fa19cb9623090e51036857fcaa63587ea47794b9ab4621054027f2af7",
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/combined.py": "3b0fbece4066f0fd54539121fe5899c12410041040f7818dff6d2ec2ef7018ae",
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/budget_muon.py": "02cdc332da92890e18a4bc0c740a680ba3667a62ec686e189ddb420f1eb672ef",
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/text_data.py": "5f6248de8ac518da411b4ab5dba5fbc63d0a919636b9d02bd7818aad1158f373",
+    "/Users/dttdrv/Projects/TransformerModel/src/transformermodel/stream_program.py": "7d50ed654c100792523b12cf92b48fafdea836fb53573aee3b3747d303c33a9b"
+  },
+  "policy": "No tuning after tests; preserves earlier artifacts. One seed, one dense recipe, local hardware only. No vendor-specific claims in investor paper."
+}

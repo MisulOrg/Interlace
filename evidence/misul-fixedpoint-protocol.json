@@ -1,0 +1,19 @@
+{
+  "status": "registered before numerical qualification and before either learning arm",
+  "source": "https://arxiv.org/pdf/2606.29150v3",
+  "hypothesis": "Detached feedback from the model's own multi-step training trajectories can improve held-out Flow program refinement more than equally budgeted ordinary continuation while retaining language quality.",
+  "null": "The local four-step Fixed-Point Forcing continuation fails the predeclared usefulness or retention gate, or does not improve over ordinary continuation.",
+  "observation": "At 12288 joint FP8 updates, the 32-program development check answers 31/32 stream programs, but Flow has zero exact sequences at 1, 4 and 8 passes. Single-pass training feedback may differ materially from inference trajectories; this diagnosis is plausible, not proven.",
+  "initialization": "Both arms reload the same completed 16384-update joint FP8 release, without external teachers or pretrained state. Both start fresh identical NorMuon/auxiliary AdamW state; no parameter or architecture changes.",
+  "arms": {
+    "standard": "Half of Flow updates use a detached prediction at the canonical reference/noise interpolation; the rest use zero feedback.",
+    "fixedpoint": "On the same feedback updates, draw start time uniformly between zero and the target time, initialize at that reference/noise interpolation, and take four own-prediction Euler steps toward target time with carried logits. Detach final logits. Supervise the original canonical interpolation and original categorical labels, never the generated trajectory state."
+  },
+  "recipe": "1536 updates with cycle Flow, text, Flow, Flow, streams, Flow:1024 Flow,256 text,256 streams. Batch16 programs and4 text windows of128 targets. Matrix learning rate0.001, auxiliary0.0002, momentum0.7, decay0.01,32-update warmup then linear decay during final20%. Start loss scale16 for Flow and128 for text/streams, halve and retry the identical batch before optimizer mutation if needed.",
+  "data": "Reuse the original8192 training programs from make_programs(1009,8192,2,6,{0..7}) and the same training text/tokenizer. Validation uses make_programs(1061,256,2,6,{8}); a fixed32-window language monitor and full official validation at completion. Do not open official text or final program tests during this screen.",
+  "seeds": "Per-update NumPy seed1063000000+index for shared text/program choices, times, start fractions and feedback decisions; MLX noise key1065+2*index. Validation Flow noise1067. Both arms receive identical random choices.",
+  "numerical_gate": "Independent float64 four-step oracle within2% relative L2; detached prefill parameter gradient is zero; supervised input equals canonical interpolation and differs from generated state; finite zero-span trajectories at time0 and rounded time1. No threshold relaxation.",
+  "selection": "Adopt only if fixedpoint reaches at least80% exact validation sequences at8 passes, exceeds standard continuation by at least10 percentage points, and full validation language loss is at most1% above the starting shared checkpoint. A promoted model still requires a matched BF16 continuation and the existing1% precision gate before becoming the default artifact.",
+  "measurement": "Same fixed update budget; compilation, own-trajectory forward passes, validation, export and guard time counted. Preserve all intermediate validation points, failed runs, overflows and final FP8 weights. A screen result is not a general speedup claim.",
+  "resources": "Sequential safe_run processes only. Per arm:600-second external cap and540-second internal stop,2GiB physical footprint,20GiB disk reserve,40% system-memory headroom,128MiB new-swap stop,1000MiB MLX allocation and32MiB cache. An incomplete arm cannot pass or trigger promotion."
+}

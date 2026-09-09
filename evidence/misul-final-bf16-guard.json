@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/Users/dttdrv/Projects/TransformerModel/.venv/bin/python",
+    "experiments/evaluate_misul.py",
+    "--run",
+    "artifacts/misul-joint-checked-bf16-recovered",
+    "--output",
+    "evidence/misul-final-bf16.json"
+  ],
+  "returncode": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 15.6105810420122,
+  "sampled_peak_phys_bytes": 725206240,
+  "samples": 146,
+  "memory_mib": 2048,
+  "disk_reserve_mib": 20480,
+  "maximum_swap_growth_mib": 128,
+  "initial_swap_bytes": 3864851906.56,
+  "last_sampled_swap_bytes": 3864851906.56,
+  "minimum_memory_free_percent": 40,
+  "poll_seconds": 0.1
+}

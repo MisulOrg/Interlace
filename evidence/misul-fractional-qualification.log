@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/dttdrv/Projects/TransformerModel/experiments/qualify_misul_fractional.py", line 56, in <module>
+    assert all(bool(mx.array_equal(a, b)) for (_, a), (_, b) in zip(actual, expected))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+{"command": [".venv/bin/python", "experiments/qualify_misul_fractional.py"], "returncode": 1, "stop_reason": null, "elapsed_seconds": 0.6251943330280483, "sampled_peak_phys_bytes": 929514816, "samples": 6, "memory_mib": 2048, "disk_reserve_mib": 20480, "maximum_swap_growth_mib": 128, "initial_swap_bytes": 3898406338.56, "last_sampled_swap_bytes": 3898406338.56, "minimum_memory_free_percent": 40, "poll_seconds": 0.1}

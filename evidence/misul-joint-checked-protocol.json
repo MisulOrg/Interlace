@@ -1,0 +1,53 @@
+{
+  "status": "frozen before fresh corrected larger joint runs",
+  "hypothesis": "A single29.8M-parameter model learns text, synchronous streams, and Flow states from random initialization. Native FP8 training stays within1% relative held-out language loss of the same model trained in BF16.",
+  "null": "The FP8 quality bound fails, or one shared-checkpoint mode does not learn its held-out task.",
+  "model": {
+    "vocabulary": 4096,
+    "width": 640,
+    "hidden": 1536,
+    "blocks": 6,
+    "heads": 8,
+    "loops": 2,
+    "context": 128,
+    "memory_backend": "metal"
+  },
+  "variable": "MXFP8 versus BF16 weights and projection operands; all other model, optimizer, data, schedule and seed choices stay fixed.",
+  "optimizer": "NorMuon row normalization and5-step Polar Express; matrixLR.006,momentum.7,finalRMS.2; auxiliaryAdamWLR.001,beta1.9,beta2.95; decay.01; gradientclip1; checked lossscale128 per mode, halve and retry the identical batch before optimizer on overflow through minimum1; BF16 compensated adds. Warmup64updates, stableto80%, linear decayto.1.",
+  "task_cycle": [
+    "text",
+    "text",
+    "streams",
+    "text",
+    "flow",
+    "text",
+    "streams",
+    "flow"
+  ],
+  "updates": 16384,
+  "language_updates": 8192,
+  "language_target_tokens": 4194304,
+  "batch": 4,
+  "program_batch": 16,
+  "seed_policy": "1001 for both arms. Per-update batches and Flow noise are deterministic functions of the update index. Pilot seed1002 is not reused as a trained initialization.",
+  "data": "WikiText2 documents with a training-only4096-token byte BPE. Program train8192 sequences,seed1009,length2-6,SHA256buckets0-7. Monitor32,seed1011,bucket8. No final program test is opened during training.",
+  "thresholds": "FP8 relative full validation language-loss increase<=1%; report full token and byte-normalized loss plus stream/Flow exact accuracy separately. A one-seed pair is a local precision result, not a general1% guarantee. No general reasoning claim from modulo10.",
+  "staging": "First512updates inspect numerical stability and all-mode validation. Continue the same frozen run in bounded segments. Any subsequent mechanism or learning-recipe change is a new exploratory experiment and must get a new final program test.",
+  "resource_cap": "safe_run,one process,2GiB physical footprint,20GiB disk reserve,40% system headroom,128MiB new swap stop;1000MiB MLX,32MiB cache. At most1200training seconds per segment; checkpoint every512updates and at a graceful stop.",
+  "stop_rule": "Fixed16384updates, requested segment boundary, time cap, nonfinite values, or external guard. Preserve failed runs. No automatic resource-limit increase.",
+  "precision": "FP8 stored weights/projection operands with BF16 working parameters and optimizer,FP16 recurrence/loss,noFP32 master arrays. Native internal accumulators are operation-dependent.",
+  "measured_fusion_context": "The corrected fused32-update pilot completes in11.81guarded seconds versus18.31for scan. Steady text updates average209.4ms versus315.8ms; short program updates slightly regress. These are exploratory local timings under host contention, not a time-to-quality claim.13numerical/integration tests pass before sustained training.",
+  "supersedes_recipe_only": {
+    "protocol": "evidence/misul-joint-training-protocol.json",
+    "sha256": "d33d7db120797148251a27da9f296a71ee8a317ffdf01a164cf21a4a565413bf",
+    "reason": "Preserved original run stopped on an overflowing fused FP16 backward. Resume of that recipe is not presented as a completed run."
+  },
+  "numerical_qualification": "Two state-mutation unit tests pass; captured pre-update2031 overflows at128, succeeds at64, then advances exactly once with finite model and optimizer state. No FP32 master arrays or resource increases.",
+  "selection": "Two-token lookahead is not promoted: the largest registered screen reached6.5nats at43.23978754098s versus42.45701237500s for the matched control, failing the predeclared10% improvement threshold. Final screen results and auxiliary code remain separate.",
+  "artifacts": {
+    "mxfp8": "artifacts/misul-joint-checked-fp8",
+    "bf16": "artifacts/misul-joint-checked-bf16"
+  },
+  "runner": "experiments/run_misul_joint_pair.py; one process at a time, first512updates, then at most4096updates per segment; internal1100s and external1200s limit. Stop the series on any failed guard or run.",
+  "timing_policy": "Retain every segment guard and summary. Report successful-recipe elapsed cost including data loading, validation, compilation, retry, checkpoint and export; also report failed or interrupted segment time separately and include it in actual cost. Earlier development runs remain exploratory overhead."
+}

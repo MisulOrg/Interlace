@@ -1,0 +1,10 @@
+pass  1  t=0.000  2 3 9 1
+pass  2  t=0.125  2 7 5 9
+pass  3  t=0.250  2 5 0 4
+pass  4  t=0.375  2 5 0 4
+pass  5  t=0.500  2 5 0 4
+pass  6  t=0.625  2 5 0 4
+pass  7  t=0.750  2 5 0 4
+pass  8  t=0.875  2 5 0 4
+Predicted prefix states: 2 5 0 4
+Re-noise consistency loss: 0.9609 (consistency alone does not establish correctness)

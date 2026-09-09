@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/Users/dttdrv/Projects/TransformerModel/.venv/bin/python",
+    "experiments/screen_misul_fixedpoint.py",
+    "--arm",
+    "standard",
+    "--output",
+    "artifacts/misul-fixedpoint-standard"
+  ],
+  "returncode": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 321.8174803329166,
+  "sampled_peak_phys_bytes": 1251099992,
+  "samples": 3031,
+  "memory_mib": 2048,
+  "disk_reserve_mib": 20480,
+  "maximum_swap_growth_mib": 128,
+  "initial_swap_bytes": 3864851906.56,
+  "last_sampled_swap_bytes": 3864851906.56,
+  "minimum_memory_free_percent": 40,
+  "poll_seconds": 0.1
+}

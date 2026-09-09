@@ -1,0 +1,22 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "experiments/evaluate_misul_dense.py",
+    "--run",
+    "artifacts/misul-dense-bf16",
+    "--output",
+    "evidence/misul-final-dense.json"
+  ],
+  "returncode": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 7.447774457978085,
+  "sampled_peak_phys_bytes": 575816856,
+  "samples": 71,
+  "memory_mib": 2048,
+  "disk_reserve_mib": 20480,
+  "maximum_swap_growth_mib": 128,
+  "initial_swap_bytes": 2526418042.88,
+  "last_sampled_swap_bytes": 2526418042.88,
+  "minimum_memory_free_percent": 40,
+  "poll_seconds": 0.1
+}

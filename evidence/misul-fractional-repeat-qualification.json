@@ -1,0 +1,53 @@
+{
+  "numerical_recovery_supported": true,
+  "strict_full_state_parity_passed": false,
+  "model_update_bit_exact": true,
+  "nonembedding_optimizer_bit_exact": true,
+  "direct_control_also_not_bit_exact": true,
+  "preupdate_step": 15895,
+  "accepted_scale": 0.5,
+  "loss": 1.669921875,
+  "gradient_norm": 1984.0,
+  "state_unchanged_on_overflow": true,
+  "all_state_finite": true,
+  "no_fp32_state": true,
+  "retry_vs_direct": [
+    {
+      "actual_name": "1.leaves.embedding.momentum",
+      "expected_name": "1.leaves.embedding.momentum",
+      "unequal": 120,
+      "maximum_error": 3.814697265625e-06
+    },
+    {
+      "actual_name": "1.leaves.embedding.second",
+      "expected_name": "1.leaves.embedding.second",
+      "unequal": 10,
+      "maximum_error": 2.9802322387695312e-08
+    },
+    {
+      "actual_name": "1.leaves.embedding.compensation",
+      "expected_name": "1.leaves.embedding.compensation",
+      "unequal": 33,
+      "maximum_error": 1.9073486328125e-06
+    }
+  ],
+  "direct_vs_direct": [
+    {
+      "name": "1.leaves.embedding.momentum",
+      "unequal": 137,
+      "maximum_error": 3.814697265625e-06
+    },
+    {
+      "name": "1.leaves.embedding.second",
+      "unequal": 4,
+      "maximum_error": 7.450580596923828e-09
+    },
+    {
+      "name": "1.leaves.embedding.compensation",
+      "unequal": 41,
+      "maximum_error": 1.9073486328125e-06
+    }
+  ],
+  "diagnosis": "Differences are confined to the embedding optimizer state and also arise between two direct updates. Accumulation-order variation in the unchanged embedding backward is plausible; strict full-state replay remains unqualified.",
+  "source_sha256": "6f67cf7ba66ef2793edf986dc865b4e340f410ceb7ddd4f8450d4a98458261e5"
+}

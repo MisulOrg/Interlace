@@ -1,0 +1,10 @@
+{
+  "unchanged_helper_functions": [
+    "digest",
+    "schedule",
+    "save_training",
+    "load_training"
+  ],
+  "evidence_scope": "Main-function changes also record source provenance and the architecture hypothesis; optimizer/loss/data/update code unchanged.",
+  "declared_diff": "evidence/misul-dense-trainer-diff.txt"
+}

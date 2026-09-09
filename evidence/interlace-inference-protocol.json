@@ -1,0 +1,26 @@
+{
+  "registered": "2026-09-09T11:17:30.924377+00:00",
+  "hypothesis": "Measure architecture-specific completed-device latency without a claimed cross-device speedup",
+  "null": "Interlace is not faster on the declared inference workloads",
+  "arms": "same final BF16 checkpoints as architecture quality comparison",
+  "order": [
+    "misul1",
+    "dense1",
+    "dense2",
+    "misul2"
+  ],
+  "cases": [
+    "text forward batch1 context32 and128",
+    "uncached greedy generation32tokens from The city of",
+    "Flow length6 batch8 at1,4,8passes"
+  ],
+  "repetitions": "one separately recorded first execution then9 synchronized repetitions in each fresh process;18 observations per arm/workload",
+  "statistics": "pooled median,10th/90th percentiles; retain per-process first time and raw repetitions",
+  "controls": "same precision,clock synchronization,inputs,resource caps and unchanged frozen model/source; one process at a time",
+  "source_sha256": {
+    "experiments/benchmark_misul_architecture.py": "c70bfeb8895645af4148b1c0e898e31ea38002b788b4609b0d3b30b45e452fc1",
+    "experiments/run_interlace_benchmarks.py": "891921ce564b8a352aee972ff4ad9c3301dd80c1d2f71faf42ab81f97d949ec5"
+  },
+  "stopping": "180 seconds per guard,2GiB footprint,20GiB free disk,40% headroom,128MiBnew swap; no increase or unrelated app stops",
+  "limitations": "one local host; no KV cache or distributed benchmark; hardware setup in technical supplement"
+}

@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/Users/dttdrv/Projects/TransformerModel/.venv/bin/python",
+    "-m",
+    "transformermodel.train_misul",
+    "--precision",
+    "mxfp8",
+    "--output",
+    "artifacts/misul-joint-checked-fp8",
+    "--steps",
+    "16384",
+    "--seconds",
+    "1100",
+    "--stop-after",
+    "4096",
+    "--eval-every",
+    "512",
+    "--resume"
+  ],
+  "returncode": -15,
+  "stop_reason": "system memory headroom",
+  "elapsed_seconds": 107.86326558399014,
+  "sampled_peak_phys_bytes": 1206715784,
+  "samples": 1031,
+  "memory_mib": 2048,
+  "disk_reserve_mib": 20480,
+  "maximum_swap_growth_mib": 128,
+  "initial_swap_bytes": 1492647936.0,
+  "last_sampled_swap_bytes": 1492647936.0,
+  "minimum_memory_free_percent": 40,
+  "poll_seconds": 0.1
+}

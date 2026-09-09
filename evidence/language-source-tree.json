@@ -1,0 +1,38 @@
+[
+  {
+    "type": "file",
+    "oid": "31713b94d806f11b7faec25d34a409472eb87fbb",
+    "size": 731216,
+    "lfs": {
+      "oid": "3ee89cd6a2ab912afd5d01e98867b46a67d9ec7a9eca0910e5e4c3cdd4cc1925",
+      "size": 731216,
+      "pointerSize": 131
+    },
+    "xetHash": "7d34830cf667d53cfbc6f15af50e1e20c0efd7e937b6249eb56ea422c1df3edb",
+    "path": "wikitext-2-raw-v1/test-00000-of-00001.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c1a87101286de6afaffcad077e4f754388a258e1",
+    "size": 6342468,
+    "lfs": {
+      "oid": "49280f3dd993cbdfd322186194133d5d1935f81e1c91064c239f2a70ebb02701",
+      "size": 6342468,
+      "pointerSize": 132
+    },
+    "xetHash": "df90b8273960ad623bcf015bc76ea5660041bd8db13bc4b6ec88f6779427955f",
+    "path": "wikitext-2-raw-v1/train-00000-of-00001.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "db74bad295cd10a8d9bcf026faf941b611d9ad61",
+    "size": 656408,
+    "lfs": {
+      "oid": "a10eb5a42c4264c45dd38bfef4da6a74ddef5fc22cb419e1a89d54c4cc6d748f",
+      "size": 656408,
+      "pointerSize": 131
+    },
+    "xetHash": "aa080952d2e9771abb0eca80b810f263430154ace1f698a9896d249ec84b35a0",
+    "path": "wikitext-2-raw-v1/validation-00000-of-00001.parquet"
+  }
+]

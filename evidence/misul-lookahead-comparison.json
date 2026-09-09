@@ -1,0 +1,83 @@
+{
+  "protocol_sha256": "c4712a426ca5a5330f2d537e00ecb2fc8e7dc2186a5b78322977836d4d48936f",
+  "decision": "Do not promote lookahead into the joint model; largest-model threshold failed.",
+  "pairs": [
+    {
+      "scale": 0,
+      "parameters": 896672,
+      "control": "artifacts/misul-lookahead-scale0-control",
+      "candidate": "artifacts/misul-lookahead-scale0-lookahead",
+      "control_final_loss": 6.4571431912481785,
+      "candidate_final_loss": 6.466415554285049,
+      "relative_loss_change": 0.0014359853517633692,
+      "control_crossing": {
+        "step": 320,
+        "elapsed_including_data_and_validation": 5.906834458000958,
+        "validation_loss": 6.490961030125618,
+        "loss_scale": 128
+      },
+      "candidate_crossing": {
+        "step": 320,
+        "elapsed_including_data_and_validation": 6.158471000031568,
+        "validation_loss": 6.4888260662555695,
+        "loss_scale": 128
+      },
+      "relative_time_reduction": -0.04260091319975312,
+      "passes_threshold": false,
+      "control_total_seconds": 6.537686833064072,
+      "candidate_total_seconds": 6.962435750057921
+    },
+    {
+      "scale": 1,
+      "parameters": 6117520,
+      "control": "artifacts/misul-lookahead-scale1-control",
+      "candidate": "artifacts/misul-lookahead-scale1-lookahead",
+      "control_final_loss": 6.016314083710313,
+      "candidate_final_loss": 6.015957789728418,
+      "relative_loss_change": -5.9221306756507275e-05,
+      "control_crossing": {
+        "step": 192,
+        "elapsed_including_data_and_validation": 14.47184679203201,
+        "validation_loss": 6.432069681584835,
+        "loss_scale": 128
+      },
+      "candidate_crossing": {
+        "step": 192,
+        "elapsed_including_data_and_validation": 13.46653187496122,
+        "validation_loss": 6.433093640953302,
+        "loss_scale": 128
+      },
+      "relative_time_reduction": 0.06946694029571288,
+      "passes_threshold": false,
+      "control_total_seconds": 25.080881334026344,
+      "candidate_total_seconds": 24.582063667010516
+    },
+    {
+      "scale": 2,
+      "parameters": 30224240,
+      "control": "artifacts/misul-lookahead-scale2-control-retry",
+      "candidate": "artifacts/misul-lookahead-scale2-lookahead",
+      "control_final_loss": 5.844203840359114,
+      "candidate_final_loss": 5.861633571796119,
+      "relative_loss_change": 0.0029823962190775877,
+      "control_crossing": {
+        "step": 192,
+        "elapsed_including_data_and_validation": 42.457012375001796,
+        "validation_loss": 6.350627951323986,
+        "loss_scale": 128
+      },
+      "candidate_crossing": {
+        "step": 192,
+        "elapsed_including_data_and_validation": 43.239787540980615,
+        "validation_loss": 6.373454455286264,
+        "loss_scale": 128
+      },
+      "relative_time_reduction": -0.01843688762329654,
+      "passes_threshold": false,
+      "control_total_seconds": 84.98074995807838,
+      "candidate_total_seconds": 86.83938975003548
+    }
+  ],
+  "qualification": "Six completed arms, one seed and one run each; sampled target crossings only, no interpolation or frontier scaling claim.",
+  "preserved_interruption": "Original large control was stopped on system memory headroom after10.49s; unchanged retry completed. Matched timings exclude that interrupted attempt; actual exploratory cost includes it."
+}

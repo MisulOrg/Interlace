@@ -1,0 +1,31 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "experiments/resume_misul_fractional.py",
+    "--precision",
+    "bf16",
+    "--output",
+    "artifacts/misul-joint-checked-bf16-recovered",
+    "--steps",
+    "16384",
+    "--seconds",
+    "540",
+    "--stop-after",
+    "16384",
+    "--eval-every",
+    "512",
+    "--resume"
+  ],
+  "returncode": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 46.50101941707544,
+  "sampled_peak_phys_bytes": 1086620848,
+  "samples": 441,
+  "memory_mib": 2048,
+  "disk_reserve_mib": 20480,
+  "maximum_swap_growth_mib": 128,
+  "initial_swap_bytes": 3898406338.56,
+  "last_sampled_swap_bytes": 3864851906.56,
+  "minimum_memory_free_percent": 40,
+  "poll_seconds": 0.1
+}

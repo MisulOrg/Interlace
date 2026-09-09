@@ -1,0 +1,3 @@
+.............                                                            [100%]
+13 passed in 1.13s
+{"command": [".venv/bin/python", "-m", "pytest", "tests/test_misul.py", "tests/test_combined.py", "-q"], "returncode": 0, "stop_reason": null, "elapsed_seconds": 1.364856707979925, "sampled_peak_phys_bytes": 160138224, "samples": 13, "memory_mib": 2048, "disk_reserve_mib": 20480, "maximum_swap_growth_mib": 128, "initial_swap_bytes": 1542979584.0, "last_sampled_swap_bytes": 1542979584.0, "minimum_memory_free_percent": 40, "poll_seconds": 0.1}

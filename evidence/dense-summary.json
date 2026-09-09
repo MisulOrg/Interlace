@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "steps": 16384,
+  "configuration": {
+    "vocab_size": 4096,
+    "width": 640,
+    "hidden": 1504,
+    "layers": 6,
+    "heads": 8,
+    "context": 128,
+    "loops": 1,
+    "precision": "bf16",
+    "memory_backend": "scan"
+  },
+  "parameters": 29921280,
+  "language_updates": 8192,
+  "update_timings": {
+    "text": {
+      "updates": 8192,
+      "seconds": 682.7765177768888,
+      "first_including_compile": 0.8210526660550386,
+      "steady_seconds": 681.9554651108338
+    },
+    "streams": {
+      "updates": 4096,
+      "seconds": 321.2830070682103,
+      "first_including_compile": 0.07249379204586148,
+      "steady_seconds": 321.2105132761644
+    },
+    "flow": {
+      "updates": 2048,
+      "seconds": 155.51087517966516,
+      "first_including_compile": 0.06993804208468646,
+      "steady_seconds": 155.44093713758048
+    },
+    "flow_feedback": {
+      "updates": 2048,
+      "seconds": 160.6316755686421,
+      "first_including_compile": 0.2239523750031367,
+      "steady_seconds": 160.40772319363896
+    }
+  },
+  "loss_scales": {
+    "text": 128,
+    "streams": 128,
+    "flow": 128,
+    "flow_feedback": 128
+  },
+  "overflow_retries": 0,
+  "session_elapsed": 335.01614320790395,
+  "elapsed_including_data_validation_export": 1335.1764703750378,
+  "final_validation_loss": 5.227797264403924,
+  "validation_windows": 2488,
+  "final_validation_nats_per_byte": 1.4736646128207085,
+  "validation_target_bytes": 1129745,
+  "program_validation": {},
+  "export": null,
+  "peak_mlx_bytes": 930552818,
+  "state_dtypes": [
+    "mlx.core.bfloat16",
+    "mlx.core.int32"
+  ],
+  "training_state_sha256": "81ddcdaecfd31a6bc385ec0d89796f62206baf06bce7b496c7acafb4b0f321f0"
+}
