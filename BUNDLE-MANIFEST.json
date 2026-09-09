@@ -352,8 +352,8 @@
     "sha256": "4b32d6646a949fbddf08b9330341dc16ef86a29319a34a7cd429f388424cdf83"
   },
   "README.md": {
-    "bytes": 6493,
-    "sha256": "87b4109b832be9b374f7cd05ecf1cff7c8c686f5da1e654a13285dcc69eca8ca"
+    "bytes": 6867,
+    "sha256": "66972d8e5e3377581413b0fe02f46a05e60d78a8e7988f53d65acad4834f22ef"
   },
   "evidence/misul-dense-segment1-guard.json": {
     "bytes": 942,
@@ -540,8 +540,8 @@
     "sha256": "1e705fa9870bf07eba7e3148ef5b81a592925384b869874ba9a15cc4164aef23"
   },
   "TECHNICAL-SUPPLEMENT.md": {
-    "bytes": 8490,
-    "sha256": "912bf921b7cd7a47eef3d3c7ccbefe485815eff116b382b5641da264cd3b8f76"
+    "bytes": 11672,
+    "sha256": "ffb06a2e0378deeb89d4b9b68327e2420456ccc9e8edf80291442e805c27b8fa"
   },
   "LICENSE": {
     "bytes": 11357,

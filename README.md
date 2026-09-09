@@ -122,6 +122,14 @@ The [technical supplement](TECHNICAL-SUPPLEMENT.md) gives corpus preparation,
 training and evaluation details. Training data are downloaded separately.
 The Python API is `transformermodel.interlace.Interlace`.
 
+## Next experiments
+
+The next control adds shared depth to the dense backbone to measure the role
+of layer reuse. Further studies separate component contributions and test Flow
+across model capacity and refinement depth. The
+[technical supplement](TECHNICAL-SUPPLEMENT.md#next-controlled-experiment)
+records the proposed comparison and existing per-pass Flow measurements.
+
 ## License and citation
 
 Copyright 2026 Deyan Todorov. Interlace is licensed under Apache-2.0; see

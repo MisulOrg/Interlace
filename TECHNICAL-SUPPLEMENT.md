@@ -147,3 +147,63 @@ time is 6.14 ms for Interlace and 2.11 ms for dense; uncached 32-token generatio
 is 0.11 s versus 0.04 s, and eight-pass Flow is 30.60 ms versus 10.63 ms.
 The next validation steps are multiple seeds, component and depth ablations,
 broader corpora and longer contexts.
+
+
+## Interpreting the backbone comparison
+
+The parameter-matched dense control measures two complete backbones under a
+common training recipe. Interlace applies six stored blocks twice; the dense
+control applies six stored blocks once. The comparison therefore holds stored
+parameters approximately equal, while reporting actual execution cost rather
+than assuming equal computation. A dense shared-depth control would separately
+test how much of the observed difference is associated with depth reuse.
+
+The synthetic length-generalization result measures performance on a task
+aligned with recurrent state updates. It supports that measured capability;
+attributing the gain to a particular mechanism requires the additional controls.
+
+## Flow interface and pass-count measurements
+
+The implementation in `src/transformermodel/misul.py` constructs three roles:
+input clues, candidate plus thought-role embedding, and the same candidate plus
+output-role embedding. It runs the shared backbone and predicts through the
+output role. This is one candidate-refinement process using three roles; it
+does not maintain independently evolving Flow states for each stream.
+
+The stored held-out evaluation contains 256 programs. Exact accuracy counts
+whole correct sequences; state accuracy counts correct individual positions.
+
+| Passes | FP8 exact sequences | FP8 state accuracy | BF16 exact sequences |
+| --- | ---: | ---: | ---: |
+| 1 | 1 / 256 | 30.69% | 0 / 256 |
+| 2 | 4 / 256 | 45.92% | 0 / 256 |
+| 4 | 4 / 256 | 45.20% | 0 / 256 |
+| 8 | 5 / 256 | 43.93% | 0 / 256 |
+
+Source: `evidence/misul-final-fp8.json` and `evidence/misul-final-bf16.json`.
+The FP8 measurements show a small exact-solution increase and non-monotonic
+state accuracy. Both checkpoints record zero exact longer-program solutions.
+The existing results do not identify capacity, training allocation or refinement
+objective as the cause. Greater width, additional shared-depth iterations and
+more refinement passes change different aspects of the computation.
+
+The separate Fixed-Point Forcing screen in
+`evidence/misul-fixedpoint-comparison.json` did not meet its adoption criteria.
+That result constrains the tested recipe, rather than every possible way to
+train on recursively generated states.
+
+## Next controlled experiment
+
+The next proposed arm is a dense shared-depth backbone: retain the dense
+control's six full-attention/SwiGLU blocks and task interfaces, but apply that
+stack twice with loop identities. Compare it with both the single-pass dense
+control and Interlace. Record exact parameter counts, twelve versus six block
+evaluations, full validation loss, time to the fixed monitor target, stream
+accuracy and synchronized inference latency.
+
+Before training, freeze the source, fresh seed policy, optimizer recipe, data
+order, resource limits and stop rule. Keep the existing 30M data and update
+budget for the first diagnostic, then confirm any selected explanation across
+fresh paired seeds. This is a proposed experiment; no looped-dense result is
+reported here. Capacity and pass-count studies for Flow follow as separate
+variables, with per-pass state accuracy and exact solutions both retained.
