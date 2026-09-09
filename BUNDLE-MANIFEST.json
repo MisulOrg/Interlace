@@ -336,12 +336,12 @@
     "sha256": "96f3f28e27a5e4156b2da0590fa41798d7364b09d34dab3272249a1ea2af520b"
   },
   "paper/interlace.pdf": {
-    "bytes": 82112,
-    "sha256": "0ced6d5f39c07af0f936ea87904554421f902ae6500d4b334a4685e40b218d94"
+    "bytes": 82315,
+    "sha256": "f7303a789d83eaee8337c17cc108c53d4e6623b39a0b24ccbf0af74ae0b6ff49"
   },
   "paper/interlace.tex": {
-    "bytes": 22039,
-    "sha256": "38c27e30cfd50bec3da5572d35c71ae7394b0752c9d40ed897b2ebafa59dbb80"
+    "bytes": 22130,
+    "sha256": "9ac632541e07e23ee7870f2a9fda4d4d3fc286fef24ea0f7e164fd955f221e6c"
   },
   "paper/misul_results_macros.tex": {
     "bytes": 1679,
@@ -352,8 +352,8 @@
     "sha256": "4b32d6646a949fbddf08b9330341dc16ef86a29319a34a7cd429f388424cdf83"
   },
   "README.md": {
-    "bytes": 5264,
-    "sha256": "2208e8f80bac65263f46edc171368b93c7ff198620cdec6fe716e1c92adc1f38"
+    "bytes": 6493,
+    "sha256": "87b4109b832be9b374f7cd05ecf1cff7c8c686f5da1e654a13285dcc69eca8ca"
   },
   "evidence/misul-dense-segment1-guard.json": {
     "bytes": 942,

@@ -13,7 +13,7 @@ less training execution time to a fixed validation-monitor target than a
 parameter-matched dense Transformer. Longer-program stream accuracy is
 80.47%, compared with 4.69% for the dense control.
 
-[Paper and system card](paper/interlace.pdf) ·
+[Read the paper and system card (PDF)](paper/interlace.pdf) ·
 [Technical supplement](TECHNICAL-SUPPLEMENT.md) ·
 [Apache-2.0 license](LICENSE) · [Citation](CITATION.cff)
 
@@ -127,3 +127,15 @@ The Python API is `transformermodel.interlace.Interlace`.
 Copyright 2026 Deyan Todorov. Interlace is licensed under Apache-2.0; see
 [LICENSE](LICENSE) and [NOTICE](NOTICE). Use [CITATION.cff](CITATION.cff) to cite
 the work in research. External datasets and dependencies retain their own licenses.
+
+## References
+
+1. A. Dhurandhar et al. [CoFrGeNet: Continued Fraction Architectures for Language Generation](https://arxiv.org/abs/2601.21766). 2026.
+2. J. Zhang et al. [Rational ANOVA Networks](https://arxiv.org/abs/2602.04006). 2026.
+3. Kimi Team. [Kimi Linear: An Expressive, Efficient Attention Architecture](https://arxiv.org/abs/2510.26692). 2025.
+4. A. Helbling et al. [Flow Reasoning Models: Turning Flows Into Efficient Recurrent Reasoners](https://arxiv.org/abs/2606.29150). 2026.
+5. N. Amsel et al. [The Polar Express: Optimal Matrix Sign Methods and Their Application to the Muon Algorithm](https://arxiv.org/abs/2505.16932). 2025.
+6. Z. Li et al. [NorMuon: Making Muon more efficient and scalable](https://arxiv.org/abs/2510.05491). 2025.
+7. N. Shazeer. [GLU Variants Improve Transformer](https://arxiv.org/abs/2002.05202). 2020.
+8. Salesforce. [WikiText-2 raw v1](https://huggingface.co/datasets/Salesforce/wikitext). Pinned revision and preparation records accompany the reproducibility package.
+9. D. Todorov. [Monodratic: A Sparse Attention Architecture with Learned Product-Hash Routing](https://github.com/MisulOrg/Monodratic/blob/main/output/pdf/monodratic_proof.pdf). Technical report, 2026.
